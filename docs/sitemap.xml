@@ -1,1 +1,153 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://olaru.dk/about_me/</loc></url><url><loc>https://olaru.dk/hero/name/</loc></url><url><loc>https://olaru.dk/work/</loc></url><url><loc>https://olaru.dk/hero/roles/</loc></url><url><loc>https://olaru.dk/hero/domains/</loc></url><url><loc>https://olaru.dk/hero/experience/</loc></url><url><loc>https://olaru.dk/hero/location/</loc></url><url><loc>https://olaru.dk/hero/primary_stack/</loc></url><url><loc>https://olaru.dk/hero/auxilary_stacks/</loc></url><url><loc>https://olaru.dk/</loc><lastmod>2024-01-01T00:00:00+00:00</lastmod></url><url><loc>https://olaru.dk/projects/</loc><lastmod>2024-01-01T00:00:00+00:00</lastmod></url><url><loc>https://olaru.dk/projects/blazor-saas-platform/</loc><lastmod>2024-01-01T00:00:00+00:00</lastmod></url><url><loc>https://olaru.dk/projects/enterprisel-data-workbench/</loc><lastmod>2023-01-01T00:00:00+00:00</lastmod></url><url><loc>https://olaru.dk/projects/rabbitmq-monitoring-framework/</loc><lastmod>2022-06-01T00:00:00+00:00</lastmod></url><url><loc>https://olaru.dk/projects/rabbitmq-feasibility-study/</loc><lastmod>2022-01-01T00:00:00+00:00</lastmod></url><url><loc>https://olaru.dk/projects/flight-assistant/</loc><lastmod>2021-01-01T00:00:00+00:00</lastmod></url><url><loc>https://olaru.dk/projects/rule-based-simulation-engine/</loc><lastmod>2020-06-01T00:00:00+00:00</lastmod></url><url><loc>https://olaru.dk/projects/masspec-data-analysis-pipeline/</loc><lastmod>2020-05-01T00:00:00+00:00</lastmod></url><url><loc>https://olaru.dk/projects/experiment-orchestration-app/</loc><lastmod>2018-06-01T00:00:00+00:00</lastmod></url><url><loc>https://olaru.dk/categories/</loc></url><url><loc>https://olaru.dk/hero/</loc></url><url><loc>https://olaru.dk/tagline/</loc></url><url><loc>https://olaru.dk/tags/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    
+        
+        <url>
+            <loc>http://localhost:1313/about_me/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://localhost:1313/hero/name/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://localhost:1313/work/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://localhost:1313/hero/roles/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://localhost:1313/hero/domains/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://localhost:1313/hero/experience/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://localhost:1313/hero/location/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://localhost:1313/hero/primary_stack/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://localhost:1313/hero/auxilary_stacks/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://localhost:1313/</loc>
+            <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://localhost:1313/projects/</loc>
+            <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://localhost:1313/projects/blazor-saas-platform/</loc>
+            <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://localhost:1313/projects/enterprisel-data-workbench/</loc>
+            <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://localhost:1313/projects/rabbitmq-monitoring-framework/</loc>
+            <lastmod>2022-06-01T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://localhost:1313/projects/rabbitmq-feasibility-study/</loc>
+            <lastmod>2022-01-01T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://localhost:1313/projects/flight-assistant/</loc>
+            <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://localhost:1313/projects/rule-based-simulation-engine/</loc>
+            <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://localhost:1313/projects/masspec-data-analysis-pipeline/</loc>
+            <lastmod>2020-05-01T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://localhost:1313/projects/experiment-orchestration-app/</loc>
+            <lastmod>2018-06-01T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://localhost:1313/categories/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://localhost:1313/hero/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://localhost:1313/tagline/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://localhost:1313/tags/</loc>
+        </url>
+        
+    
+</urlset>
