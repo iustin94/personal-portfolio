@@ -1,5 +1,5 @@
 ---
-title: 'Philosophy'
+title: 'Work'
 weight: 2
 ---
 

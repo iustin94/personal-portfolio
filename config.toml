@@ -52,19 +52,19 @@ publishDir = "docs"
 
   # Top navigation links
   [[params.navlinks]]
-  name = "~/"
+  name = "home/"
   url = ""
 
   [[params.navlinks]]
-  name = "Projects"
+  name = "projects/"
   url = "projects/"
 
   [[params.navlinks]]
-  name = "About Me"
+  name = "about_me/"
   url = "about_me/"
 
   [[params.navlinks]]
-  name = "Philosophy"
+  name = "work/"
   url = "work/"
 
   # Social links for footer
