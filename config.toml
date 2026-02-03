@@ -40,15 +40,21 @@ publishDir = "docs"
   # To disable animations, remove/comment the animateStyle parameter
   animateStyle = "animated zoomIn fast"
 
-  [params.og]
-  title = "olaru.dk"
-  description = "Professional Problem Solver"
-  image = "/images/og.png"  # Image shown in previews (1200x630px recommended)
+  # OpenGraph and Twitter Cards
+  description = "Software Developer specializing in C#/.NET, full-stack development, and domain-driven design. Based in Denmark."
+  title = "Iustinian Olaru"
 
-#  [params.twitter]
-#  card = "summary_large_image"  # or "summary"
-#  site = "@yourhandle"
-#  creator = "@yourhandle"
+  [params.og]
+    image = "/images/og.png"
+
+  [params.Social]
+    twitter = "iustinian_olaru"
+    linkedin = "iustinian-olaru-b73a87387"
+    github = "iustin94"
+
+  [[params.Authors]]
+    name = "Iustinian Olaru"
+    twitter = "iustinian_olaru"
 
   # Top navigation links
   [[params.navlinks]]

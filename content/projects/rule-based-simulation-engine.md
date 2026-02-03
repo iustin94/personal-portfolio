@@ -2,6 +2,8 @@
 title: "Evaluation of Rule‑Based Simulation Modeling"
 date: 2020-06-01
 draft: false
+description: "Research evaluation of BioNetGen for rule-based biomolecular simulation modeling, assessing usability and methodology from a software engineering perspective."
+tags: ["Bioinformatics", "Simulation", "Systems Biology", "BioNetGen", "Rule-based Modeling", "Research"]
 # standardized metadata for filtering/coloring
 type: "inquiry"
 location: "Odense, Denmark"

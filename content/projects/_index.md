@@ -1,5 +1,6 @@
 ---
 title: "Projects"
+description: "Portfolio of software engineering projects spanning enterprise platforms, distributed systems, bioinformatics pipelines, and SaaS development."
 ---
 **Implementation projects:**
 

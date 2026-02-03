@@ -2,6 +2,8 @@
 title: "SaaS Platform for Financial Workflows"
 date: 2024-01-01
 draft: false
+description: "Enterprise-grade financial SaaS platform built with C# and Blazor, featuring a custom rule-based simulation engine for small businesses and entrepreneurs."
+tags: ["C#", "Blazor", ".NET", "SaaS", "Finance", "Docker", "Simulation", "EF Core"]
 # standardized metadata for filtering/coloring
 type: "implementation"
 location: "Remote / Hetzner (DE)"

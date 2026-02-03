@@ -1,6 +1,7 @@
 ---
 title: 'Work'
 weight: 2
+description: "My engineering philosophy: evidence-driven development, reproducible systems, pragmatic innovation, and transparent communication."
 ---
 
 I build systems the way I investigate them: with a **scientific mindset**, **measurable outcomes**, and an **honest account of constraints**. My work sits at the intersection of software engineering and research, where rigor, clarity, and reproducibility matter as much as delivery speed.

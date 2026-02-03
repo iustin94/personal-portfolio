@@ -2,6 +2,8 @@
 title: "RabbitMQ Monitoring Framework"
 date: 2022-06-01
 draft: false
+description: "Dynamic schema-driven C# library for real-time RabbitMQ cluster monitoring, using reflection to generate typed metrics from the Management API."
+tags: ["C#", ".NET", "RabbitMQ", "Monitoring", "Observability", "Reflection", "API"]
 # standardized metadata for filtering/coloring
 type: "implementation"
 location: "Aarhus, Denmark"

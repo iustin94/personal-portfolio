@@ -3,13 +3,27 @@
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
 
+{{- $ogImage := "" }}
 {{- with .Params.image }}
-{{ $image := $.Resources.GetMatch . }}
-{{ with $image }}
-  {{ $thumb := .Resize "400x" }}
-<meta property="og:image" content="{{ $thumb.Permalink }}">
-{{ end }}
-{{ end }}
+  {{- $image := $.Resources.GetMatch . }}
+  {{- with $image }}
+    {{- $thumb := .Resize "400x" }}
+    {{- $ogImage = $thumb.Permalink }}
+  {{- end }}
+{{- end }}
+{{- if not $ogImage }}
+  {{- with .Params.og_image }}
+    {{- $ogImage = . | absURL }}
+  {{- end }}
+{{- end }}
+{{- if not $ogImage }}
+  {{- with .Site.Params.og.image }}
+    {{- $ogImage = . | absURL }}
+  {{- end }}
+{{- end }}
+{{- with $ogImage }}
+<meta property="og:image" content="{{ . }}">
+{{- end }}
 
 {{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
 {{- if .IsPage }}
@@ -37,13 +51,19 @@
 {{ end }}{{ end }}
 
 {{- if .IsPage }}
-{{- range .Site.Params.Authors }}{{ with .Social.facebook }}
-<meta property="article:author" content="https://www.facebook.com/{{ . }}" />{{ end }}{{ with .Site.Params.Social.facebook }}
-<meta property="article:publisher" content="https://www.facebook.com/{{ . }}" />{{ end }}
+{{- range .Site.Params.Authors }}
+  {{- with .Social.facebook }}
+<meta property="article:author" content="https://www.facebook.com/{{ . }}" />
+  {{- end }}
+{{- end }}
+{{- with .Site.Params.Social.facebook }}
+<meta property="article:publisher" content="https://www.facebook.com/{{ . }}" />
+{{- end }}
 <meta property="article:section" content="{{ .Section }}" />
 {{- with .Params.tags }}{{ range first 6 . }}
-<meta property="article:tag" content="{{ . }}" />{{ end }}{{ end }}
+<meta property="article:tag" content="{{ . }}" />
 {{- end }}{{ end }}
+{{- end }}
 
 {{- /* Facebook Page Admin ID for Domain Insights */}}
 {{- with .Site.Params.Social.facebook_admin }}<meta property="fb:admins" content="{{ . }}" />{{ end }}

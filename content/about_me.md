@@ -1,6 +1,7 @@
 ---
 title: 'About Me'
 weight: 1
+description: "Software engineer and architect specializing in C#/.NET, distributed systems, simulation modeling, and domain-driven design. Based in Denmark."
 ---
 
 I am a software engineer and architect with a strong foundation in both practical engineering and research‑driven
