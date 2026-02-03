@@ -1,0 +1,36 @@
+<svg viewBox="0 0 800 350" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font-family: Arial, sans-serif; font-size: 20px; font-weight: bold; fill: #1a1a1a; }
+      .platform-name { font-family: Arial, sans-serif; font-size: 15px; font-weight: bold; fill: #fff; }
+      .platform-desc { font-family: Arial, sans-serif; font-size: 11px; fill: #fff; }
+      .context-text { font-family: Arial, sans-serif; font-size: 12px; fill: #64748b; font-weight: 600; }
+    </style>
+  </defs>
+  
+  <!-- Power.dk -->
+  <rect x="80" y="70" width="200" height="100" rx="10" fill="#2563eb" stroke="none"/>
+  <text x="180" y="105" text-anchor="middle" class="platform-name">Power.dk</text>
+  <text x="180" y="125" text-anchor="middle" class="platform-desc">Consumer Electronics</text>
+  <text x="180" y="145" text-anchor="middle" class="platform-desc">Major Retailer</text>
+  
+  <!-- Biltema.dk -->
+  <rect x="300" y="70" width="200" height="100" rx="10" fill="#dc2626" stroke="none"/>
+  <text x="400" y="105" text-anchor="middle" class="platform-name">Biltema.dk</text>
+  <text x="400" y="125" text-anchor="middle" class="platform-desc">Consumer Goods</text>
+  <text x="400" y="145" text-anchor="middle" class="platform-desc">National Chain</text>
+  
+  <!-- Apoteket.dk -->
+  <rect x="520" y="70" width="200" height="100" rx="10" fill="#059669" stroke="none"/>
+  <text x="620" y="105" text-anchor="middle" class="platform-name">Apoteket.dk</text>
+  <text x="620" y="125" text-anchor="middle" class="platform-desc">Pharmacy Platform</text>
+  <text x="620" y="145" text-anchor="middle" class="platform-desc">National Scale</text>
+  
+  <!-- Challenge Context -->
+  <rect x="100" y="200" width="600" height="120" rx="10" fill="#fef3c7" stroke="none"/>
+  <text x="400" y="230" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; fill: #92400e;">Peak Load Challenge</text>
+  
+  <text x="400" y="260" text-anchor="middle" class="context-text" fill="#92400e;">Hundreds of thousands of requests per minute</text>
+  <text x="400" y="280" text-anchor="middle" class="context-text" fill="#92400e;">Black Friday • Christmas shopping season</text>
+  <text x="400" y="300" text-anchor="middle" class="context-text" fill="#92400e;">Zero tolerance for service degradation</text>
+</svg>

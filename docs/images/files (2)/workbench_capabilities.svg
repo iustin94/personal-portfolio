@@ -1,0 +1,78 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font-family: Arial, sans-serif; font-size: 22px; font-weight: bold; fill: #1a1a1a; }
+      .capability-title { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: #fff; }
+      .capability-desc { font-family: Arial, sans-serif; font-size: 10px; fill: #fff; }
+    </style>
+  </defs>
+  
+  <!-- Title -->
+  <text x="400" y="35" text-anchor="middle" class="title">Platform Capabilities</text>
+  
+  <!-- User-Defined Models -->
+  <g transform="translate(80, 70)">
+    <rect width="200" height="130" rx="10" fill="#3b82f6" stroke="none"/>
+    <text x="100" y="30" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 36px;">📊</text>
+    <text x="100" y="65" text-anchor="middle" class="capability-title">User-Defined</text>
+    <text x="100" y="82" text-anchor="middle" class="capability-title">Models</text>
+    <text x="100" y="105" text-anchor="middle" class="capability-desc">Dynamic schemas with</text>
+    <text x="100" y="120" text-anchor="middle" class="capability-desc">strong typing support</text>
+  </g>
+  
+  <!-- Dynamic Processes -->
+  <g transform="translate(300, 70)">
+    <rect width="200" height="130" rx="10" fill="#8b5cf6" stroke="none"/>
+    <text x="100" y="30" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 36px;">⚙️</text>
+    <text x="100" y="65" text-anchor="middle" class="capability-title">Dynamic</text>
+    <text x="100" y="82" text-anchor="middle" class="capability-title">Processes</text>
+    <text x="100" y="105" text-anchor="middle" class="capability-desc">Configurable business</text>
+    <text x="100" y="120" text-anchor="middle" class="capability-desc">workflows at runtime</text>
+  </g>
+  
+  <!-- Validation Engine -->
+  <g transform="translate(520, 70)">
+    <rect width="200" height="130" rx="10" fill="#7c3aed" stroke="none"/>
+    <text x="100" y="30" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 36px;">✓</text>
+    <text x="100" y="65" text-anchor="middle" class="capability-title">Validation</text>
+    <text x="100" y="82" text-anchor="middle" class="capability-title">Engine</text>
+    <text x="100" y="105" text-anchor="middle" class="capability-desc">Configurable rules with</text>
+    <text x="100" y="120" text-anchor="middle" class="capability-desc">domain enforcement</text>
+  </g>
+  
+  <!-- Multi-Tenant -->
+  <g transform="translate(80, 220)">
+    <rect width="200" height="130" rx="10" fill="#0ea5e9" stroke="none"/>
+    <text x="100" y="30" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 36px;">🏢</text>
+    <text x="100" y="65" text-anchor="middle" class="capability-title">Multi-Tenant</text>
+    <text x="100" y="82" text-anchor="middle" class="capability-title">Architecture</text>
+    <text x="100" y="105" text-anchor="middle" class="capability-desc">Isolated configurations</text>
+    <text x="100" y="120" text-anchor="middle" class="capability-desc">per business unit</text>
+  </g>
+  
+  <!-- Type Safety -->
+  <g transform="translate(300, 220)">
+    <rect width="200" height="130" rx="10" fill="#10b981" stroke="none"/>
+    <text x="100" y="30" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 36px;">🔒</text>
+    <text x="100" y="65" text-anchor="middle" class="capability-title">Type Safety</text>
+    <text x="100" y="82" text-anchor="middle" class="capability-title">Guarantees</text>
+    <text x="100" y="105" text-anchor="middle" class="capability-desc">Compile-time validation</text>
+    <text x="100" y="120" text-anchor="middle" class="capability-desc">and consistency checks</text>
+  </g>
+  
+  <!-- Scalable Domain -->
+  <g transform="translate(520, 220)">
+    <rect width="200" height="130" rx="10" fill="#f59e0b" stroke="none"/>
+    <text x="100" y="30" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 36px;">📈</text>
+    <text x="100" y="65" text-anchor="middle" class="capability-title">Scalable</text>
+    <text x="100" y="82" text-anchor="middle" class="capability-title">Domain Model</text>
+    <text x="100" y="105" text-anchor="middle" class="capability-desc">Clear boundaries and</text>
+    <text x="100" y="120" text-anchor="middle" class="capability-desc">growth patterns</text>
+  </g>
+  
+  <!-- Footer -->
+  <rect x="150" y="370" width="500" height="25" rx="6" fill="#f1f5f9" stroke="none"/>
+  <text x="400" y="388" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 11px; fill: #64748b; font-weight: 600;">
+    Enterprise-grade process modeling with modern architecture
+  </text>
+</svg>

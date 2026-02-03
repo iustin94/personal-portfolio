@@ -34,9 +34,9 @@
             isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
         }
 
-        // Update icon instead of text
-        const iconClass = isDark ? 'fa-sun' : 'fa-moon';
-        btn.innerHTML = `<i class="fa-solid ${iconClass}" aria-hidden="true"></i>`;
+        // Update icon using Unicode symbols (more reliable than Font Awesome)
+        const icon = isDark ? '☀' : '☽';
+        btn.textContent = icon;
         btn.setAttribute('title', isDark ? 'Switch to light mode' : 'Switch to dark mode');
         btn.setAttribute('aria-label', 'Toggle Theme');
     }

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 800 400"
+   version="1.1"
+   id="svg18"
+   sodipodi:docname="simple_transformation.svg"
+   inkscape:version="1.4.3 (fcd0343856, 2026-01-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview18"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.9581101"
+     inkscape:cx="301.82165"
+     inkscape:cy="183.85075"
+     inkscape:window-width="2560"
+     inkscape:window-height="1374"
+     inkscape:window-x="2560"
+     inkscape:window-y="29"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg18" />
+  <defs
+     id="defs1">
+    <style
+       id="style1">
+      .title { font-family: Arial, sans-serif; font-size: 22px; font-weight: bold; fill: #1a1a1a; }
+      .section-title { font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; }
+      .label { font-family: Arial, sans-serif; font-size: 13px; font-weight: 600; }
+    </style>
+  </defs>
+  <!-- Title -->
+  <!-- Before Section -->
+  <rect
+     x="50"
+     y="70"
+     width="320"
+     height="280"
+     rx="10"
+     fill="#fee2e2"
+     stroke="none"
+     id="rect1" />
+  <text
+     x="210"
+     y="100"
+     text-anchor="middle"
+     class="section-title"
+     fill="#dc2626"
+     id="text2">Before</text>
+  <!-- Scattered pieces -->
+  <rect
+     x="-6.0922794"
+     y="165.66869"
+     width="100"
+     height="50"
+     rx="6"
+     fill="#3b82f6"
+     transform="rotate(-29.487025)"
+     id="rect2" />
+  <text
+     x="56.264175"
+     y="188.56836"
+     text-anchor="middle"
+     class="label"
+     fill="#ffffff"
+     id="text3"
+     transform="rotate(-25.270279)">Drone Data</text>
+  <rect
+     x="259.33292"
+     y="46.13195"
+     width="100"
+     height="50"
+     rx="6"
+     fill="#ec4899"
+     transform="rotate(12)"
+     id="rect3" />
+  <text
+     x="309.64282"
+     y="70.804771"
+     text-anchor="middle"
+     class="label"
+     fill="#ffffff"
+     id="text4"
+     transform="rotate(12.805667)">RF Files</text>
+  <rect
+     x="90"
+     y="220"
+     width="100"
+     height="50"
+     rx="6"
+     fill="#0284c7"
+     transform="rotate(-8 140 245)"
+     id="rect4" />
+  <text
+     x="103.1457"
+     y="266.12915"
+     text-anchor="middle"
+     class="label"
+     fill="#ffffff"
+     id="text5"
+     transform="rotate(-8.5326552)">GPS Logs</text>
+  <rect
+     x="305.72632"
+     y="124.31851"
+     width="100"
+     height="50"
+     rx="6"
+     fill="#8b5cf6"
+     transform="rotate(18)"
+     id="rect5" />
+  <text
+     x="353.47601"
+     y="163.70061"
+     text-anchor="middle"
+     class="label"
+     fill="#ffffff"
+     id="text6"
+     transform="rotate(16.769061)">Manual Sync</text>
+  <!-- Problems -->
+  <text
+     x="80"
+     y="310"
+     class="label"
+     font-size="11"
+     fill="#dc2626"
+     id="text7">✗ Fragmented</text>
+  <text
+     x="80"
+     y="330"
+     class="label"
+     font-size="11"
+     fill="#dc2626"
+     id="text8">✗ Manual workflows</text>
+  <!-- Arrow -->
+  <path
+     d="M 385 210 L 415 210"
+     stroke="#64748b"
+     stroke-width="4"
+     fill="none"
+     id="path8" />
+  <path
+     d="M 410 205 L 420 210 L 410 215 Z"
+     fill="#64748b"
+     id="path9" />
+  <!-- After Section -->
+  <rect
+     x="430"
+     y="70"
+     width="320"
+     height="280"
+     rx="10"
+     fill="#d1fae5"
+     stroke="none"
+     id="rect9" />
+  <text
+     x="590"
+     y="100"
+     text-anchor="middle"
+     class="section-title"
+     fill="#059669"
+     id="text9">After</text>
+  <!-- Integrated system -->
+  <circle
+     cx="590"
+     cy="200"
+     r="80"
+     fill="#7c3aed"
+     stroke="none"
+     id="circle9" />
+  <text
+     x="590"
+     y="195"
+     text-anchor="middle"
+     class="label"
+     fill="white"
+     font-size="15"
+     id="text10">Flight</text>
+  <text
+     x="590"
+     y="215"
+     text-anchor="middle"
+     class="label"
+     fill="white"
+     font-size="15"
+     id="text11">Assistant</text>
+  <!-- Connection points -->
+  <circle
+     cx="530"
+     cy="160"
+     r="12"
+     fill="#3b82f6"
+     stroke="none"
+     id="circle11" />
+  <circle
+     cx="650"
+     cy="160"
+     r="12"
+     fill="#ec4899"
+     stroke="none"
+     id="circle12" />
+  <circle
+     cx="530"
+     cy="240"
+     r="12"
+     fill="#0284c7"
+     stroke="none"
+     id="circle13" />
+  <circle
+     cx="650"
+     cy="240"
+     r="12"
+     fill="#8b5cf6"
+     stroke="none"
+     id="circle14" />
+  <!-- Lines to center -->
+  <line
+     x1="540"
+     y1="165"
+     x2="560"
+     y2="185"
+     stroke="#fff"
+     stroke-width="2"
+     id="line14" />
+  <line
+     x1="640"
+     y1="165"
+     x2="620"
+     y2="185"
+     stroke="#fff"
+     stroke-width="2"
+     id="line15" />
+  <line
+     x1="540"
+     y1="235"
+     x2="560"
+     y2="215"
+     stroke="#fff"
+     stroke-width="2"
+     id="line16" />
+  <line
+     x1="640"
+     y1="235"
+     x2="620"
+     y2="215"
+     stroke="#fff"
+     stroke-width="2"
+     id="line17" />
+  <!-- Benefits -->
+  <text
+     x="460"
+     y="310"
+     class="label"
+     font-size="11"
+     fill="#059669"
+     id="text17">✓ Unified platform</text>
+  <text
+     x="460"
+     y="330"
+     class="label"
+     font-size="11"
+     fill="#059669"
+     id="text18">✓ Automated processing</text>
+</svg>

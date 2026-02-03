@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 800 400"
+   version="1.1"
+   id="svg12"
+   sodipodi:docname="simple_leadership.svg"
+   inkscape:version="1.4.3 (fcd0343856, 2026-01-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview12"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.347411"
+     inkscape:cx="452.72007"
+     inkscape:cy="281.28017"
+     inkscape:window-width="2560"
+     inkscape:window-height="1374"
+     inkscape:window-x="2560"
+     inkscape:window-y="29"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg12" />
+  <defs
+     id="defs1">
+    <style
+       id="style1">
+      .title { font-family: Arial, sans-serif; font-size: 20px; font-weight: bold; fill: #1a1a1a; }
+      .team-label { font-family: Arial, sans-serif; font-size: 13px; font-weight: 600; }
+      .center-label { font-family: Arial, sans-serif; font-size: 15px; font-weight: bold; fill: #fff; }
+      .icon-text { font-family: Arial, sans-serif; font-size: 24px; font-weight: bold; fill: #fff; }
+    </style>
+  </defs>
+  <!-- Title -->
+  <!-- Central Role -->
+  <circle
+     cx="400"
+     cy="200"
+     r="70"
+     fill="#7c3aed"
+     stroke="none"
+     id="circle1" />
+  <text
+     x="400"
+     y="189"
+     text-anchor="middle"
+     class="center-label"
+     id="text2"><tspan
+       sodipodi:role="line"
+       id="tspan12"
+       x="400"
+       y="189">Software</tspan><tspan
+       sodipodi:role="line"
+       id="tspan13"
+       x="400"
+       y="207.75">Engineering</tspan><tspan
+       sodipodi:role="line"
+       x="400"
+       y="226.5"
+       id="tspan14">Lead</tspan><tspan
+       sodipodi:role="line"
+       x="400"
+       y="245.25"
+       id="tspan15" /></text>
+  <text
+     x="400"
+     y="215"
+     text-anchor="middle"
+     class="center-label"
+     id="text3" />
+  <!-- Drone Research (Top Left) -->
+  <circle
+     cx="200"
+     cy="100"
+     r="55"
+     fill="#3b82f6"
+     stroke="none"
+     id="circle3" />
+  <text
+     x="199.25784"
+     y="102.93023"
+     text-anchor="middle"
+     class="team-label"
+     fill="#ffffff"
+     id="text5">Drone R&amp;D</text>
+  <path
+     d="m 255.3739,132.59151 74.21905,31.25302"
+     stroke="#7c3aed"
+     stroke-width="2.1782"
+     fill="none"
+     stroke-dasharray="5, 5"
+     id="path5" />
+  <!-- RF Engineering (Top Right) -->
+  <circle
+     cx="600"
+     cy="100"
+     r="55"
+     fill="#ec4899"
+     stroke="none"
+     id="circle5" />
+  <text
+     x="597.7735"
+     y="104.41456"
+     text-anchor="middle"
+     class="team-label"
+     fill="#ffffff"
+     id="text7">RF Team</text>
+  <path
+     d="M 544.59162,128.01786 470.054,163.39466"
+     stroke="#7c3aed"
+     stroke-width="2.32243"
+     fill="none"
+     stroke-dasharray="5, 5"
+     id="path7" />
+  <!-- Product Owner (Bottom Right) -->
+  <circle
+     cx="600"
+     cy="300"
+     r="55"
+     fill="#10b981"
+     stroke="none"
+     id="circle7" />
+  <text
+     x="600"
+     y="305.8989"
+     text-anchor="middle"
+     class="team-label"
+     fill="#ffffff"
+     id="text9">Product</text>
+  <path
+     d="M 544.6311,264.26219 470.00935,235.9208"
+     stroke="#7c3aed"
+     stroke-width="2.07988"
+     fill="none"
+     stroke-dasharray="5, 5"
+     id="path9" />
+  <!-- Dev Team (Bottom Left) -->
+  <circle
+     cx="200"
+     cy="300"
+     r="55"
+     fill="#f59e0b"
+     stroke="none"
+     id="circle9" />
+  <text
+     x="199.25784"
+     y="305.15671"
+     text-anchor="middle"
+     class="team-label"
+     fill="#ffffff"
+     id="text11">Dev Team</text>
+  <path
+     d="m 255.39757,267.43937 74.58728,-31.04264"
+     stroke="#7c3aed"
+     stroke-width="2.17624"
+     fill="none"
+     stroke-dasharray="5, 5"
+     id="path11" />
+  <!-- Role description -->
+  <rect
+     x="271.21017"
+     y="360"
+     width="257.71976"
+     height="30"
+     rx="6.4429913"
+     fill="#f1f5f9"
+     stroke="none"
+     id="rect11"
+     style="stroke-width:1.03628" />
+  <text
+     x="400"
+     y="381"
+     text-anchor="middle"
+     style="font-family: Arial, sans-serif; font-size: 11px; fill: #64748b; font-weight: 600;"
+     id="text12">
+    Aligning technical, research &amp; business needs
+  </text>
+</svg>

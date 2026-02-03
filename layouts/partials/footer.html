@@ -1,10 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-
-</body>
-</html>
+<footer class="site-footer">
+    <div class="footer-content">
+        <div class="social-links">
+            {{ range .Site.Params.sociallinks }}
+            <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" title="{{ .name }}" aria-label="{{ .name }}">
+                <i class="fa-brands {{ .icon }}" aria-hidden="true"></i>
+                <span class="social-label">{{ .name }}</span>
+            </a>
+            {{ end }}
+        </div>
+        <div class="footer-text">
+            <span>&copy; {{ now.Year }} {{ .Site.Title }}</span>
+        </div>
+    </div>
+</footer>

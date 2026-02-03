@@ -1,0 +1,71 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font-family: Arial, sans-serif; font-size: 22px; font-weight: bold; fill: #1a1a1a; }
+      .domain-title { font-family: Arial, sans-serif; font-size: 15px; font-weight: bold; fill: #fff; }
+      .skill-text { font-family: Arial, sans-serif; font-size: 10px; fill: #fff; }
+    </style>
+  </defs>
+  
+  <!-- Title -->
+  <text x="400" y="35" text-anchor="middle" class="title">Interdisciplinary Integration</text>
+  
+  <!-- Software Engineering Circle -->
+  <circle cx="280" cy="180" r="100" fill="#3b82f6" fill-opacity="0.7" stroke="none"/>
+  <text x="230" y="125" text-anchor="middle" class="domain-title">💻 Software</text>
+  <text x="230" y="145" text-anchor="middle" class="domain-title">Engineering</text>
+  
+  <g transform="translate(165, 165)">
+    <circle cx="3" cy="3" r="2" fill="white"/>
+    <text x="9" y="7" class="skill-text">DSL evaluation</text>
+  </g>
+  <g transform="translate(165, 183)">
+    <circle cx="3" cy="3" r="2" fill="white"/>
+    <text x="9" y="7" class="skill-text">Tool architecture</text>
+  </g>
+  <g transform="translate(165, 201)">
+    <circle cx="3" cy="3" r="2" fill="white"/>
+    <text x="9" y="7" class="skill-text">Syntax design</text>
+  </g>
+  <g transform="translate(165, 219)">
+    <circle cx="3" cy="3" r="2" fill="white"/>
+    <text x="9" y="7" class="skill-text">Technical analysis</text>
+  </g>
+  
+  <!-- Bioinformatics Circle -->
+  <circle cx="520" cy="180" r="100" fill="#10b981" fill-opacity="0.7" stroke="none"/>
+  <text x="570" y="125" text-anchor="middle" class="domain-title">🧬 Bioinformatics</text>
+  <text x="570" y="145" text-anchor="middle" class="domain-title">Research</text>
+  
+  <g transform="translate(485, 165)">
+    <circle cx="3" cy="3" r="2" fill="white"/>
+    <text x="9" y="7" class="skill-text">Biomolecular modeling</text>
+  </g>
+  <g transform="translate(485, 183)">
+    <circle cx="3" cy="3" r="2" fill="white"/>
+    <text x="9" y="7" class="skill-text">Simulation workflows</text>
+  </g>
+  <g transform="translate(485, 201)">
+    <circle cx="3" cy="3" r="2" fill="white"/>
+    <text x="9" y="7" class="skill-text">Scientific method</text>
+  </g>
+  <g transform="translate(485, 219)">
+    <circle cx="3" cy="3" r="2" fill="white"/>
+    <text x="9" y="7" class="skill-text">Domain knowledge</text>
+  </g>
+  
+  <!-- Intersection Zone -->
+  <ellipse cx="400" cy="180" rx="60" ry="90" fill="#7c3aed" stroke="none"/>
+  <text x="400" y="165" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 13px; font-weight: bold; fill: white;">Integration</text>
+  <text x="400" y="182" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 10px; fill: white;">Zone</text>
+  
+  <text x="400" y="205" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 9px; fill: white;">Critical tool</text>
+  <text x="400" y="217" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 9px; fill: white;">evaluation</text>
+  
+  <!-- Skills Gained Box -->
+  <rect x="100" y="310" width="600" height="70" rx="10" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="400" y="335" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: #64748b;">Skills Demonstrated</text>
+  
+  <text x="400" y="357" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 11px; fill: #64748b;">Independent research • Tool evaluation • Scientific communication</text>
+  <text x="400" y="372" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 11px; fill: #64748b;">Cross-disciplinary synthesis • Critical analysis</text>
+</svg>

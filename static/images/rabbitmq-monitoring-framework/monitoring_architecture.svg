@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 800 450"
+   version="1.1"
+   id="svg20"
+   sodipodi:docname="monitoring_architecture.svg"
+   inkscape:version="1.4.3 (fcd0343856, 2026-01-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview20"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.5491295"
+     inkscape:cx="468.32753"
+     inkscape:cy="341.4821"
+     inkscape:window-width="2560"
+     inkscape:window-height="1374"
+     inkscape:window-x="2560"
+     inkscape:window-y="29"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg20" />
+  <defs
+     id="defs1">
+    <style
+       id="style1">
+      .title { font-family: Arial, sans-serif; font-size: 20px; font-weight: bold; fill: #1a1a1a; }
+      .stage-label { font-family: Arial, sans-serif; font-size: 14px; font-weight: 600; fill: #fff; }
+      .stage-num { font-family: Arial, sans-serif; font-size: 20px; font-weight: bold; fill: #fff; }
+      .detail-text { font-family: Arial, sans-serif; font-size: 11px; fill: #64748b; }
+    </style>
+  </defs>
+  <!-- Title -->
+  <!-- Stage 1: Query -->
+  <circle
+     cx="140"
+     cy="150"
+     r="70"
+     fill="#3b82f6"
+     stroke="none"
+     id="circle1" />
+  <text
+     x="140"
+     y="130"
+     text-anchor="middle"
+     class="stage-num"
+     id="text2">1</text>
+  <text
+     x="140"
+     y="155"
+     text-anchor="middle"
+     class="stage-label"
+     font-size="32"
+     id="text3">🔍</text>
+  <text
+     x="140"
+     y="180"
+     text-anchor="middle"
+     class="stage-label"
+     id="text4">Query</text>
+  <text
+     x="140"
+     y="245"
+     text-anchor="middle"
+     class="detail-text"
+     id="text5">Retrieve RabbitMQ</text>
+  <text
+     x="140"
+     y="262"
+     text-anchor="middle"
+     class="detail-text"
+     id="text6">API specification</text>
+  <!-- Arrow -->
+  <path
+     d="M 220 150 L 290 150"
+     stroke="#cbd5e1"
+     stroke-width="4"
+     fill="none"
+     id="path6" />
+  <path
+     d="M 285 145 L 295 150 L 285 155 Z"
+     fill="#cbd5e1"
+     id="path7" />
+  <!-- Stage 2: Parse -->
+  <circle
+     cx="400"
+     cy="150"
+     r="70"
+     fill="#8b5cf6"
+     stroke="none"
+     id="circle7" />
+  <text
+     x="400"
+     y="130"
+     text-anchor="middle"
+     class="stage-num"
+     id="text7">2</text>
+  <text
+     x="400"
+     y="155"
+     text-anchor="middle"
+     class="stage-label"
+     font-size="32"
+     id="text8">📋</text>
+  <text
+     x="400"
+     y="180"
+     text-anchor="middle"
+     class="stage-label"
+     id="text9">Parse</text>
+  <text
+     x="400"
+     y="245"
+     text-anchor="middle"
+     class="detail-text"
+     id="text10">Extract JSON</text>
+  <text
+     x="400"
+     y="262"
+     text-anchor="middle"
+     class="detail-text"
+     id="text11">metadata schema</text>
+  <!-- Arrow -->
+  <path
+     d="M 480 150 L 550 150"
+     stroke="#cbd5e1"
+     stroke-width="4"
+     fill="none"
+     id="path11" />
+  <path
+     d="M 545 145 L 555 150 L 545 155 Z"
+     fill="#cbd5e1"
+     id="path12" />
+  <!-- Stage 3: Generate -->
+  <circle
+     cx="660"
+     cy="150"
+     r="70"
+     fill="#10b981"
+     stroke="none"
+     id="circle12" />
+  <text
+     x="660"
+     y="130"
+     text-anchor="middle"
+     class="stage-num"
+     id="text12">3</text>
+  <text
+     x="660"
+     y="155"
+     text-anchor="middle"
+     class="stage-label"
+     font-size="32"
+     id="text13">⚡</text>
+  <text
+     x="660"
+     y="180"
+     text-anchor="middle"
+     class="stage-label"
+     id="text14">Generate</text>
+  <text
+     x="660"
+     y="245"
+     text-anchor="middle"
+     class="detail-text"
+     id="text15">Dynamic types via</text>
+  <text
+     x="660"
+     y="262"
+     text-anchor="middle"
+     class="detail-text"
+     id="text16">.NET reflection</text>
+  <!-- Key Innovation Box -->
+  <rect
+     x="100"
+     y="310"
+     width="600"
+     height="110"
+     rx="10"
+     fill="#ede9fe"
+     stroke="#7c3aed"
+     stroke-width="2"
+     id="rect16" />
+  <text
+     x="400"
+     y="340"
+     text-anchor="middle"
+     style="font-family: Arial, sans-serif; font-size: 15px; font-weight: bold; fill: #7c3aed;"
+     id="text17">Key Innovation</text>
+  <g
+     transform="translate(120, 355)"
+     id="g18">
+    <circle
+       cx="5"
+       cy="5"
+       r="3"
+       fill="#7c3aed"
+       id="circle17" />
+    <text
+       x="15"
+       y="10"
+       style="font-family: Arial, sans-serif; font-size: 11px; fill: #5b21b6; font-weight: 600;"
+       id="text18">No hard-coded models → adapts to any RabbitMQ version</text>
+  </g>
+  <g
+     transform="translate(120, 378)"
+     id="g19">
+    <circle
+       cx="5"
+       cy="5"
+       r="3"
+       fill="#7c3aed"
+       id="circle18" />
+    <text
+       x="15"
+       y="10"
+       style="font-family: Arial, sans-serif; font-size: 11px; fill: #5b21b6; font-weight: 600;"
+       id="text19">Runtime introspection → self-configuring at startup</text>
+  </g>
+  <g
+     transform="translate(120, 401)"
+     id="g20">
+    <circle
+       cx="5"
+       cy="5"
+       r="3"
+       fill="#7c3aed"
+       id="circle19" />
+    <text
+       x="15"
+       y="10"
+       style="font-family: Arial, sans-serif; font-size: 11px; fill: #5b21b6; font-weight: 600;"
+       id="text20">Similar to OpenAPI/Swagger schema-driven generation</text>
+  </g>
+</svg>

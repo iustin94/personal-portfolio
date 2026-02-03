@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 800 400"
+   version="1.1"
+   id="svg32"
+   sodipodi:docname="workbench_capabilities.svg"
+   inkscape:version="1.4.3 (fcd0343856, 2026-01-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview32"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.1225"
+     inkscape:cx="400.44543"
+     inkscape:cy="200"
+     inkscape:window-width="1026"
+     inkscape:window-height="1211"
+     inkscape:window-x="767"
+     inkscape:window-y="96"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg32" />
+  <defs
+     id="defs1">
+    <style
+       id="style1">
+      .title { font-family: Arial, sans-serif; font-size: 22px; font-weight: bold; fill: #1a1a1a; }
+      .capability-title { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: #fff; }
+      .capability-desc { font-family: Arial, sans-serif; font-size: 10px; fill: #fff; }
+    </style>
+  </defs>
+  <!-- Title -->
+  <!-- User-Defined Models -->
+  <g
+     transform="translate(80, 70)"
+     id="g6">
+    <rect
+       width="200"
+       height="130"
+       rx="10"
+       fill="#3b82f6"
+       stroke="none"
+       id="rect1" />
+    <text
+       x="100"
+       y="40"
+       text-anchor="middle"
+       style="font-family: Arial, sans-serif; font-size: 36px;"
+       id="text2">📊</text>
+    <text
+       x="100"
+       y="65"
+       text-anchor="middle"
+       class="capability-title"
+       id="text3">User-Defined</text>
+    <text
+       x="100"
+       y="82"
+       text-anchor="middle"
+       class="capability-title"
+       id="text4">Models</text>
+    <text
+       x="100"
+       y="105"
+       text-anchor="middle"
+       class="capability-desc"
+       id="text5">Dynamic schemas with</text>
+    <text
+       x="100"
+       y="120"
+       text-anchor="middle"
+       class="capability-desc"
+       id="text6">strong typing support</text>
+  </g>
+  <!-- Dynamic Processes -->
+  <g
+     transform="translate(300, 70)"
+     id="g11">
+    <rect
+       width="200"
+       height="130"
+       rx="10"
+       fill="#8b5cf6"
+       stroke="none"
+       id="rect6" />
+    <text
+       x="100"
+       y="40"
+       text-anchor="middle"
+       style="font-family: Arial, sans-serif; font-size: 36px;"
+       id="text7">⚙️</text>
+    <text
+       x="100"
+       y="65"
+       text-anchor="middle"
+       class="capability-title"
+       id="text8">Dynamic</text>
+    <text
+       x="100"
+       y="82"
+       text-anchor="middle"
+       class="capability-title"
+       id="text9">Processes</text>
+    <text
+       x="100"
+       y="105"
+       text-anchor="middle"
+       class="capability-desc"
+       id="text10">Configurable business</text>
+    <text
+       x="100"
+       y="120"
+       text-anchor="middle"
+       class="capability-desc"
+       id="text11">workflows at runtime</text>
+  </g>
+  <!-- Validation Engine -->
+  <g
+     transform="translate(520, 70)"
+     id="g16">
+    <rect
+       width="200"
+       height="130"
+       rx="10"
+       fill="#7c3aed"
+       stroke="none"
+       id="rect11" />
+    <text
+       x="100"
+       y="40"
+       text-anchor="middle"
+       style="font-family: Arial, sans-serif; font-size: 36px;"
+       id="text12">✓</text>
+    <text
+       x="100"
+       y="65"
+       text-anchor="middle"
+       class="capability-title"
+       id="text13">Validation</text>
+    <text
+       x="100"
+       y="82"
+       text-anchor="middle"
+       class="capability-title"
+       id="text14">Engine</text>
+    <text
+       x="100"
+       y="105"
+       text-anchor="middle"
+       class="capability-desc"
+       id="text15">Configurable rules with</text>
+    <text
+       x="100"
+       y="120"
+       text-anchor="middle"
+       class="capability-desc"
+       id="text16">domain enforcement</text>
+  </g>
+  <!-- Multi-Tenant -->
+  <g
+     transform="translate(80, 220)"
+     id="g21">
+    <rect
+       width="200"
+       height="130"
+       rx="10"
+       fill="#0ea5e9"
+       stroke="none"
+       id="rect16" />
+    <text
+       x="100"
+       y="40"
+       text-anchor="middle"
+       style="font-family: Arial, sans-serif; font-size: 36px;"
+       id="text17">🏢</text>
+    <text
+       x="100"
+       y="65"
+       text-anchor="middle"
+       class="capability-title"
+       id="text18">Multi-Tenant</text>
+    <text
+       x="100"
+       y="82"
+       text-anchor="middle"
+       class="capability-title"
+       id="text19">Architecture</text>
+    <text
+       x="100"
+       y="105"
+       text-anchor="middle"
+       class="capability-desc"
+       id="text20">Isolated configurations</text>
+    <text
+       x="100"
+       y="120"
+       text-anchor="middle"
+       class="capability-desc"
+       id="text21">per business unit</text>
+  </g>
+  <!-- Type Safety -->
+  <g
+     transform="translate(300, 220)"
+     id="g26">
+    <rect
+       width="200"
+       height="130"
+       rx="10"
+       fill="#10b981"
+       stroke="none"
+       id="rect21" />
+    <text
+       x="100"
+       y="40"
+       text-anchor="middle"
+       style="font-family: Arial, sans-serif; font-size: 36px;"
+       id="text22">🔒</text>
+    <text
+       x="100"
+       y="65"
+       text-anchor="middle"
+       class="capability-title"
+       id="text23">Type Safety</text>
+    <text
+       x="100"
+       y="82"
+       text-anchor="middle"
+       class="capability-title"
+       id="text24">Guarantees</text>
+    <text
+       x="100"
+       y="105"
+       text-anchor="middle"
+       class="capability-desc"
+       id="text25">Compile-time validation</text>
+    <text
+       x="100"
+       y="120"
+       text-anchor="middle"
+       class="capability-desc"
+       id="text26">and consistency checks</text>
+  </g>
+  <!-- Scalable Domain -->
+  <g
+     transform="translate(520, 220)"
+     id="g31">
+    <rect
+       width="200"
+       height="130"
+       rx="10"
+       fill="#f59e0b"
+       stroke="none"
+       id="rect26" />
+    <text
+       x="100"
+       y="40"
+       text-anchor="middle"
+       style="font-family: Arial, sans-serif; font-size: 36px;"
+       id="text27">📈</text>
+    <text
+       x="100"
+       y="65"
+       text-anchor="middle"
+       class="capability-title"
+       id="text28">Scalable</text>
+    <text
+       x="100"
+       y="82"
+       text-anchor="middle"
+       class="capability-title"
+       id="text29">Domain Model</text>
+    <text
+       x="100"
+       y="105"
+       text-anchor="middle"
+       class="capability-desc"
+       id="text30">Clear boundaries and</text>
+    <text
+       x="100"
+       y="120"
+       text-anchor="middle"
+       class="capability-desc"
+       id="text31">growth patterns</text>
+  </g>
+  <!-- Footer -->
+  <rect
+     x="150"
+     y="370"
+     width="500"
+     height="25"
+     rx="6"
+     fill="#f1f5f9"
+     stroke="none"
+     id="rect31" />
+  <text
+     x="400"
+     y="388"
+     text-anchor="middle"
+     style="font-family: Arial, sans-serif; font-size: 11px; fill: #64748b; font-weight: 600;"
+     id="text32">
+    Enterprise-grade process modeling with modern architecture
+  </text>
+</svg>

@@ -1,0 +1,92 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font-family: Arial, sans-serif; font-size: 22px; font-weight: bold; fill: #1a1a1a; }
+      .section-title { font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; }
+      .label { font-family: Arial, sans-serif; font-size: 13px; font-weight: 600; }
+    </style>
+  </defs>
+  
+  <!-- Title -->
+  <text x="400" y="35" text-anchor="middle" class="title">Dual-Perspective Evaluation</text>
+  
+  <!-- Researcher Perspective -->
+  <rect x="50" y="70" width="320" height="280" rx="10" fill="#dbeafe" stroke="none"/>
+  <text x="210" y="100" text-anchor="middle" class="section-title" fill="#1e40af">👩‍🔬 Researcher Lens</text>
+  
+  <text x="210" y="135" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 32px;">🧬</text>
+  
+  <!-- Criteria -->
+  <g transform="translate(80, 165)">
+    <circle cx="5" cy="5" r="4" fill="#3b82f6"/>
+    <text x="15" y="10" style="font-family: Arial, sans-serif; font-size: 11px; fill: #1e40af; font-weight: 600;">Learning curve experience</text>
+  </g>
+  
+  <g transform="translate(80, 193)">
+    <circle cx="5" cy="5" r="4" fill="#3b82f6"/>
+    <text x="15" y="10" style="font-family: Arial, sans-serif; font-size: 11px; fill: #1e40af; font-weight: 600;">Documentation usability</text>
+  </g>
+  
+  <g transform="translate(80, 221)">
+    <circle cx="5" cy="5" r="4" fill="#3b82f6"/>
+    <text x="15" y="10" style="font-family: Arial, sans-serif; font-size: 11px; fill: #1e40af; font-weight: 600;">Scientific accessibility</text>
+  </g>
+  
+  <g transform="translate(80, 249)">
+    <circle cx="5" cy="5" r="4" fill="#3b82f6"/>
+    <text x="15" y="10" style="font-family: Arial, sans-serif; font-size: 11px; fill: #1e40af; font-weight: 600;">Domain researcher needs</text>
+  </g>
+  
+  <g transform="translate(80, 277)">
+    <circle cx="5" cy="5" r="4" fill="#3b82f6"/>
+    <text x="15" y="10" style="font-family: Arial, sans-serif; font-size: 11px; fill: #1e40af; font-weight: 600;">Model interpretation</text>
+  </g>
+  
+  <text x="210" y="320" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 12px; fill: #1e40af; font-style: italic;">Usability & accessibility</text>
+  
+  <!-- Center: BioNetGen -->
+  <circle cx="400" cy="210" r="60" fill="#7c3aed" stroke="none"/>
+  <text x="400" y="210" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; fill: white;">BioNetGen</text>
+  <text x="400" y="230" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 11px; fill: white;">Tool Under</text>
+  <text x="400" y="245" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 11px; fill: white;">Evaluation</text>
+  
+  <!-- Developer Perspective -->
+  <rect x="430" y="70" width="320" height="280" rx="10" fill="#fef3c7" stroke="none"/>
+  <text x="590" y="100" text-anchor="middle" class="section-title" fill="#92400e">💻 Developer Lens</text>
+  
+  <text x="590" y="135" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 32px;">⚙️</text>
+  
+  <!-- Criteria -->
+  <g transform="translate(460, 165)">
+    <circle cx="5" cy="5" r="4" fill="#f59e0b"/>
+    <text x="15" y="10" style="font-family: Arial, sans-serif; font-size: 11px; fill: #92400e; font-weight: 600;">Syntax design quality</text>
+  </g>
+  
+  <g transform="translate(460, 193)">
+    <circle cx="5" cy="5" r="4" fill="#f59e0b"/>
+    <text x="15" y="10" style="font-family: Arial, sans-serif; font-size: 11px; fill: #92400e; font-weight: 600;">Language consistency</text>
+  </g>
+  
+  <g transform="translate(460, 221)">
+    <circle cx="5" cy="5" r="4" fill="#f59e0b"/>
+    <text x="15" y="10" style="font-family: Arial, sans-serif; font-size: 11px; fill: #92400e; font-weight: 600;">Technical efficiency</text>
+  </g>
+  
+  <g transform="translate(460, 249)">
+    <circle cx="5" cy="5" r="4" fill="#f59e0b"/>
+    <text x="15" y="10" style="font-family: Arial, sans-serif; font-size: 11px; fill: #92400e; font-weight: 600;">Tool architecture</text>
+  </g>
+  
+  <g transform="translate(460, 277)">
+    <circle cx="5" cy="5" r="4" fill="#f59e0b"/>
+    <text x="15" y="10" style="font-family: Arial, sans-serif; font-size: 11px; fill: #92400e; font-weight: 600;">Expressive power</text>
+  </g>
+  
+  <text x="590" y="320" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 12px; fill: #92400e; font-style: italic;">Technical capability</text>
+  
+  <!-- Footer -->
+  <rect x="200" y="365" width="400" height="25" rx="6" fill="#f1f5f9" stroke="none"/>
+  <text x="400" y="382" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 11px; fill: #64748b; font-weight: 600;">
+    Comprehensive evaluation from complementary perspectives
+  </text>
+</svg>

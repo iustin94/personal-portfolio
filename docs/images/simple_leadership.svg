@@ -1,0 +1,51 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font-family: Arial, sans-serif; font-size: 20px; font-weight: bold; fill: #1a1a1a; }
+      .team-label { font-family: Arial, sans-serif; font-size: 13px; font-weight: 600; }
+      .center-label { font-family: Arial, sans-serif; font-size: 15px; font-weight: bold; fill: #fff; }
+    </style>
+  </defs>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" class="title">Technical Leadership Bridge</text>
+  
+  <!-- Central Role -->
+  <circle cx="400" cy="200" r="70" fill="#7c3aed" stroke="none"/>
+  <text x="400" y="195" text-anchor="middle" class="center-label">Lead</text>
+  <text x="400" y="215" text-anchor="middle" class="center-label">Engineer</text>
+  
+  <!-- Drone Research (Top Left) -->
+  <circle cx="200" cy="100" r="55" fill="#3b82f6" stroke="none"/>
+  <text x="200" y="95" text-anchor="middle" class="team-label" fill="white" font-size="28">🚁</text>
+  <text x="200" y="120" text-anchor="middle" class="team-label" fill="white">Drone R&D</text>
+  
+  <path d="M 240 130 L 350 170" stroke="#7c3aed" stroke-width="3" fill="none" stroke-dasharray="5,5"/>
+  
+  <!-- RF Engineering (Top Right) -->
+  <circle cx="600" cy="100" r="55" fill="#ec4899" stroke="none"/>
+  <text x="600" y="95" text-anchor="middle" class="team-label" fill="white" font-size="28">📡</text>
+  <text x="600" y="120" text-anchor="middle" class="team-label" fill="white">RF Team</text>
+  
+  <path d="M 560 130 L 450 170" stroke="#7c3aed" stroke-width="3" fill="none" stroke-dasharray="5,5"/>
+  
+  <!-- Product Owner (Bottom Right) -->
+  <circle cx="600" cy="300" r="55" fill="#10b981" stroke="none"/>
+  <text x="600" y="295" text-anchor="middle" class="team-label" fill="white" font-size="28">💼</text>
+  <text x="600" y="320" text-anchor="middle" class="team-label" fill="white">Product</text>
+  
+  <path d="M 560 270 L 450 230" stroke="#7c3aed" stroke-width="3" fill="none" stroke-dasharray="5,5"/>
+  
+  <!-- Dev Team (Bottom Left) -->
+  <circle cx="200" cy="300" r="55" fill="#f59e0b" stroke="none"/>
+  <text x="200" y="295" text-anchor="middle" class="team-label" fill="white" font-size="28">👥</text>
+  <text x="200" y="320" text-anchor="middle" class="team-label" fill="white">Dev Team</text>
+  
+  <path d="M 240 270 L 350 230" stroke="#7c3aed" stroke-width="3" fill="none" stroke-dasharray="5,5"/>
+  
+  <!-- Role description -->
+  <rect x="280" y="360" width="240" height="30" rx="6" fill="#f1f5f9" stroke="none"/>
+  <text x="400" y="381" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 11px; fill: #64748b; font-weight: 600;">
+    Aligning technical, research &amp; business needs
+  </text>
+</svg>

@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 800 450"
+   version="1.1"
+   id="svg22"
+   sodipodi:docname="workbench_contributions.svg"
+   inkscape:version="1.4.3 (fcd0343856, 2026-01-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview22"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.1225"
+     inkscape:cx="399.55457"
+     inkscape:cy="224.94432"
+     inkscape:window-width="2560"
+     inkscape:window-height="1403"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg22" />
+  <defs
+     id="defs1">
+    <style
+       id="style1">
+      .title { font-family: Arial, sans-serif; font-size: 22px; font-weight: bold; fill: #1a1a1a; }
+      .phase-title { font-family: Arial, sans-serif; font-size: 15px; font-weight: bold; fill: #fff; }
+      .contribution { font-family: Arial, sans-serif; font-size: 11px; fill: #fff; }
+    </style>
+  </defs>
+  <!-- Title -->
+  <!-- Research Phase -->
+  <rect
+     x="80"
+     y="80"
+     width="200"
+     height="150"
+     rx="10"
+     fill="#3b82f6"
+     stroke="none"
+     id="rect1" />
+  <text
+     x="180"
+     y="110"
+     text-anchor="middle"
+     class="phase-title"
+     id="text2">Research</text>
+  <g
+     transform="translate(95, 125)"
+     id="g3">
+    <circle
+       cx="4"
+       cy="4"
+       r="3"
+       fill="white"
+       id="circle2" />
+    <text
+       x="12"
+       y="9"
+       class="contribution"
+       id="text3">DDD pattern study</text>
+  </g>
+  <g
+     transform="translate(95, 148)"
+     id="g4">
+    <circle
+       cx="4"
+       cy="4"
+       r="3"
+       fill="white"
+       id="circle3" />
+    <text
+       x="12"
+       y="9"
+       class="contribution"
+       id="text4">Modeling strategies</text>
+  </g>
+  <g
+     transform="translate(95, 171)"
+     id="g5">
+    <circle
+       cx="4"
+       cy="4"
+       r="3"
+       fill="white"
+       id="circle4" />
+    <text
+       x="12"
+       y="9"
+       class="contribution"
+       id="text5">Tech evaluation</text>
+  </g>
+  <g
+     transform="translate(95, 194)"
+     id="g6">
+    <circle
+       cx="4"
+       cy="4"
+       r="3"
+       fill="white"
+       id="circle5" />
+    <text
+       x="12"
+       y="9"
+       class="contribution"
+       id="text6">Architecture design</text>
+  </g>
+  <!-- Design Phase -->
+  <rect
+     x="300"
+     y="80"
+     width="200"
+     height="150"
+     rx="10"
+     fill="#8b5cf6"
+     stroke="none"
+     id="rect6" />
+  <text
+     x="400"
+     y="110"
+     text-anchor="middle"
+     class="phase-title"
+     id="text7">Design</text>
+  <g
+     transform="translate(315, 125)"
+     id="g8">
+    <circle
+       cx="4"
+       cy="4"
+       r="3"
+       fill="white"
+       id="circle7" />
+    <text
+       x="12"
+       y="9"
+       class="contribution"
+       id="text8">Domain model</text>
+  </g>
+  <g
+     transform="translate(315, 148)"
+     id="g9">
+    <circle
+       cx="4"
+       cy="4"
+       r="3"
+       fill="white"
+       id="circle8" />
+    <text
+       x="12"
+       y="9"
+       class="contribution"
+       id="text9">Entity architecture</text>
+  </g>
+  <g
+     transform="translate(315, 171)"
+     id="g10">
+    <circle
+       cx="4"
+       cy="4"
+       r="3"
+       fill="white"
+       id="circle9" />
+    <text
+       x="12"
+       y="9"
+       class="contribution"
+       id="text10">Validation engine</text>
+  </g>
+  <g
+     transform="translate(315, 194)"
+     id="g11">
+    <circle
+       cx="4"
+       cy="4"
+       r="3"
+       fill="white"
+       id="circle10" />
+    <text
+       x="12"
+       y="9"
+       class="contribution"
+       id="text11">API patterns</text>
+  </g>
+  <!-- Implementation Phase -->
+  <rect
+     x="520"
+     y="80"
+     width="200"
+     height="150"
+     rx="10"
+     fill="#7c3aed"
+     stroke="none"
+     id="rect11" />
+  <text
+     x="620"
+     y="110"
+     text-anchor="middle"
+     class="phase-title"
+     id="text12">Implementation</text>
+  <g
+     transform="translate(535, 125)"
+     id="g13">
+    <circle
+       cx="4"
+       cy="4"
+       r="3"
+       fill="white"
+       id="circle12" />
+    <text
+       x="12"
+       y="9"
+       class="contribution"
+       id="text13">Core prototypes</text>
+  </g>
+  <g
+     transform="translate(535, 148)"
+     id="g14">
+    <circle
+       cx="4"
+       cy="4"
+       r="3"
+       fill="white"
+       id="circle13" />
+    <text
+       x="12"
+       y="9"
+       class="contribution"
+       id="text14">EF Core strategies</text>
+  </g>
+  <g
+     transform="translate(535, 171)"
+     id="g15">
+    <circle
+       cx="4"
+       cy="4"
+       r="3"
+       fill="white"
+       id="circle14" />
+    <text
+       x="12"
+       y="9"
+       class="contribution"
+       id="text15">UI prototypes</text>
+  </g>
+  <g
+     transform="translate(535, 194)"
+     id="g16">
+    <circle
+       cx="4"
+       cy="4"
+       r="3"
+       fill="white"
+       id="circle15" />
+    <text
+       x="12"
+       y="9"
+       class="contribution"
+       id="text16">Working demos</text>
+  </g>
+  <!-- Leadership Activities (bottom) -->
+  <rect
+     x="80"
+     y="260"
+     width="640"
+     height="150"
+     rx="10"
+     fill="#10b981"
+     stroke="none"
+     id="rect16" />
+  <text
+     x="400"
+     y="290"
+     text-anchor="middle"
+     class="phase-title"
+     font-size="16"
+     id="text17">Leadership and Collaboration</text>
+  <g
+     transform="translate(100, 310)"
+     id="g18">
+    <rect
+       width="280"
+       height="35"
+       rx="6"
+       fill="rgba(255,255,255,0.2)"
+       stroke="none"
+       id="rect17" />
+    <text
+       x="140"
+       y="23"
+       text-anchor="middle"
+       class="contribution"
+       id="text18">Stakeholder Collaboration</text>
+  </g>
+  <g
+     transform="translate(400, 310)"
+     id="g19">
+    <rect
+       width="280"
+       height="35"
+       rx="6"
+       fill="rgba(255,255,255,0.2)"
+       stroke="none"
+       id="rect18" />
+    <text
+       x="140"
+       y="23"
+       text-anchor="middle"
+       class="contribution"
+       id="text19">Technical Lead Partnership</text>
+  </g>
+  <g
+     transform="translate(100, 358)"
+     id="g20">
+    <rect
+       width="280"
+       height="35"
+       rx="6"
+       fill="rgba(255,255,255,0.2)"
+       stroke="none"
+       id="rect19" />
+    <text
+       x="140"
+       y="23"
+       text-anchor="middle"
+       class="contribution"
+       id="text20">Architectural Guidelines</text>
+  </g>
+  <g
+     transform="translate(400, 358)"
+     id="g21">
+    <rect
+       width="280"
+       height="35"
+       rx="6"
+       fill="rgba(255,255,255,0.2)"
+       stroke="none"
+       id="rect20" />
+    <text
+       x="140"
+       y="23"
+       text-anchor="middle"
+       class="contribution"
+       id="text21">Roadmap Prioritization</text>
+  </g>
+  <!-- Footer -->
+  <rect
+     x="200"
+     y="425"
+     width="400"
+     height="20"
+     rx="5"
+     fill="#f1f5f9"
+     stroke="none"
+     id="rect21" />
+  <text
+     x="400"
+     y="439"
+     text-anchor="middle"
+     style="font-family: Arial, sans-serif; font-size: 10px; fill: #64748b; font-weight: 600;"
+     id="text22">
+    End-to-end ownership: Research → Design → Implementation → Leadership
+  </text>
+</svg>

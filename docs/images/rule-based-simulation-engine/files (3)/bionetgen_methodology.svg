@@ -1,0 +1,70 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font-family: Arial, sans-serif; font-size: 20px; font-weight: bold; fill: #1a1a1a; }
+      .stage-label { font-family: Arial, sans-serif; font-size: 14px; font-weight: 600; fill: #fff; }
+      .stage-num { font-family: Arial, sans-serif; font-size: 20px; font-weight: bold; fill: #fff; }
+      .detail-text { font-family: Arial, sans-serif; font-size: 11px; fill: #64748b; }
+    </style>
+  </defs>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" class="title">Research Methodology</text>
+  
+  <!-- Stage 1: Learn -->
+  <circle cx="120" cy="140" r="65" fill="#3b82f6" stroke="none"/>
+  <text x="120" y="120" text-anchor="middle" class="stage-num">1</text>
+  <text x="120" y="145" text-anchor="middle" class="stage-label" font-size="32">📚</text>
+  <text x="120" y="170" text-anchor="middle" class="stage-label">Learn</text>
+  
+  <text x="120" y="225" text-anchor="middle" class="detail-text">BioNetGen language</text>
+  <text x="120" y="242" text-anchor="middle" class="detail-text">Syntax & semantics</text>
+  
+  <!-- Arrow -->
+  <path d="M 195 140 L 245 140" stroke="#cbd5e1" stroke-width="4" fill="none"/>
+  <path d="M 240 135 L 250 140 L 240 145 Z" fill="#cbd5e1"/>
+  
+  <!-- Stage 2: Implement -->
+  <circle cx="330" cy="140" r="65" fill="#8b5cf6" stroke="none"/>
+  <text x="330" y="120" text-anchor="middle" class="stage-num">2</text>
+  <text x="330" y="145" text-anchor="middle" class="stage-label" font-size="32">⚗️</text>
+  <text x="330" y="170" text-anchor="middle" class="stage-label">Implement</text>
+  
+  <text x="330" y="225" text-anchor="middle" class="detail-text">Build reaction models</text>
+  <text x="330" y="242" text-anchor="middle" class="detail-text">Test simulations</text>
+  
+  <!-- Arrow -->
+  <path d="M 405 140 L 455 140" stroke="#cbd5e1" stroke-width="4" fill="none"/>
+  <path d="M 450 135 L 460 140 L 450 145 Z" fill="#cbd5e1"/>
+  
+  <!-- Stage 3: Document -->
+  <circle cx="540" cy="140" r="65" fill="#7c3aed" stroke="none"/>
+  <text x="540" y="120" text-anchor="middle" class="stage-num">3</text>
+  <text x="540" y="145" text-anchor="middle" class="stage-label" font-size="32">📝</text>
+  <text x="540" y="170" text-anchor="middle" class="stage-label">Document</text>
+  
+  <text x="540" y="225" text-anchor="middle" class="detail-text">Record experience</text>
+  <text x="540" y="242" text-anchor="middle" class="detail-text">Dual perspectives</text>
+  
+  <!-- Arrow -->
+  <path d="M 615 140 L 665 140" stroke="#cbd5e1" stroke-width="4" fill="none"/>
+  <path d="M 660 135 L 670 140 L 660 145 Z" fill="#cbd5e1"/>
+  
+  <!-- Stage 4: Analyze -->
+  <circle cx="720" cy="140" r="65" fill="#10b981" stroke="none"/>
+  <text x="720" y="120" text-anchor="middle" class="stage-num">4</text>
+  <text x="720" y="145" text-anchor="middle" class="stage-label" font-size="32">🔍</text>
+  <text x="720" y="170" text-anchor="middle" class="stage-label">Analyze</text>
+  
+  <text x="720" y="225" text-anchor="middle" class="detail-text">Evaluate usability</text>
+  <text x="720" y="242" text-anchor="middle" class="detail-text">Identify barriers</text>
+  
+  <!-- Output -->
+  <rect x="250" y="290" width="300" height="80" rx="10" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
+  <text x="400" y="320" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 15px; font-weight: bold; fill: #7c3aed;">White Paper Output</text>
+  <text x="400" y="343" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 11px; fill: #5b21b6;">Feasibility assessment with strengths,</text>
+  <text x="400" y="360" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 11px; fill: #5b21b6;">limitations, and recommendations</text>
+  
+  <!-- Arrow to output -->
+  <path d="M 400 210 L 400 280" stroke="#7c3aed" stroke-width="3" fill="none" stroke-dasharray="5,5"/>
+</svg>

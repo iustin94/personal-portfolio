@@ -1,0 +1,105 @@
+<svg viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font-family: Arial, sans-serif; font-size: 22px; font-weight: bold; fill: #1a1a1a; }
+      .phase-title { font-family: Arial, sans-serif; font-size: 15px; font-weight: bold; fill: #fff; }
+      .contribution { font-family: Arial, sans-serif; font-size: 11px; fill: #fff; }
+    </style>
+  </defs>
+  
+  <!-- Title -->
+  <text x="400" y="35" text-anchor="middle" class="title">Architectural Leadership & Contributions</text>
+  
+  <!-- Research Phase -->
+  <rect x="80" y="80" width="200" height="150" rx="10" fill="#3b82f6" stroke="none"/>
+  <text x="180" y="110" text-anchor="middle" class="phase-title">Research</text>
+  
+  <g transform="translate(95, 125)">
+    <circle cx="4" cy="4" r="3" fill="white"/>
+    <text x="12" y="9" class="contribution">DDD pattern study</text>
+  </g>
+  <g transform="translate(95, 148)">
+    <circle cx="4" cy="4" r="3" fill="white"/>
+    <text x="12" y="9" class="contribution">Modeling strategies</text>
+  </g>
+  <g transform="translate(95, 171)">
+    <circle cx="4" cy="4" r="3" fill="white"/>
+    <text x="12" y="9" class="contribution">Tech evaluation</text>
+  </g>
+  <g transform="translate(95, 194)">
+    <circle cx="4" cy="4" r="3" fill="white"/>
+    <text x="12" y="9" class="contribution">Architecture design</text>
+  </g>
+  
+  <!-- Design Phase -->
+  <rect x="300" y="80" width="200" height="150" rx="10" fill="#8b5cf6" stroke="none"/>
+  <text x="400" y="110" text-anchor="middle" class="phase-title">Design</text>
+  
+  <g transform="translate(315, 125)">
+    <circle cx="4" cy="4" r="3" fill="white"/>
+    <text x="12" y="9" class="contribution">Domain model</text>
+  </g>
+  <g transform="translate(315, 148)">
+    <circle cx="4" cy="4" r="3" fill="white"/>
+    <text x="12" y="9" class="contribution">Entity architecture</text>
+  </g>
+  <g transform="translate(315, 171)">
+    <circle cx="4" cy="4" r="3" fill="white"/>
+    <text x="12" y="9" class="contribution">Validation engine</text>
+  </g>
+  <g transform="translate(315, 194)">
+    <circle cx="4" cy="4" r="3" fill="white"/>
+    <text x="12" y="9" class="contribution">API patterns</text>
+  </g>
+  
+  <!-- Implementation Phase -->
+  <rect x="520" y="80" width="200" height="150" rx="10" fill="#7c3aed" stroke="none"/>
+  <text x="620" y="110" text-anchor="middle" class="phase-title">Implementation</text>
+  
+  <g transform="translate(535, 125)">
+    <circle cx="4" cy="4" r="3" fill="white"/>
+    <text x="12" y="9" class="contribution">Core prototypes</text>
+  </g>
+  <g transform="translate(535, 148)">
+    <circle cx="4" cy="4" r="3" fill="white"/>
+    <text x="12" y="9" class="contribution">EF Core strategies</text>
+  </g>
+  <g transform="translate(535, 171)">
+    <circle cx="4" cy="4" r="3" fill="white"/>
+    <text x="12" y="9" class="contribution">UI prototypes</text>
+  </g>
+  <g transform="translate(535, 194)">
+    <circle cx="4" cy="4" r="3" fill="white"/>
+    <text x="12" y="9" class="contribution">Working demos</text>
+  </g>
+  
+  <!-- Leadership Activities (bottom) -->
+  <rect x="80" y="260" width="640" height="150" rx="10" fill="#10b981" stroke="none"/>
+  <text x="400" y="290" text-anchor="middle" class="phase-title" font-size="16">Leadership & Collaboration</text>
+  
+  <g transform="translate(100, 310)">
+    <rect width="280" height="35" rx="6" fill="rgba(255,255,255,0.2)" stroke="none"/>
+    <text x="140" y="23" text-anchor="middle" class="contribution">Stakeholder Collaboration</text>
+  </g>
+  
+  <g transform="translate(400, 310)">
+    <rect width="280" height="35" rx="6" fill="rgba(255,255,255,0.2)" stroke="none"/>
+    <text x="140" y="23" text-anchor="middle" class="contribution">Technical Lead Partnership</text>
+  </g>
+  
+  <g transform="translate(100, 358)">
+    <rect width="280" height="35" rx="6" fill="rgba(255,255,255,0.2)" stroke="none"/>
+    <text x="140" y="23" text-anchor="middle" class="contribution">Architectural Guidelines</text>
+  </g>
+  
+  <g transform="translate(400, 358)">
+    <rect width="280" height="35" rx="6" fill="rgba(255,255,255,0.2)" stroke="none"/>
+    <text x="140" y="23" text-anchor="middle" class="contribution">Roadmap Prioritization</text>
+  </g>
+  
+  <!-- Footer -->
+  <rect x="200" y="425" width="400" height="20" rx="5" fill="#f1f5f9" stroke="none"/>
+  <text x="400" y="439" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 10px; fill: #64748b; font-weight: 600;">
+    End-to-end ownership: Research → Design → Implementation → Leadership
+  </text>
+</svg>

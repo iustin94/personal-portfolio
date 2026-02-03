@@ -1,0 +1,68 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font-family: Arial, sans-serif; font-size: 22px; font-weight: bold; fill: #1a1a1a; }
+      .section-title { font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; }
+      .item-text { font-family: Arial, sans-serif; font-size: 11px; font-weight: 600; }
+    </style>
+  </defs>
+  
+  <!-- Title -->
+  <text x="400" y="35" text-anchor="middle" class="title">BioNetGen Assessment</text>
+  
+  <!-- Strengths -->
+  <rect x="50" y="70" width="320" height="280" rx="10" fill="#d1fae5" stroke="none"/>
+  <text x="210" y="100" text-anchor="middle" class="section-title" fill="#059669">✓ Strengths</text>
+  
+  <g transform="translate(80, 130)">
+    <rect width="260" height="50" rx="8" fill="rgba(16, 185, 129, 0.3)" stroke="none"/>
+    <text x="130" y="20" text-anchor="middle" class="item-text" fill="#047857">Expressive Power</text>
+    <text x="130" y="37" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 10px; fill: #047857;">Complex reactions in</text>
+    <text x="130" y="48" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 10px; fill: #047857;">concise rule notation</text>
+  </g>
+  
+  <g transform="translate(80, 195)">
+    <rect width="260" height="50" rx="8" fill="rgba(16, 185, 129, 0.3)" stroke="none"/>
+    <text x="130" y="20" text-anchor="middle" class="item-text" fill="#047857">Computational Efficiency</text>
+    <text x="130" y="37" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 10px; fill: #047857;">Fast simulation execution</text>
+    <text x="130" y="48" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 10px; fill: #047857;">for biomolecular models</text>
+  </g>
+  
+  <g transform="translate(80, 260)">
+    <rect width="260" height="50" rx="8" fill="rgba(16, 185, 129, 0.3)" stroke="none"/>
+    <text x="130" y="20" text-anchor="middle" class="item-text" fill="#047857">Rule-Based Modeling</text>
+    <text x="130" y="37" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 10px; fill: #047857;">Captures dynamic biological</text>
+    <text x="130" y="48" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 10px; fill: #047857;">interactions effectively</text>
+  </g>
+  
+  <!-- Barriers -->
+  <rect x="430" y="70" width="320" height="280" rx="10" fill="#fee2e2" stroke="none"/>
+  <text x="590" y="100" text-anchor="middle" class="section-title" fill="#dc2626">✗ Barriers</text>
+  
+  <g transform="translate(460, 130)">
+    <rect width="260" height="50" rx="8" fill="rgba(239, 68, 68, 0.3)" stroke="none"/>
+    <text x="130" y="20" text-anchor="middle" class="item-text" fill="#991b1b">Steep Learning Curve</text>
+    <text x="130" y="37" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 10px; fill: #991b1b;">Non-intuitive syntax for</text>
+    <text x="130" y="48" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 10px; fill: #991b1b;">non-technical users</text>
+  </g>
+  
+  <g transform="translate(460, 195)">
+    <rect width="260" height="50" rx="8" fill="rgba(239, 68, 68, 0.3)" stroke="none"/>
+    <text x="130" y="20" text-anchor="middle" class="item-text" fill="#991b1b">Fragmented Docs</text>
+    <text x="130" y="37" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 10px; fill: #991b1b;">Incomplete documentation</text>
+    <text x="130" y="48" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 10px; fill: #991b1b;">makes onboarding difficult</text>
+  </g>
+  
+  <g transform="translate(460, 260)">
+    <rect width="260" height="50" rx="8" fill="rgba(239, 68, 68, 0.3)" stroke="none"/>
+    <text x="130" y="20" text-anchor="middle" class="item-text" fill="#991b1b">Accessibility Gap</text>
+    <text x="130" y="37" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 10px; fill: #991b1b;">Requires strong programming</text>
+    <text x="130" y="48" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 10px; fill: #991b1b;">background for adoption</text>
+  </g>
+  
+  <!-- Footer -->
+  <rect x="150" y="365" width="500" height="25" rx="6" fill="#7c3aed" stroke="none"/>
+  <text x="400" y="382" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 11px; fill: #fff; font-weight: 600;">
+    Powerful tool limited by accessibility challenges
+  </text>
+</svg>

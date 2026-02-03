@@ -1,0 +1,69 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font-family: Arial, sans-serif; font-size: 20px; font-weight: bold; fill: #1a1a1a; }
+      .label { font-family: Arial, sans-serif; font-size: 14px; font-weight: 600; fill: #1a1a1a; }
+      .white-label { font-family: Arial, sans-serif; font-size: 13px; font-weight: 600; fill: #fff; }
+    </style>
+  </defs>
+  
+  <!-- Title -->
+  <text x="400" y="35" text-anchor="middle" class="title">Flight Assistant Architecture</text>
+  
+  <!-- Input Layer -->
+  <rect x="80" y="80" width="120" height="60" rx="8" fill="#3b82f6" stroke="none"/>
+  <text x="140" y="115" text-anchor="middle" class="white-label">Drone</text>
+  
+  <rect x="220" y="80" width="120" height="60" rx="8" fill="#0284c7" stroke="none"/>
+  <text x="280" y="115" text-anchor="middle" class="white-label">GPS</text>
+  
+  <rect x="360" y="80" width="120" height="60" rx="8" fill="#ec4899" stroke="none"/>
+  <text x="420" y="115" text-anchor="middle" class="white-label">RF Payload</text>
+  
+  <rect x="500" y="80" width="120" height="60" rx="8" fill="#8b5cf6" stroke="none"/>
+  <text x="560" y="115" text-anchor="middle" class="white-label">Flight Paths</text>
+  
+  <!-- Arrows down -->
+  <path d="M 140 140 L 140 190" stroke="#cbd5e1" stroke-width="3" fill="none"/>
+  <path d="M 280 140 L 280 190" stroke="#cbd5e1" stroke-width="3" fill="none"/>
+  <path d="M 420 140 L 420 190" stroke="#cbd5e1" stroke-width="3" fill="none"/>
+  <path d="M 560 140 L 560 190" stroke="#cbd5e1" stroke-width="3" fill="none"/>
+  
+  <!-- Core Processing -->
+  <rect x="140" y="190" width="440" height="100" rx="12" fill="#7c3aed" stroke="none"/>
+  <text x="360" y="230" text-anchor="middle" class="white-label" font-size="16">Flight Assistant Core</text>
+  <text x="360" y="255" text-anchor="middle" class="white-label" font-size="12">Modular Python Framework</text>
+  
+  <!-- Arrows down -->
+  <path d="M 360 290 L 360 340" stroke="#cbd5e1" stroke-width="3" fill="none"/>
+  
+  <!-- Output Layer -->
+  <rect x="100" y="340" width="150" height="60" rx="8" fill="#10b981" stroke="none"/>
+  <text x="175" y="375" text-anchor="middle" class="white-label">Analytics</text>
+  
+  <rect x="270" y="340" width="150" height="60" rx="8" fill="#10b981" stroke="none"/>
+  <text x="345" y="375" text-anchor="middle" class="white-label">Visualizations</text>
+  
+  <rect x="440" y="340" width="150" height="60" rx="8" fill="#10b981" stroke="none"/>
+  <text x="515" y="375" text-anchor="middle" class="white-label">Mission Files</text>
+  
+  <!-- Key Features -->
+  <rect x="640" y="140" width="140" height="180" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="710" y="165" text-anchor="middle" class="label" font-size="13">Key Features</text>
+  
+  <circle cx="655" cy="190" r="4" fill="#7c3aed"/>
+  <text x="665" y="194" class="label" font-size="11">Modular</text>
+  
+  <circle cx="655" cy="220" r="4" fill="#7c3aed"/>
+  <text x="665" y="224" class="label" font-size="11">Fault-tolerant</text>
+  
+  <circle cx="655" cy="250" r="4" fill="#7c3aed"/>
+  <text x="665" y="254" class="label" font-size="11">Adaptable</text>
+  
+  <circle cx="655" cy="280" r="4" fill="#7c3aed"/>
+  <text x="665" y="284" class="label" font-size="11">Field-ready</text>
+  
+  <!-- Tech badge -->
+  <rect x="250" y="440" width="300" height="35" rx="6" fill="#ede9fe" stroke="none"/>
+  <text x="400" y="463" text-anchor="middle" class="label" font-size="12">Python • NumPy • Matplotlib</text>
+</svg>

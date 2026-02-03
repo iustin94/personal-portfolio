@@ -1,0 +1,71 @@
+<svg viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font-family: Arial, sans-serif; font-size: 22px; font-weight: bold; fill: #1a1a1a; }
+      .section-title { font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; }
+      .impact-label { font-family: Arial, sans-serif; font-size: 13px; font-weight: 600; }
+      .impact-detail { font-family: Arial, sans-serif; font-size: 11px; }
+    </style>
+  </defs>
+  
+  <!-- Title -->
+  <text x="400" y="35" text-anchor="middle" class="title">Project Impact</text>
+  
+  <!-- Internal Impact -->
+  <rect x="50" y="70" width="320" height="320" rx="10" fill="#dbeafe" stroke="none"/>
+  <text x="210" y="105" text-anchor="middle" class="section-title" fill="#1e40af">Internal Impact</text>
+  
+  <!-- Impact items -->
+  <g transform="translate(70, 130)">
+    <rect width="280" height="70" rx="8" fill="rgba(59, 130, 246, 0.3)" stroke="none"/>
+    <text x="140" y="25" text-anchor="middle" class="impact-label" fill="#1e40af">🚨 Critical Discovery</text>
+    <text x="140" y="45" text-anchor="middle" class="impact-detail" fill="#1e40af">100x bottleneck found</text>
+    <text x="140" y="60" text-anchor="middle" class="impact-detail" fill="#1e40af">before production</text>
+  </g>
+  
+  <g transform="translate(70, 215)">
+    <rect width="280" height="70" rx="8" fill="rgba(59, 130, 246, 0.3)" stroke="none"/>
+    <text x="140" y="25" text-anchor="middle" class="impact-label" fill="#1e40af">✓ Architecture Guidance</text>
+    <text x="140" y="45" text-anchor="middle" class="impact-detail" fill="#1e40af">Direct recommendations</text>
+    <text x="140" y="60" text-anchor="middle" class="impact-detail" fill="#1e40af">to head of architecture</text>
+  </g>
+  
+  <g transform="translate(70, 300)">
+    <rect width="280" height="70" rx="8" fill="rgba(59, 130, 246, 0.3)" stroke="none"/>
+    <text x="140" y="25" text-anchor="middle" class="impact-label" fill="#1e40af">📋 New Guidelines</text>
+    <text x="140" y="45" text-anchor="middle" class="impact-detail" fill="#1e40af">Message-driven</text>
+    <text x="140" y="60" text-anchor="middle" class="impact-detail" fill="#1e40af">architecture patterns</text>
+  </g>
+  
+  <!-- External Impact -->
+  <rect x="430" y="70" width="320" height="320" rx="10" fill="#fef3c7" stroke="none"/>
+  <text x="590" y="105" text-anchor="middle" class="section-title" fill="#92400e">External Impact</text>
+  
+  <!-- Impact items -->
+  <g transform="translate(450, 130)">
+    <rect width="280" height="70" rx="8" fill="rgba(245, 158, 11, 0.3)" stroke="none"/>
+    <text x="140" y="25" text-anchor="middle" class="impact-label" fill="#92400e">🏆 Top Contributor</text>
+    <text x="140" y="45" text-anchor="middle" class="impact-detail" fill="#92400e">RabbitMQ tag</text>
+    <text x="140" y="60" text-anchor="middle" class="impact-detail" fill="#92400e">on StackOverflow</text>
+  </g>
+  
+  <g transform="translate(450, 215)">
+    <rect width="280" height="70" rx="8" fill="rgba(245, 158, 11, 0.3)" stroke="none"/>
+    <text x="140" y="25" text-anchor="middle" class="impact-label" fill="#92400e">📝 Most Upvoted Posts</text>
+    <text x="140" y="45" text-anchor="middle" class="impact-detail" fill="#92400e">Widely referenced</text>
+    <text x="140" y="60" text-anchor="middle" class="impact-detail" fill="#92400e">technical guidance</text>
+  </g>
+  
+  <g transform="translate(450, 300)">
+    <rect width="280" height="70" rx="8" fill="rgba(245, 158, 11, 0.3)" stroke="none"/>
+    <text x="140" y="25" text-anchor="middle" class="impact-label" fill="#92400e">🌐 Global Community</text>
+    <text x="140" y="45" text-anchor="middle" class="impact-detail" fill="#92400e">Complex insights made</text>
+    <text x="140" y="60" text-anchor="middle" class="impact-detail" fill="#92400e">clear and actionable</text>
+  </g>
+  
+  <!-- Bottom banner -->
+  <rect x="150" y="410" width="500" height="30" rx="6" fill="#7c3aed" stroke="none"/>
+  <text x="400" y="431" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 12px; fill: #fff; font-weight: 600;">
+    Scientific rigor + Clear communication = Prevented major production issues
+  </text>
+</svg>

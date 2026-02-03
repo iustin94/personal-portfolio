@@ -66,3 +66,16 @@ publishDir = "docs"
   [[params.navlinks]]
   name = "Philosophy"
   url = "work/"
+
+  # Social links for footer
+  [[params.sociallinks]]
+  url = "https://www.linkedin.com/in/iustinian-olaru-b73a87387/"
+  icon = "fa-linkedin"
+
+  [[params.sociallinks]]
+  url = "https://github.com/iustin94"
+  icon = "fa-github"
+
+  [[params.sociallinks]]
+  url = "https://stackoverflow.com/users/3652652/iustinian-olaru"
+  icon = "fa-stack-overflow"
