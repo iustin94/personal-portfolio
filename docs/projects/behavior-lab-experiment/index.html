@@ -1,15 +1,109 @@
-<!doctype html><html lang=en-us><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><title>iustinian-olaru/projects/behavior-lab-experiment/</title><meta name=viewport content="width=device-width,initial-scale=1"><meta name=robots content="all,follow"><meta name=googlebot content="index,follow,snippet,archive"><link rel=stylesheet href=https://olaru.dk/hugo-theme-console/css/terminal-0.7.4.min.css><link rel=stylesheet href=https://olaru.dk/hugo-theme-console/css/animate-4.1.1.min.css><link rel=stylesheet href=https://olaru.dk/hugo-theme-console/css/console.css><!--[if lt IE 9]><script src=https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js></script><script src=https://oss.maxcdn.com/respond/1.4.2/respond.min.js></script><![endif]--><meta property="og:title" content="Experiment Orchestration App"><meta property="og:description" content><meta property="og:type" content="article"><meta property="og:url" content="https://olaru.dk/projects/behavior-lab-experiment/"><meta property="article:published_time" content="2018-06-01T00:00:00+00:00"><meta name=twitter:title content="Experiment Orchestration App"><meta name=twitter:description content="Overview:
+<!DOCTYPE html>
+<html lang="en-us">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>iustinian-olaru/projects/behavior-lab-experiment/</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <meta name="googlebot" content="index,follow,snippet,archive">
+    <link rel="stylesheet" href="http://localhost:1313/hugo-theme-console/css/terminal-0.7.4.min.css">
+    <link rel="stylesheet" href="http://localhost:1313/hugo-theme-console/css/animate-4.1.1.min.css">
+    <link rel="stylesheet" href="http://localhost:1313/hugo-theme-console/css/console.css">
+    
+      <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+       <meta property="og:title" content="Experiment Orchestration App" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/projects/behavior-lab-experiment/" /><meta property="article:published_time" content="2018-06-01T00:00:00+00:00" />
+
+
+
+<meta name="twitter:title" content="Experiment Orchestration App"/>
+<meta name="twitter:description" content="Overview:
 As part of my internship at the Cognition and Behavior Laboratory in Aarhus, I was tasked with developing a software solution to test the hypothesis that people&rsquo;s heart rates synchronize during shared activities. The project involved participants engaging in both a game and a vocal task, with the aim of capturing synchronized biometric data.
 Challenges and Technical Hurdles:
-One of the key challenges was ensuring real-time data synchronization across multiple streams—heart rate monitors, Wii remotes, and audio recordings. The technology stack, which included C# and WPF, wasn’t inherently designed for high-throughput, low-latency applications, so I had to get creative."><link rel=stylesheet href=https://olaru.dk/css/hero.css><link rel=stylesheet href=https://olaru.dk/css/tree.css><link rel=stylesheet href=https://olaru.dk/css/custom-theme.css><script src=https://olaru.dk/js/theme-toggle.js></script></head><body class=terminal><div class=container><div class=terminal-nav><header class=terminal-logo><div class="logo terminal-prompt"><a href=https://olaru.dk/ class="no-style site-name">iustinian-olaru</a>:~#
-<a href=https://olaru.dk/projects>projects</a>/<a href=https://olaru.dk/projects/behavior-lab-experiment>behavior-lab-experiment</a>/</div></header><nav class=terminal-menu><ul vocab="https://schema.org/" typeof="BreadcrumbList"><li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href=https://olaru.dk/><span property="name">~/</span></a>
-<meta property="position" content="1"></li><li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href=https://olaru.dk/projects/><span property="name">Projects</span></a>
-<meta property="position" content="2"></li><li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href=https://olaru.dk/about_me/><span property="name">About Me</span></a>
-<meta property="position" content="3"></li><li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href=https://olaru.dk/work/><span property="name">Philosophy</span></a>
-<meta property="position" content="4"></li><li><button class=theme-toggle id=theme-toggle title="Toggle Theme">[toggle_theme]</button></li></ul></nav></div></div><div class="container animated zoomIn fast"><h1>Experiment Orchestration App</h1><p><strong>Overview:</strong>
-As part of my internship at the Cognition and Behavior Laboratory in Aarhus, I was tasked with developing a software solution to test the hypothesis that people&rsquo;s heart rates synchronize during shared activities. The project involved participants engaging in both a game and a vocal task, with the aim of capturing synchronized biometric data.</p><p><strong>Challenges and Technical Hurdles:</strong>
-One of the key challenges was ensuring real-time data synchronization across multiple streams—heart rate monitors, Wii remotes, and audio recordings. The technology stack, which included C# and WPF, wasn’t inherently designed for high-throughput, low-latency applications, so I had to get creative.</p><p><strong>Action and Problem-Solving:</strong>
-To tackle these challenges, I implemented a custom solution to use the Wii remotes as input devices, translating their accelerometer data into cursor movement on the screen. I also designed a concurrent threading model to ensure that data from all sources was perfectly synchronized. For the audio recording, I integrated standard microphones, ensuring minimal latency despite the complex data environment.</p><p><strong>Skills and Innovations:</strong>
-This project showcased my ability to adapt and innovate under constraints. I leveraged my proficiency in C# and WPF to create a responsive, synchronized system, balancing the technical demands of real-time data with the limitations of the technology.</p><p><strong>Conclusion and Impact:</strong>
-While the experiment was not completed due to budget constraints, the project laid critical groundwork for future research. It highlighted my capacity to independently solve complex problems, innovate under constraints, and deliver high-quality technical solutions.</p><div class=footer>Powered by <a href=https://gohugo.io/>Hugo</a> with
-<a href=https://github.com/mrmierzejewski/hugo-theme-console/>Console Theme</a>.</div></div></body></html>
+One of the key challenges was ensuring real-time data synchronization across multiple streams—heart rate monitors, Wii remotes, and audio recordings. The technology stack, which included C# and WPF, wasn’t inherently designed for high-throughput, low-latency applications, so I had to get creative."/>
+
+<link rel='stylesheet' href='http://localhost:1313/css/hero.css' />
+<link rel='stylesheet' href='http://localhost:1313/css/tree.css' />
+<link rel='stylesheet' href='http://localhost:1313/css/custom-theme.css' />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="http://localhost:1313/js/theme-toggle.js"></script>
+</head>
+<body class="terminal">
+    <div class="container">
+        <div class="terminal-nav">
+          <header class="terminal-logo">
+            <div class="logo terminal-prompt">
+              
+              
+              <a href="http://localhost:1313/" class="no-style site-name">iustinian-olaru</a>:~# 
+              <a href='http://localhost:1313/projects'>projects</a>/<a href='http://localhost:1313/projects/behavior-lab-experiment'>behavior-lab-experiment</a>/</div></header>
+          <nav class="terminal-menu">
+            <ul vocab="https://schema.org/" typeof="BreadcrumbList">
+                
+                <li property="itemListElement" typeof="ListItem">
+                    <a property="item" typeof="WebPage" href="http://localhost:1313/">
+                    <span property="name">~/</span></a>
+                    <meta property="position" content="1" />
+                </li>
+                
+                <li property="itemListElement" typeof="ListItem">
+                    <a property="item" typeof="WebPage" href="http://localhost:1313/projects/">
+                    <span property="name">Projects</span></a>
+                    <meta property="position" content="2" />
+                </li>
+                
+                <li property="itemListElement" typeof="ListItem">
+                    <a property="item" typeof="WebPage" href="http://localhost:1313/about_me/">
+                    <span property="name">About Me</span></a>
+                    <meta property="position" content="3" />
+                </li>
+                
+                <li property="itemListElement" typeof="ListItem">
+                    <a property="item" typeof="WebPage" href="http://localhost:1313/work/">
+                    <span property="name">Philosophy</span></a>
+                    <meta property="position" content="4" />
+                </li>
+                
+                <li>
+                    <button class="theme-toggle" id="theme-toggle" title="Toggle Theme" aria-label="Toggle Theme"><i class="fa-solid fa-moon" aria-hidden="true"></i></button>
+                </li>
+            </ul>
+          </nav>
+        </div>
+    </div>
+
+    <div class="container animated zoomIn fast" >
+        
+<h1>Experiment Orchestration App</h1>
+<p><strong>Overview:</strong>
+As part of my internship at the Cognition and Behavior Laboratory in Aarhus, I was tasked with developing a software solution to test the hypothesis that people&rsquo;s heart rates synchronize during shared activities. The project involved participants engaging in both a game and a vocal task, with the aim of capturing synchronized biometric data.</p>
+<p><strong>Challenges and Technical Hurdles:</strong>
+One of the key challenges was ensuring real-time data synchronization across multiple streams—heart rate monitors, Wii remotes, and audio recordings. The technology stack, which included C# and WPF, wasn’t inherently designed for high-throughput, low-latency applications, so I had to get creative.</p>
+<p><strong>Action and Problem-Solving:</strong>
+To tackle these challenges, I implemented a custom solution to use the Wii remotes as input devices, translating their accelerometer data into cursor movement on the screen. I also designed a concurrent threading model to ensure that data from all sources was perfectly synchronized. For the audio recording, I integrated standard microphones, ensuring minimal latency despite the complex data environment.</p>
+<p><strong>Skills and Innovations:</strong>
+This project showcased my ability to adapt and innovate under constraints. I leveraged my proficiency in C# and WPF to create a responsive, synchronized system, balancing the technical demands of real-time data with the limitations of the technology.</p>
+<p><strong>Conclusion and Impact:</strong>
+While the experiment was not completed due to budget constraints, the project laid critical groundwork for future research. It highlighted my capacity to independently solve complex problems, innovate under constraints, and deliver high-quality technical solutions.</p>
+
+
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+    </div>
+  </body>
+</html>

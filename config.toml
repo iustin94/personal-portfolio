@@ -2,7 +2,7 @@ baseURL = "https://olaru.dk"
 languageCode = "en-us"
 title = "iustinian-olaru"
 theme="hugo-theme-console"
-publicDir = "docs"
+publishDir = "docs"
 
 [markup]
   [markup.goldmark]
@@ -39,6 +39,16 @@ publicDir = "docs"
   # Set the animation style -- https://animate.style/
   # To disable animations, remove/comment the animateStyle parameter
   animateStyle = "animated zoomIn fast"
+
+  [params.og]
+  title = "olaru.dk"
+  description = "Professional Problem Solver"
+  image = "/images/og.png"  # Image shown in previews (1200x630px recommended)
+
+#  [params.twitter]
+#  card = "summary_large_image"  # or "summary"
+#  site = "@yourhandle"
+#  creator = "@yourhandle"
 
   # Top navigation links
   [[params.navlinks]]
