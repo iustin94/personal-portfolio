@@ -1,0 +1,56 @@
+.hero-screenfetch {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    font-family: var(--mono-font-stack);
+    margin-bottom: 2rem;
+    line-height: 1.2;
+}
+
+.hero-screenfetch .ascii-art {
+    color: var(--primary-color);
+    white-space: pre;
+    margin-right: 2rem;
+    font-size: 0.9rem;
+}
+
+.hero-screenfetch .ascii-art pre {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+.hero-screenfetch .system-info {
+    flex: 1;
+    min-width: 300px;
+}
+
+.hero-screenfetch .info-line {
+    margin-bottom: 0.2rem;
+}
+
+.hero-screenfetch .info-label {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.hero-screenfetch .user-host {
+    color: var(--primary-color);
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.hero-screenfetch .separator {
+    margin-bottom: 0.5rem;
+}
+
+@media (max-width: 600px) {
+    .hero-screenfetch {
+        flex-direction: column;
+    }
+    .hero-screenfetch .ascii-art {
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+}

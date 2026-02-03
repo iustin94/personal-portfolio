@@ -1,0 +1,89 @@
+/* Default Variables based on system preference */
+:root {
+    /* These will be overridden by classes if set */
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #262626;
+        --font-color: #E2E8CE;
+        --primary-color: #FF7F11;
+        --secondary-color: #ACBFA4;
+        --tertiary-color: #ACBFA4;
+        --error-color: #FF7F11;
+        --progress-bar-background: #262626;
+        --progress-bar-fill: #FF7F11;
+        --code-bg-color: #262626;
+        --invert-font-color: #262626;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --background-color: #E2E8CE;
+        --font-color: #262626;
+        --primary-color: #FF7F11;
+        --secondary-color: #ACBFA4;
+        --tertiary-color: #ACBFA4;
+        --error-color: #FF7F11;
+        --progress-bar-background: #ACBFA4;
+        --progress-bar-fill: #262626;
+        --code-bg-color: #ACBFA4;
+        --invert-font-color: #E2E8CE;
+    }
+}
+
+/* Manual Overrides */
+body.dark-mode {
+    --background-color: #262626;
+    --font-color: #E2E8CE;
+    --primary-color: #FF7F11;
+    --secondary-color: #ACBFA4;
+    --tertiary-color: #ACBFA4;
+    --error-color: #FF7F11;
+    --progress-bar-background: #262626;
+    --progress-bar-fill: #FF7F11;
+    --code-bg-color: #262626;
+    --invert-font-color: #262626;
+}
+
+body.light-mode {
+    --background-color: #E2E8CE;
+    --font-color: #262626;
+    --primary-color: #FF7F11;
+    --secondary-color: #6e7a69;
+    --tertiary-color: #6e7a69;
+    --error-color: #FF7F11;
+    --progress-bar-background: #ACBFA4;
+    --progress-bar-fill: #262626;
+    --code-bg-color: #ACBFA4;
+    --invert-font-color: #E2E8CE;
+}
+
+.theme-toggle {
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: var(--font-color);
+    font-family: var(--mono-font-stack);
+    font-size: var(--global-font-size);
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.theme-toggle:hover {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+/* Bolder breadcrumbs in the same style as hero labels */
+.terminal-logo .logo a,
+.terminal-logo .logo {
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.terminal-logo .logo a:hover {
+    text-decoration: underline;
+}
