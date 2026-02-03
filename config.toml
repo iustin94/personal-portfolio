@@ -1,0 +1,57 @@
+baseURL = "https://olaru.dk"
+languageCode = "en-us"
+title = "iustinian-olaru"
+theme="hugo-theme-console"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true
+
+  [markup.highlight]
+    anchorLineNos      = false
+    codeFences         = true
+    guessSyntax        = false
+    hl_Lines           = ''
+    hl_inline          = false
+    lineAnchors        = ''
+    lineNoStart        = 1
+    lineNos            = false
+    lineNumbersInTable = true
+    noClasses          = true
+    noHl               = false
+    style              = 'rrt'
+    tabWidth           = 4
+
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel   = 3
+    ordered    = false
+
+[params]
+  # hugo-theme-console specific parameters
+  # Cutting off the page title to two chars for mobile (e.g., Personal Profile -> Pe)
+  titleCutting = true
+
+  # Set the animation style -- https://animate.style/
+  # To disable animations, remove/comment the animateStyle parameter
+  animateStyle = "animated zoomIn fast"
+
+  # Top navigation links
+  [[params.navlinks]]
+  name = "~/"
+  url = ""
+
+  [[params.navlinks]]
+  name = "Projects"
+  url = "projects/"
+
+  [[params.navlinks]]
+  name = "About Me"
+  url = "about_me/"
+
+  [[params.navlinks]]
+  name = "Philosophy"
+  url = "work/"

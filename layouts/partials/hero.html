@@ -1,0 +1,21 @@
+<div class="hero-screenfetch">
+  <div class="ascii-art" aria-hidden="true">
+  <pre>
+    ██╗ ██████╗
+    ██║██╔═══██╗
+    ██║██║   ██║
+    ██║██║   ██║
+    ██║╚██████╔╝
+    ╚═╝ ╚═════╝
+  </pre>
+  </div>
+  <div class="system-info">
+    {{ with .Site.GetPage "/hero" }}
+      {{ range .Pages.ByWeight }}
+        <div class="info-line">
+          <span class="info-label">{{ .Title }}</span>: {{ .Plain }}
+        </div>
+      {{ end }}
+    {{ end }}
+  </div>
+</div>

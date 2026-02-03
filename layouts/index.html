@@ -1,0 +1,19 @@
+{{ define "main" }}
+
+{{ partial "hero.html" . }}
+
+<!--<h1>Latest projects</h1>-->
+
+<!--<div class="posts-list">-->
+<!--{{ with .Site.GetPage "/projects" }}-->
+<!--    {{ range first 3 (sort .Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}-->
+<!--        <div class="post">-->
+<!--            <div class="date">{{ .Date | time.Format ":date_medium" }}</div>-->
+<!--            <h2 class="post-title"><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h2>-->
+<!--            <p>{{ .Summary }}</p>-->
+<!--        </div>    -->
+<!--    {{ end }}-->
+<!--{{ end }}-->
+<!--</div>-->
+
+{{ end }}

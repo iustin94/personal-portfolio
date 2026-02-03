@@ -1,0 +1,11 @@
+[[entries]]
+title = "Home"
+url = "/"
+
+[[entries]]
+title = "Posts"
+url = "/posts"
+
+[[entries]]
+title = "About"
+url = "/about"

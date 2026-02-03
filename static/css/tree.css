@@ -1,0 +1,38 @@
+.folder-tree {
+  font-family: var(--mono-font-stack);
+  white-space: pre-wrap;
+  line-height: 1.4;
+  margin: 0.5rem 0 1.5rem;
+}
+
+.folder-tree a {
+  color: var(--font-color);
+  text-decoration: none;
+}
+
+.folder-tree a:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+.project-tags {
+  color: var(--secondary-color);
+  font-size: 0.9em;
+  opacity: 0.8;
+}
+
+/* Optional subtle tint for the branch glyphs */
+.folder-tree {
+  color: var(--secondary-color);
+}
+
+.folder-tree a {
+  /* reset color for link text so only branch glyphs are tinted */
+  color: var(--font-color);
+}
+
+/* Ensure the projects list <pre> background follows the active theme */
+pre.folder-tree {
+  background-color: var(--background-color) !important;
+  border-color: var(--secondary-color);
+}

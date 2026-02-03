@@ -1,0 +1,19 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+
+<pre class="folder-tree">
+{{- $pages := where .Pages ".Params.private" "!=" true -}}
+{{- $pages = sort $pages "Title" -}}
+{{- $last := sub (len $pages) 1 -}}
+{{- range $i, $p := $pages }}
+{{- $connector := "├──" -}}
+{{- $spacer := "│  " -}}
+{{- if eq $i $last -}}
+  {{- $connector = "└──" -}}
+  {{- $spacer = "   " -}}
+{{- end -}}
+{{ $connector }} <a href="{{ $p.RelPermalink }}" title="{{ $p.Title }}">{{ $p.Title }}</a>
+{{ $spacer }}<span class="project-tags">[{{ $p.Params.type }}] {{ with $p.Params.languages }}{{ delimit . ", " }}{{ end }}{{ with $p.Params.domains }} | {{ delimit . ", " }}{{ end }}</span>
+{{ end -}}
+</pre>
+{{ end }}
