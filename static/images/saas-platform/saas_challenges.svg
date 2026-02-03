@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 800 450"
+   version="1.1"
+   id="svg18"
+   sodipodi:docname="saas_challenges.svg"
+   inkscape:version="1.4.3 (fcd0343856, 2026-01-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview18"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.8045542"
+     inkscape:cx="403.45093"
+     inkscape:cy="197.53585"
+     inkscape:window-width="2560"
+     inkscape:window-height="1374"
+     inkscape:window-x="2560"
+     inkscape:window-y="29"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg18" />
+  <defs
+     id="defs1">
+    <style
+       id="style1">
+      .title { font-family: Arial, sans-serif; font-size: 22px; font-weight: bold; fill: #1a1a1a; }
+      .challenge-title { font-family: Arial, sans-serif; font-size: 13px; font-weight: bold; fill: #fff; }
+    </style>
+  </defs>
+  <!-- Title -->
+  <!-- Center: The Platform -->
+  <circle
+     cx="400"
+     cy="240"
+     r="70"
+     fill="#7c3aed"
+     stroke="none"
+     id="circle1" />
+  <text
+     x="400"
+     y="235"
+     text-anchor="middle"
+     style="font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; fill: white;"
+     id="text2">SaaS</text>
+  <text
+     x="400"
+     y="255"
+     text-anchor="middle"
+     style="font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; fill: white;"
+     id="text3">Platform</text>
+  <!-- Challenge 1: Multi-tenant Architecture -->
+  <g
+     transform="translate(100, 80)"
+     id="g6">
+    <rect
+       width="180"
+       height="70"
+       rx="8"
+       fill="#3b82f6"
+       stroke="none"
+       id="rect3" />
+    <text
+       x="90"
+       y="25"
+       text-anchor="middle"
+       class="challenge-title"
+       id="text4">Multi-Tenant</text>
+    <text
+       x="90"
+       y="43"
+       text-anchor="middle"
+       class="challenge-title"
+       id="text5">Architecture</text>
+    <text
+       x="90"
+       y="60"
+       text-anchor="middle"
+       style="font-family: Arial, sans-serif; font-size: 10px; fill: white;"
+       id="text6">Isolation  scalability</text>
+  </g>
+  <path
+     d="m 280.22913,150.6299 49.83106,42.44198"
+     stroke="#cbd5e1"
+     stroke-width="1.09933"
+     fill="none"
+     stroke-dasharray="3, 3"
+     id="path6"
+     style="fill:none;fill-opacity:1;stroke:#9042ff;stroke-opacity:1;stroke-dasharray:3.00600302,3.00600302;stroke-dashoffset:0;stroke-width:1.10152973" />
+  <!-- Challenge 2: Domain Model -->
+  <g
+     transform="translate(520, 80)"
+     id="g9">
+    <rect
+       width="180"
+       height="70"
+       rx="8"
+       fill="#8b5cf6"
+       stroke="none"
+       id="rect6" />
+    <text
+       x="90"
+       y="25"
+       text-anchor="middle"
+       class="challenge-title"
+       id="text7">Financial Domain</text>
+    <text
+       x="90"
+       y="43"
+       text-anchor="middle"
+       class="challenge-title"
+       id="text8">Model</text>
+    <text
+       x="90"
+       y="60"
+       text-anchor="middle"
+       style="font-family: Arial, sans-serif; font-size: 10px; fill: white;"
+       id="text9">SOLID  extensible</text>
+  </g>
+  <path
+     d="m 519.8459,150.71837 -55.91451,39.32095"
+     stroke="#cbd5e1"
+     stroke-width="1.12087"
+     fill="none"
+     stroke-dasharray="3, 3"
+     id="path9"
+     style="fill:none;fill-opacity:1;stroke:#9042ff;stroke-opacity:1;stroke-dasharray:3.0649019,3.0649019;stroke-dashoffset:0;stroke-width:1.12311291" />
+  <!-- Challenge 3: Data Integrity -->
+  <g
+     transform="translate(100, 200)"
+     id="g11">
+    <rect
+       width="180"
+       height="70"
+       rx="8"
+       fill="#10b981"
+       stroke="none"
+       id="rect9" />
+    <text
+       x="90"
+       y="25"
+       text-anchor="middle"
+       class="challenge-title"
+       id="text10">Data Integrity</text>
+    <text
+       x="90"
+       y="50"
+       text-anchor="middle"
+       style="font-family: Arial, sans-serif; font-size: 10px; fill: white;"
+       id="text11">Linked accounting entities</text>
+  </g>
+  <path
+     d="m 289.67883,239.2409 29.88423,1.41809"
+     stroke="#cbd5e1"
+     stroke-width="0.823441"
+     fill="none"
+     stroke-dasharray="3, 3"
+     id="path11"
+     style="fill:none;fill-opacity:1;stroke:#9042ff;stroke-opacity:1;stroke-dasharray:2.2516135,2.2516135;stroke-dashoffset:0;stroke-width:0.82508873" />
+  <!-- Challenge 4: Cost Optimization -->
+  <g
+     transform="translate(520, 200)"
+     id="g13">
+    <rect
+       width="180"
+       height="70"
+       rx="8"
+       fill="#f59e0b"
+       stroke="none"
+       id="rect11" />
+    <text
+       x="90"
+       y="25"
+       text-anchor="middle"
+       class="challenge-title"
+       id="text12">Cost Optimization</text>
+    <text
+       x="90"
+       y="50"
+       text-anchor="middle"
+       style="font-family: Arial, sans-serif; font-size: 10px; fill: white;"
+       id="text13">Self-hosted infrastructure</text>
+  </g>
+  <path
+     d="m 511.71428,234.97433 -33.3989,5.05173"
+     stroke="#cbd5e1"
+     stroke-width="1.64303"
+     fill="none"
+     stroke-dasharray="3, 3"
+     id="path13"
+     style="fill:none;fill-opacity:1;stroke:#9042ff;stroke-opacity:1;stroke-dasharray:4.49269412,4.49269412;stroke-dashoffset:0;stroke-width:1.64631778" />
+  <!-- Challenge 5: Version Migration -->
+  <g
+     transform="translate(100, 320)"
+     id="g15">
+    <rect
+       width="180"
+       height="70"
+       rx="8"
+       fill="#ec4899"
+       stroke="none"
+       id="rect13" />
+    <text
+       x="90"
+       y="25"
+       text-anchor="middle"
+       class="challenge-title"
+       id="text14">.NET Migration</text>
+    <text
+       x="90"
+       y="50"
+       text-anchor="middle"
+       style="font-family: Arial, sans-serif; font-size: 10px; fill: white;"
+       id="text15">.NET 7 → 8 → 9 → 10</text>
+  </g>
+  <path
+     d="m 280.20609,319.58214 57.22097,-34.78233"
+     stroke="#cbd5e1"
+     stroke-width="0.901307"
+     fill="none"
+     stroke-dasharray="3, 3"
+     id="path15"
+     style="fill:none;fill-opacity:1;stroke:#9042ff;stroke-opacity:1;stroke-dasharray:2.46452991,2.46452991;stroke-dashoffset:0;stroke-width:0.90311048" />
+  <!-- Challenge 6: GDPR Compliance -->
+  <g
+     transform="translate(520, 320)"
+     id="g17">
+    <rect
+       width="180"
+       height="70"
+       rx="8"
+       fill="#06b6d4"
+       stroke="none"
+       id="rect15" />
+    <text
+       x="90"
+       y="25"
+       text-anchor="middle"
+       class="challenge-title"
+       id="text16">GDPR Compliance</text>
+    <text
+       x="90"
+       y="50"
+       text-anchor="middle"
+       style="font-family: Arial, sans-serif; font-size: 10px; fill: white;"
+       id="text17">Data privacy  control</text>
+  </g>
+  <path
+     d="M 511.89581,317.42115 470.15944,291.09644"
+     stroke="#cbd5e1"
+     stroke-width="0.669663"
+     fill="none"
+     stroke-dasharray="3, 3"
+     id="path17"
+     style="fill:none;fill-opacity:1;stroke:#9042ff;stroke-opacity:1;stroke-dasharray:1.83112362,1.83112362;stroke-dashoffset:0;stroke-width:0.671003" />
+  <!-- Footer -->
+  <rect
+     x="150"
+     y="415"
+     width="500"
+     height="25"
+     rx="6"
+     fill="#f1f5f9"
+     stroke="none"
+     id="rect17" />
+  <text
+     x="400"
+     y="432"
+     text-anchor="middle"
+     style="font-family: Arial, sans-serif; font-size: 11px; fill: #64738b; font-weight: 600;"
+     id="text18">
+    Balancing rigor across all domains without over-engineering
+  </text>
+</svg>

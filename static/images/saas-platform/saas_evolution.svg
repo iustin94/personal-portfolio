@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 800 350"
+   version="1.1"
+   id="svg22"
+   sodipodi:docname="saas_evolution.svg"
+   inkscape:version="1.4.3 (fcd0343856, 2026-01-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview22"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.3189568"
+     inkscape:cx="472.72207"
+     inkscape:cy="320.708"
+     inkscape:window-width="2560"
+     inkscape:window-height="1374"
+     inkscape:window-x="2560"
+     inkscape:window-y="29"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg22" />
+  <defs
+     id="defs1">
+    <style
+       id="style1">
+      .title { font-family: Arial, sans-serif; font-size: 20px; font-weight: bold; fill: #1a1a1a; }
+      .phase-label { font-family: Arial, sans-serif; font-size: 14px; font-weight: 600; }
+    </style>
+  </defs>
+  <!-- Title -->
+  <!-- Timeline -->
+  <line
+     x1="100"
+     y1="180"
+     x2="700"
+     y2="180"
+     stroke="#cbd5e1"
+     stroke-width="4"
+     id="line1" />
+  <!-- Phase 1: Concept -->
+  <circle
+     cx="150"
+     cy="180"
+     r="50"
+     fill="#3b82f6"
+     stroke="none"
+     id="circle1" />
+  <text
+     x="150"
+     y="175"
+     text-anchor="middle"
+     style="font-family: Arial, sans-serif; font-size: 28px;"
+     id="text2">💡</text>
+  <text
+     x="150"
+     y="205"
+     text-anchor="middle"
+     class="phase-label"
+     fill="white"
+     id="text3">Concept</text>
+  <text
+     x="150"
+     y="260"
+     text-anchor="middle"
+     style="font-family: Arial, sans-serif; font-size: 11px; fill: #64738b;"
+     id="text4">Market research</text>
+  <text
+     x="150"
+     y="277"
+     text-anchor="middle"
+     style="font-family: Arial, sans-serif; font-size: 11px; fill: #64738b;"
+     id="text5">Initial design</text>
+  <!-- Phase 2: Architecture -->
+  <circle
+     cx="300"
+     cy="180"
+     r="50"
+     fill="#8b5cf6"
+     stroke="none"
+     id="circle5" />
+  <text
+     x="300"
+     y="175"
+     text-anchor="middle"
+     style="font-family: Arial, sans-serif; font-size: 28px;"
+     id="text6">🏗️</text>
+  <text
+     x="300"
+     y="205"
+     text-anchor="middle"
+     class="phase-label"
+     fill="white"
+     id="text7">Iterations</text>
+  <text
+     x="300"
+     y="260"
+     text-anchor="middle"
+     style="font-family: Arial, sans-serif; font-size: 11px; fill: #64738b;"
+     id="text8">Multiple rewrites</text>
+  <text
+     x="300"
+     y="277"
+     text-anchor="middle"
+     style="font-family: Arial, sans-serif; font-size: 11px; fill: #64738b;"
+     id="text9">Domain refinement</text>
+  <!-- Phase 3: Prototype -->
+  <circle
+     cx="450"
+     cy="180"
+     r="50"
+     fill="#7c3aed"
+     stroke="none"
+     id="circle9" />
+  <text
+     x="450"
+     y="175"
+     text-anchor="middle"
+     style="font-family: Arial, sans-serif; font-size: 28px;"
+     id="text10">⚙️</text>
+  <text
+     x="450"
+     y="205"
+     text-anchor="middle"
+     class="phase-label"
+     fill="white"
+     id="text11">Prototype</text>
+  <text
+     x="450"
+     y="260"
+     text-anchor="middle"
+     style="font-family: Arial, sans-serif; font-size: 11px; fill: #64738b;"
+     id="text12">Stable foundation</text>
+  <text
+     x="450"
+     y="277"
+     text-anchor="middle"
+     style="font-family: Arial, sans-serif; font-size: 11px; fill: #64738b;"
+     id="text13">Core features</text>
+  <!-- Phase 4: Commercial -->
+  <circle
+     cx="600"
+     cy="180"
+     r="50"
+     fill="#10b981"
+     stroke="none"
+     id="circle13" />
+  <text
+     x="600"
+     y="175"
+     text-anchor="middle"
+     style="font-family: Arial, sans-serif; font-size: 28px;"
+     id="text14">🚀</text>
+  <text
+     x="600"
+     y="205"
+     text-anchor="middle"
+     class="phase-label"
+     fill="white"
+     id="text15">Commercial</text>
+  <text
+     x="600"
+     y="260"
+     text-anchor="middle"
+     style="font-family: Arial, sans-serif; font-size: 11px; fill: #64738b;"
+     id="text16">Product ready</text>
+  <text
+     x="600"
+     y="277"
+     text-anchor="middle"
+     style="font-family: Arial, sans-serif; font-size: 11px; fill: #64738b;"
+     id="text17">Market launch</text>
+  <!-- Timeline Labels -->
+  <text
+     x="150"
+     y="110"
+     text-anchor="middle"
+     style="font-family: Arial, sans-serif; font-size: 11px; fill: #64738b; font-style: italic;"
+     id="text18">Year 1</text>
+  <text
+     x="300"
+     y="110"
+     text-anchor="middle"
+     style="font-family: Arial, sans-serif; font-size: 11px; fill: #64738b; font-style: italic;"
+     id="text19">Years 2-3</text>
+  <text
+     x="450"
+     y="110"
+     text-anchor="middle"
+     style="font-family: Arial, sans-serif; font-size: 11px; fill: #64738b; font-style: italic;"
+     id="text20">Year 4</text>
+  <text
+     x="600"
+     y="110"
+     text-anchor="middle"
+     style="font-family: Arial, sans-serif; font-size: 11px; fill: #64738b; font-style: italic;"
+     id="text21">Ongoing</text>
+  <!-- Footer -->
+  <rect
+     x="150"
+     y="310"
+     width="500"
+     height="30"
+     rx="6"
+     fill="#f1f5f9"
+     stroke="none"
+     id="rect21" />
+  <text
+     x="400"
+     y="332"
+     text-anchor="middle"
+     style="font-family: Arial, sans-serif; font-size: 12px; fill: #64738b; font-weight: 600;"
+     id="text22">
+    Multi-year entrepreneurial project grounded in principled engineering
+  </text>
+</svg>

@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 800 400"
+   version="1.1"
+   id="svg16"
+   sodipodi:docname="proteomics_problem.svg"
+   inkscape:version="1.4.3 (fcd0343856, 2026-01-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview16"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.53466"
+     inkscape:cx="429.73688"
+     inkscape:cy="357.73396"
+     inkscape:window-width="2560"
+     inkscape:window-height="1374"
+     inkscape:window-x="2560"
+     inkscape:window-y="29"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg16" />
+  <defs
+     id="defs1">
+    <style
+       id="style1">
+      .title { font-family: Arial, sans-serif; font-size: 22px; font-weight: bold; fill: #1a1a1a; }
+      .section-title { font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; }
+    </style>
+  </defs>
+  <!-- Title -->
+  <!-- Current Practice -->
+  <rect
+     x="50"
+     y="70"
+     width="320"
+     height="280"
+     rx="10"
+     fill="#fee2e2"
+     stroke="none"
+     id="rect1" />
+  <text
+     x="210"
+     y="100"
+     text-anchor="middle"
+     class="section-title"
+     fill="#dc2626"
+     id="text2">Current Practice</text>
+  <!-- Published paper -->
+  <rect
+     x="100"
+     y="130"
+     width="220"
+     height="60"
+     rx="8"
+     fill="#ef4444"
+     stroke="none"
+     id="rect2" />
+  <text
+     x="210"
+     y="150"
+     text-anchor="middle"
+     style="font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: white;"
+     id="text3">📄 Published Paper</text>
+  <text
+     x="210"
+     y="170"
+     text-anchor="middle"
+     style="font-family: Arial, sans-serif; font-size: 11px; fill: white;"
+     id="text4">Results  Conclusions</text>
+  <!-- Black box -->
+  <rect
+     x="100"
+     y="210"
+     width="220"
+     height="80"
+     rx="8"
+     fill="#991b1b"
+     stroke="none"
+     id="rect4" />
+  <text
+     x="210"
+     y="240"
+     text-anchor="middle"
+     style="font-family: Arial, sans-serif; font-size: 40px;"
+     id="text5">❓</text>
+  <text
+     x="210"
+     y="270"
+     text-anchor="middle"
+     style="font-family: Arial, sans-serif; font-size: 13px; font-weight: bold; fill: white;"
+     id="text6">Black Box</text>
+  <text
+     x="210"
+     y="320"
+     text-anchor="middle"
+     style="font-family: Arial, sans-serif; font-size: 12px; fill: #991b1b; font-weight: 600;"
+     id="text7">No way to verify</text>
+  <text
+     x="210"
+     y="338"
+     text-anchor="middle"
+     style="font-family: Arial, sans-serif; font-size: 12px; fill: #991b1b; font-weight: 600;"
+     id="text8">No way to reproduce</text>
+  <!-- Arrow -->
+  <path
+     d="M 385 210 L 415 210"
+     stroke="#7c3aed"
+     stroke-width="5"
+     fill="none"
+     id="path8" />
+  <path
+     d="M 410 203 L 420 210 L 410 217 Z"
+     fill="#7c3aed"
+     id="path9" />
+  <!-- Open Science -->
+  <rect
+     x="430"
+     y="70"
+     width="320"
+     height="280"
+     rx="10"
+     fill="#d1fae5"
+     stroke="none"
+     id="rect9" />
+  <text
+     x="590"
+     y="100"
+     text-anchor="middle"
+     class="section-title"
+     fill="#059669"
+     id="text9">Open Science</text>
+  <!-- Published paper -->
+  <rect
+     x="480"
+     y="130"
+     width="220"
+     height="60"
+     rx="8"
+     fill="#10b981"
+     stroke="none"
+     id="rect10" />
+  <text
+     x="590"
+     y="150"
+     text-anchor="middle"
+     style="font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: white;"
+     id="text10">📄 Published Paper</text>
+  <text
+     x="590"
+     y="170"
+     text-anchor="middle"
+     style="font-family: Arial, sans-serif; font-size: 11px; fill: white;"
+     id="text11">Results  Conclusions</text>
+  <!-- Transparent pipeline -->
+  <g
+     transform="translate(480, 210)"
+     id="g12">
+    <rect
+       width="220"
+       height="25"
+       rx="4"
+       fill="rgba(16, 185, 129, 0.4)"
+       stroke="none"
+       id="rect11" />
+    <text
+       x="110"
+       y="17"
+       text-anchor="middle"
+       style="font-family: Arial, sans-serif; font-size: 10px; fill: #047857; font-weight: 600;"
+       id="text12">📊 Data</text>
+  </g>
+  <path
+     d="M 590 240 L 590 245"
+     stroke="#047857"
+     stroke-width="2"
+     fill="none"
+     id="path12" />
+  <g
+     transform="translate(480, 250)"
+     id="g13">
+    <rect
+       width="220"
+       height="25"
+       rx="4"
+       fill="rgba(16, 185, 129, 0.5)"
+       stroke="none"
+       id="rect12" />
+    <text
+       x="110"
+       y="17"
+       text-anchor="middle"
+       style="font-family: Arial, sans-serif; font-size: 10px; fill: #047857; font-weight: 600;"
+       id="text13">⚙️ Pipeline Code</text>
+  </g>
+  <path
+     d="M 590 280 L 590 285"
+     stroke="#047857"
+     stroke-width="2"
+     fill="none"
+     id="path13" />
+  <g
+     transform="translate(480, 290)"
+     id="g14">
+    <rect
+       width="220"
+       height="25"
+       rx="4"
+       fill="rgba(16, 185, 129, 0.6)"
+       stroke="none"
+       id="rect13" />
+    <text
+       x="110"
+       y="17"
+       text-anchor="middle"
+       style="font-family: Arial, sans-serif; font-size: 10px; fill: #047857; font-weight: 600;"
+       id="text14">📋 Documentation</text>
+  </g>
+  <text
+     x="590"
+     y="338"
+     text-anchor="middle"
+     style="font-family: Arial, sans-serif; font-size: 12px; fill: #047857; font-weight: 600;"
+     id="text15">✓ Fully reproducible</text>
+  <!-- Footer -->
+  <rect
+     x="200"
+     y="365"
+     width="400"
+     height="25"
+     rx="6"
+     fill="#f1f5f9"
+     stroke="none"
+     id="rect15" />
+  <text
+     x="400"
+     y="382"
+     text-anchor="middle"
+     style="font-family: Arial, sans-serif; font-size: 11px; fill: #64738b; font-weight: 600;"
+     id="text16">
+    Making computational biology transparent and verifiable
+  </text>
+</svg>

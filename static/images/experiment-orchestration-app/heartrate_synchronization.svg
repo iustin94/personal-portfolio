@@ -1,0 +1,67 @@
+<svg viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font-family: Arial, sans-serif; font-size: 22px; font-weight: bold; fill: #1a1a1a; }
+      .stream-title { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: #fff; }
+      .label { font-family: Arial, sans-serif; font-size: 11px; fill: #fff; }
+    </style>
+  </defs>
+  
+  <!-- Title -->
+  <text x="400" y="35" text-anchor="middle" class="title">Real-Time Multi-Stream Synchronization</text>
+  
+  <!-- Data Streams -->
+  <g id="streams">
+    <!-- Heart Rate Stream -->
+    <rect x="80" y="80" width="180" height="80" rx="8" fill="#ef4444" stroke="none"/>
+    <text x="170" y="110" text-anchor="middle" class="stream-title">❤️ Heart Rate</text>
+    <text x="170" y="130" text-anchor="middle" class="label">Biometric monitors</text>
+    <text x="170" y="145" text-anchor="middle" class="label">Multiple participants</text>
+    
+    <!-- Wii Remote Stream -->
+    <rect x="280" y="80" width="180" height="80" rx="8" fill="#3b82f6" stroke="none"/>
+    <text x="370" y="110" text-anchor="middle" class="stream-title">🎮 Wii Remotes</text>
+    <text x="370" y="130" text-anchor="middle" class="label">Accelerometer data</text>
+    <text x="370" y="145" text-anchor="middle" class="label">Motion tracking</text>
+    
+    <!-- Audio Stream -->
+    <rect x="480" y="80" width="180" height="80" rx="8" fill="#8b5cf6" stroke="none"/>
+    <text x="570" y="110" text-anchor="middle" class="stream-title">🎤 Audio</text>
+    <text x="570" y="130" text-anchor="middle" class="label">Voice recordings</text>
+    <text x="570" y="145" text-anchor="middle" class="label">Vocal task data</text>
+  </g>
+  
+  <!-- Convergence arrows -->
+  <path d="M 170 160 L 170 220" stroke="#cbd5e1" stroke-width="4" fill="none"/>
+  <path d="M 370 160 L 370 220" stroke="#cbd5e1" stroke-width="4" fill="none"/>
+  <path d="M 570 160 L 570 220" stroke="#cbd5e1" stroke-width="4" fill="none"/>
+  
+  <path d="M 165 215 L 170 225 L 175 215 Z" fill="#cbd5e1"/>
+  <path d="M 365 215 L 370 225 L 375 215 Z" fill="#cbd5e1"/>
+  <path d="M 565 215 L 570 225 L 575 215 Z" fill="#cbd5e1"/>
+  
+  <!-- Synchronization Engine -->
+  <rect x="180" y="230" width="380" height="100" rx="12" fill="#7c3aed" stroke="none"/>
+  <text x="370" y="260" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; fill: white;">Synchronization Engine</text>
+  <text x="370" y="285" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 12px; fill: white;">Custom concurrent threading model</text>
+  <text x="370" y="305" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 12px; fill: white;">Real-time timestamp alignment</text>
+  
+  <!-- Output arrow -->
+  <path d="M 370 330 L 370 380" stroke="#10b981" stroke-width="4" fill="none"/>
+  <path d="M 365 375 L 370 385 L 375 375 Z" fill="#10b981"/>
+  
+  <!-- Synchronized Output -->
+  <rect x="180" y="390" width="380" height="50" rx="8" fill="#10b981" stroke="none"/>
+  <text x="370" y="423" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 15px; font-weight: bold; fill: white;">📊 Synchronized Dataset</text>
+  
+  <!-- Challenge badges -->
+  <g transform="translate(80, 360)">
+    <rect width="100" height="30" rx="6" fill="#fef3c7" stroke="none"/>
+    <text x="50" y="20" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 10px; fill: #92400e; font-weight: 600;">Low latency</text>
+  </g>
+  
+  <g transform="translate(560, 360)">
+    <rect width="100" height="30" rx="6" fill="#fef3c7" stroke="none"/>
+    <text x="50" y="20" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 10px; fill: #92400e; font-weight: 600;">High precision</text>
+  </g>
+</svg>

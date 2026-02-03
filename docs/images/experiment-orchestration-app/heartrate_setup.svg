@@ -1,0 +1,62 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font-family: Arial, sans-serif; font-size: 22px; font-weight: bold; fill: #1a1a1a; }
+      .section-title { font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; }
+      .task-label { font-family: Arial, sans-serif; font-size: 13px; font-weight: 600; }
+    </style>
+  </defs>
+  
+  <!-- Title -->
+  <text x="400" y="35" text-anchor="middle" class="title">Experimental Setup</text>
+  
+  <!-- Hypothesis Box -->
+  <rect x="150" y="60" width="500" height="50" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="400" y="90" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: #1e40af;">
+    Hypothesis: Heart rates synchronize during shared activities
+  </text>
+  
+  <!-- Activity 1: Game -->
+  <rect x="80" y="150" width="300" height="200" rx="10" fill="#d1fae5" stroke="none"/>
+  <text x="230" y="180" text-anchor="middle" class="section-title" fill="#059669">🎮 Game Activity</text>
+  
+  <!-- Participants -->
+  <g transform="translate(110, 200)">
+    <circle cx="60" cy="30" r="25" fill="#10b981" stroke="none"/>
+    <text x="60" y="38" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 24px;">👤</text>
+    <text x="60" y="70" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 11px; fill: #047857; font-weight: 600;">Participant A</text>
+    
+    <circle cx="180" cy="30" r="25" fill="#10b981" stroke="none"/>
+    <text x="180" y="38" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 24px;">👤</text>
+    <text x="180" y="70" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 11px; fill: #047857; font-weight: 600;">Participant B</text>
+  </g>
+  
+  <!-- Wii remote -->
+  <rect x="150" y="290" width="160" height="40" rx="6" fill="rgba(16, 185, 129, 0.3)" stroke="none"/>
+  <text x="230" y="315" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 11px; fill: #047857; font-weight: 600;">Wii Remote input</text>
+  
+  <!-- Activity 2: Vocal -->
+  <rect x="420" y="150" width="300" height="200" rx="10" fill="#fef3c7" stroke="none"/>
+  <text x="570" y="180" text-anchor="middle" class="section-title" fill="#92400e">🎤 Vocal Task</text>
+  
+  <!-- Participants -->
+  <g transform="translate(450, 200)">
+    <circle cx="60" cy="30" r="25" fill="#f59e0b" stroke="none"/>
+    <text x="60" y="38" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 24px;">👤</text>
+    <text x="60" y="70" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 11px; fill: #92400e; font-weight: 600;">Participant A</text>
+    
+    <circle cx="180" cy="30" r="25" fill="#f59e0b" stroke="none"/>
+    <text x="180" y="38" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 24px;">👤</text>
+    <text x="180" y="70" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 11px; fill: #92400e; font-weight: 600;">Participant B</text>
+  </g>
+  
+  <!-- Microphone -->
+  <rect x="490" y="290" width="160" height="40" rx="6" fill="rgba(245, 158, 11, 0.3)" stroke="none"/>
+  <text x="570" y="315" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 11px; fill: #92400e; font-weight: 600;">Audio recording</text>
+  
+  <!-- Continuous monitoring banner -->
+  <rect x="200" y="365" width="400" height="25" rx="6" fill="#7c3aed" stroke="none"/>
+  <text x="400" y="382" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 11px; fill: #fff; font-weight: 600;">
+    ❤️ Continuous heart rate monitoring during both activities
+  </text>
+</svg>

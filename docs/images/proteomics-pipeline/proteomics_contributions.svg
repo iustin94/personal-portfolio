@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 800 450"
+   version="1.1"
+   id="svg19"
+   sodipodi:docname="proteomics_contributions.svg"
+   inkscape:version="1.4.3 (fcd0343856, 2026-01-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview19"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.5177769"
+     inkscape:cx="406.18617"
+     inkscape:cy="281.33252"
+     inkscape:window-width="2560"
+     inkscape:window-height="1374"
+     inkscape:window-x="2560"
+     inkscape:window-y="29"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg19" />
+  <defs
+     id="defs1">
+    <style
+       id="style1">
+      .title { font-family: Arial, sans-serif; font-size: 22px; font-weight: bold; fill: #1a1a1a; }
+      .component-title { font-family: Arial, sans-serif; font-size: 15px; font-weight: bold; fill: #fff; }
+    </style>
+  </defs>
+  <!-- Title -->
+  <!-- Technical Contribution -->
+  <rect
+     x="80"
+     y="70"
+     width="300"
+     height="300"
+     rx="10"
+     fill="#dbeafe"
+     stroke="none"
+     id="rect1" />
+  <text
+     x="230"
+     y="105"
+     text-anchor="middle"
+     style="font-family: Arial, sans-serif; font-size: 18px; font-weight: bold; fill: #1e40af;"
+     id="text2">💻 Technical</text>
+  <g
+     transform="translate(110, 135)"
+     id="g4">
+    <rect
+       width="240"
+       height="55"
+       rx="8"
+       fill="#3b82f6"
+       stroke="none"
+       id="rect2" />
+    <text
+       x="120"
+       y="20"
+       text-anchor="middle"
+       class="component-title"
+       font-size="14"
+       id="text3">Pipeline Implementation</text>
+    <text
+       x="120"
+       y="38"
+       text-anchor="middle"
+       style="font-family: Arial, sans-serif; font-size: 10px; fill: white;"
+       id="text4">Jupyter-based workflow</text>
+  </g>
+  <g
+     transform="translate(110, 205)"
+     id="g5">
+    <circle
+       cx="5"
+       cy="5"
+       r="4"
+       fill="#3b82f6"
+       id="circle4" />
+    <text
+       x="15"
+       y="10"
+       style="font-family: Arial, sans-serif; font-size: 11px; fill: #1e40af; font-weight: 600;"
+       id="text5">Extensible architecture</text>
+  </g>
+  <g
+     transform="translate(110, 233)"
+     id="g6">
+    <circle
+       cx="5"
+       cy="5"
+       r="4"
+       fill="#3b82f6"
+       id="circle5" />
+    <text
+       x="15"
+       y="10"
+       style="font-family: Arial, sans-serif; font-size: 11px; fill: #1e40af; font-weight: 600;"
+       id="text6">PTM analysis integration</text>
+  </g>
+  <g
+     transform="translate(110, 261)"
+     id="g7">
+    <circle
+       cx="5"
+       cy="5"
+       r="4"
+       fill="#3b82f6"
+       id="circle6" />
+    <text
+       x="15"
+       y="10"
+       style="font-family: Arial, sans-serif; font-size: 11px; fill: #1e40af; font-weight: 600;"
+       id="text7">Cross-platform compatibility</text>
+  </g>
+  <g
+     transform="translate(110, 289)"
+     id="g8">
+    <circle
+       cx="5"
+       cy="5"
+       r="4"
+       fill="#3b82f6"
+       id="circle7" />
+    <text
+       x="15"
+       y="10"
+       style="font-family: Arial, sans-serif; font-size: 11px; fill: #1e40af; font-weight: 600;"
+       id="text8">Scientific libraries integration</text>
+  </g>
+  <g
+     transform="translate(110, 317)"
+     id="g9">
+    <circle
+       cx="5"
+       cy="5"
+       r="4"
+       fill="#3b82f6"
+       id="circle8" />
+    <text
+       x="15"
+       y="10"
+       style="font-family: Arial, sans-serif; font-size: 11px; fill: #1e40af; font-weight: 600;"
+       id="text9">End-to-end reproducibility</text>
+  </g>
+  <!-- Theoretical Contribution -->
+  <rect
+     x="420"
+     y="70"
+     width="300"
+     height="300"
+     rx="10"
+     fill="#fef3c7"
+     stroke="none"
+     id="rect9" />
+  <text
+     x="570"
+     y="105"
+     text-anchor="middle"
+     style="font-family: Arial, sans-serif; font-size: 18px; font-weight: bold; fill: #92400e;"
+     id="text10">📚 Theoretical</text>
+  <g
+     transform="translate(450, 135)"
+     id="g12">
+    <rect
+       width="240"
+       height="55"
+       rx="8"
+       fill="#f59e0b"
+       stroke="none"
+       id="rect10" />
+    <text
+       x="120"
+       y="20"
+       text-anchor="middle"
+       class="component-title"
+       font-size="14"
+       id="text11">Master's Thesis</text>
+    <text
+       x="120"
+       y="38"
+       text-anchor="middle"
+       style="font-family: Arial, sans-serif; font-size: 10px; fill: white;"
+       id="text12">White paper on open science</text>
+  </g>
+  <g
+     transform="translate(450, 205)"
+     id="g13">
+    <circle
+       cx="5"
+       cy="5"
+       r="4"
+       fill="#f59e0b"
+       id="circle12" />
+    <text
+       x="15"
+       y="10"
+       style="font-family: Arial, sans-serif; font-size: 11px; fill: #92400e; font-weight: 600;"
+       id="text13">Open-source benefits</text>
+  </g>
+  <g
+     transform="translate(450, 233)"
+     id="g14">
+    <circle
+       cx="5"
+       cy="5"
+       r="4"
+       fill="#f59e0b"
+       id="circle13" />
+    <text
+       x="15"
+       y="10"
+       style="font-family: Arial, sans-serif; font-size: 11px; fill: #92400e; font-weight: 600;"
+       id="text14">Open-data challenges</text>
+  </g>
+  <g
+     transform="translate(450, 261)"
+     id="g15">
+    <circle
+       cx="5"
+       cy="5"
+       r="4"
+       fill="#f59e0b"
+       id="circle14" />
+    <text
+       x="15"
+       y="10"
+       style="font-family: Arial, sans-serif; font-size: 11px; fill: #92400e; font-weight: 600;"
+       id="text15">Research ecosystem analysis</text>
+  </g>
+  <g
+     transform="translate(450, 289)"
+     id="g16">
+    <circle
+       cx="5"
+       cy="5"
+       r="4"
+       fill="#f59e0b"
+       id="circle15" />
+    <text
+       x="15"
+       y="10"
+       style="font-family: Arial, sans-serif; font-size: 11px; fill: #92400e; font-weight: 600;"
+       id="text16">Mass spec case study</text>
+  </g>
+  <g
+     transform="translate(450, 317)"
+     id="g17">
+    <circle
+       cx="5"
+       cy="5"
+       r="4"
+       fill="#f59e0b"
+       id="circle16" />
+    <text
+       x="15"
+       y="10"
+       style="font-family: Arial, sans-serif; font-size: 11px; fill: #92400e; font-weight: 600;"
+       id="text17">Transparent workflow value</text>
+  </g>
+  <!-- Impact -->
+  <rect
+     x="100"
+     y="390"
+     width="600"
+     height="50"
+     rx="8"
+     fill="#10b981"
+     stroke="none"
+     id="rect17" />
+  <text
+     x="400"
+     y="415"
+     text-anchor="middle"
+     style="font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: white;"
+     id="text18">Combined Impact</text>
+  <text
+     x="400"
+     y="433"
+     text-anchor="middle"
+     style="font-family: Arial, sans-serif; font-size: 11px; fill: white;"
+     id="text19">Highly praised by academic supervisor + external industry bioinformatician</text>
+</svg>

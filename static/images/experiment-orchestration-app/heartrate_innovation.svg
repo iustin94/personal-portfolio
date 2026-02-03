@@ -1,0 +1,54 @@
+<svg viewBox="0 0 800 350" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font-family: Arial, sans-serif; font-size: 22px; font-weight: bold; fill: #1a1a1a; }
+      .step-label { font-family: Arial, sans-serif; font-size: 13px; font-weight: 600; }
+    </style>
+  </defs>
+  
+  <!-- Title -->
+  <text x="400" y="35" text-anchor="middle" class="title">Custom Wii Remote Integration</text>
+  
+  <!-- Wii Remote Input -->
+  <rect x="80" y="80" width="180" height="120" rx="10" fill="#3b82f6" stroke="none"/>
+  <text x="170" y="110" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 40px;">🎮</text>
+  <text x="170" y="145" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: white;">Wii Remote</text>
+  <text x="170" y="165" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 11px; fill: white;">Accelerometer</text>
+  <text x="170" y="182" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 11px; fill: white;">data stream</text>
+  
+  <!-- Arrow -->
+  <path d="M 270 140 L 330 140" stroke="#cbd5e1" stroke-width="4" fill="none"/>
+  <path d="M 325 135 L 335 140 L 325 145 Z" fill="#cbd5e1"/>
+  
+  <!-- Translation Layer -->
+  <rect x="340" y="80" width="180" height="120" rx="10" fill="#8b5cf6" stroke="none"/>
+  <text x="430" y="110" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 40px;">⚙️</text>
+  <text x="430" y="145" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: white;">Translation</text>
+  <text x="430" y="165" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 11px; fill: white;">Custom C# logic</text>
+  <text x="430" y="182" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 11px; fill: white;">Motion → cursor</text>
+  
+  <!-- Arrow -->
+  <path d="M 530 140 L 590 140" stroke="#cbd5e1" stroke-width="4" fill="none"/>
+  <path d="M 585 135 L 595 140 L 585 145 Z" fill="#cbd5e1"/>
+  
+  <!-- Screen Output -->
+  <rect x="600" y="80" width="180" height="120" rx="10" fill="#10b981" stroke="none"/>
+  <text x="690" y="110" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 40px;">🖱️</text>
+  <text x="690" y="145" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: white;">Cursor Control</text>
+  <text x="690" y="165" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 11px; fill: white;">Screen movement</text>
+  <text x="690" y="182" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 11px; fill: white;">Game interaction</text>
+  
+  <!-- Innovation Box -->
+  <rect x="150" y="230" width="500" height="90" rx="10" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="400" y="260" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 15px; font-weight: bold; fill: #64748b;">Technical Innovation</text>
+  
+  <g transform="translate(170, 275)">
+    <circle cx="5" cy="5" r="3" fill="#7c3aed"/>
+    <text x="15" y="10" style="font-family: Arial, sans-serif; font-size: 11px; fill: #64748b; font-weight: 600;">Creative adaptation of consumer hardware for research</text>
+  </g>
+  
+  <g transform="translate(170, 298)">
+    <circle cx="5" cy="5" r="3" fill="#7c3aed"/>
+    <text x="15" y="10" style="font-family: Arial, sans-serif; font-size: 11px; fill: #64748b; font-weight: 600;">Real-time motion tracking without specialized equipment</text>
+  </g>
+</svg>
