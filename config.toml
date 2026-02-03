@@ -2,6 +2,7 @@ baseURL = "https://olaru.dk"
 languageCode = "en-us"
 title = "iustinian-olaru"
 theme="hugo-theme-console"
+publicDir = "docs"
 
 [markup]
   [markup.goldmark]
