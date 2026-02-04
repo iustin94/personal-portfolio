@@ -1,26 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>DDD on iustinian-olaru</title>
-    <link>http://localhost:38583/tags/ddd/</link>
-    <description>Recent content in DDD on iustinian-olaru</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:38583/tags/ddd/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About Me</title>
-      <link>http://localhost:38583/about_me/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:38583/about_me/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;TL;DR: measure first, design simply, automate responsibly, document clearly, share what helps.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;I am a software engineer and architect with a strong foundation in both practical engineering and research‑driven&#xA;analysis. My background spans computer science, bioinformatics, distributed systems, and simulation modeling, giving me&#xA;a unique ability to approach software not just as code, but as a system of interconnected constraints, abstractions, and&#xA;design decisions.&lt;/p&gt;&#xA;&lt;p&gt;What defines my work is the combination of &lt;strong&gt;deep technical curiosity&lt;/strong&gt; and &lt;strong&gt;a clear, structured approach to solving&#xA;complex problems&lt;/strong&gt;. I am drawn to domains where correctness, maintainability, and conceptual clarity matter—where a&#xA;system must not only function today but remain robust and adaptable for years to come. This mindset has guided me&#xA;through projects involving message queue architectures, enterprise‑scale data modeling, drone‑based measurement&#xA;workflows, financial simulation engines, and scientific analysis pipelines.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Enterprise Process Modeling Platform</title>
-      <link>http://localhost:38583/projects/enterprisel-data-workbench/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:38583/projects/enterprisel-data-workbench/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;During my time at Ramboll, I worked closely with the team responsible for maintaining a decade‑old Python/Django risk management platform used across several business units. Over the years, the system had accumulated significant technical debt, with inconsistent modules, tightly coupled logic, and architectural limitations inherent to the framework and language. As new enterprise‑level requirements emerged, it became increasingly clear that the legacy platform could no longer support scalable, type‑safe, and maintainable domain modeling. In response, leadership approved a greenfield initiative—internally referred to as the &lt;em&gt;Data Workbench&lt;/em&gt;—aimed at building a modern enterprise process‑modeling platform informed by the lessons learned from maintaining the legacy codebase.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DDD on iustinian-olaru</title><link>https://olaru.dk/tags/ddd/</link><description>Recent content in DDD on iustinian-olaru</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://olaru.dk/tags/ddd/index.xml" rel="self" type="application/rss+xml"/><item><title>About Me</title><link>https://olaru.dk/about_me/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://olaru.dk/about_me/</guid><description>&lt;p&gt;&lt;strong&gt;TL;DR: measure first, design simply, automate responsibly, document clearly, share what helps.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I am a software engineer and architect with a strong foundation in both practical engineering and research‑driven
+analysis. My background spans computer science, bioinformatics, distributed systems, and simulation modeling, giving me
+a unique ability to approach software not just as code, but as a system of interconnected constraints, abstractions, and
+design decisions.&lt;/p&gt;
+&lt;p&gt;What defines my work is the combination of &lt;strong&gt;deep technical curiosity&lt;/strong&gt; and &lt;strong&gt;a clear, structured approach to solving
+complex problems&lt;/strong&gt;. I am drawn to domains where correctness, maintainability, and conceptual clarity matter—where a
+system must not only function today but remain robust and adaptable for years to come. This mindset has guided me
+through projects involving message queue architectures, enterprise‑scale data modeling, drone‑based measurement
+workflows, financial simulation engines, and scientific analysis pipelines.&lt;/p&gt;</description></item><item><title>Enterprise Process Modeling Platform</title><link>https://olaru.dk/projects/enterprisel-data-workbench/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://olaru.dk/projects/enterprisel-data-workbench/</guid><description>&lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;During my time at Ramboll, I worked closely with the team responsible for maintaining a decade‑old Python/Django risk management platform used across several business units. Over the years, the system had accumulated significant technical debt, with inconsistent modules, tightly coupled logic, and architectural limitations inherent to the framework and language. As new enterprise‑level requirements emerged, it became increasingly clear that the legacy platform could no longer support scalable, type‑safe, and maintainable domain modeling. In response, leadership approved a greenfield initiative—internally referred to as the &lt;em&gt;Data Workbench&lt;/em&gt;—aimed at building a modern enterprise process‑modeling platform informed by the lessons learned from maintaining the legacy codebase.&lt;/p&gt;</description></item></channel></rss>

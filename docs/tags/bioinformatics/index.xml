@@ -1,26 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Bioinformatics on iustinian-olaru</title>
-    <link>http://localhost:38583/tags/bioinformatics/</link>
-    <description>Recent content in Bioinformatics on iustinian-olaru</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:38583/tags/bioinformatics/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Evaluation of Rule‑Based Simulation Modeling</title>
-      <link>http://localhost:38583/projects/rule-based-simulation-engine/</link>
-      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:38583/projects/rule-based-simulation-engine/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;During my Master’s studies in Bioinformatics, I undertook an independent research project exploring the use of rule‑based simulation tools for modeling biological and biochemical processes. Motivated by a long‑standing interest in simulation modeling and its potential for understanding dynamic natural systems, I chose to investigate &lt;strong&gt;BioNetGen&lt;/strong&gt;, a specialized framework for defining and executing rule‑based biomolecular models. The purpose of this project was not to validate specific biological hypotheses, but to evaluate the practicality, usability, and methodological strengths of BioNetGen from the perspective of both a software engineer and a researcher.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>MasSpec Data Analysis Pipeline</title>
-      <link>http://localhost:38583/projects/masspec-data-analysis-pipeline/</link>
-      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:38583/projects/masspec-data-analysis-pipeline/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;During my Master&amp;rsquo;s studies, I conducted an independent research project focused on one of the foundational challenges in modern computational biology: enabling reproducible and transparent data analysis workflows. In fields such as mass spectrometry–based proteomics, research papers often present conclusions without offering a practical way to reproduce the computational pipeline that produced those results. This creates a barrier for validation, peer review, and scientific progress. My project explored how open‑source technologies could address this gap by implementing a reusable, reproducible data analysis pipeline designed specifically for proteomics data, with an emphasis on mass spectrometry datasets.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bioinformatics on iustinian-olaru</title><link>https://olaru.dk/tags/bioinformatics/</link><description>Recent content in Bioinformatics on iustinian-olaru</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://olaru.dk/tags/bioinformatics/index.xml" rel="self" type="application/rss+xml"/><item><title>Evaluation of Rule‑Based Simulation Modeling</title><link>https://olaru.dk/projects/rule-based-simulation-engine/</link><pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate><guid>https://olaru.dk/projects/rule-based-simulation-engine/</guid><description>&lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;During my Master’s studies in Bioinformatics, I undertook an independent research project exploring the use of rule‑based simulation tools for modeling biological and biochemical processes. Motivated by a long‑standing interest in simulation modeling and its potential for understanding dynamic natural systems, I chose to investigate &lt;strong&gt;BioNetGen&lt;/strong&gt;, a specialized framework for defining and executing rule‑based biomolecular models. The purpose of this project was not to validate specific biological hypotheses, but to evaluate the practicality, usability, and methodological strengths of BioNetGen from the perspective of both a software engineer and a researcher.&lt;/p&gt;</description></item><item><title>MasSpec Data Analysis Pipeline</title><link>https://olaru.dk/projects/masspec-data-analysis-pipeline/</link><pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate><guid>https://olaru.dk/projects/masspec-data-analysis-pipeline/</guid><description>&lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;During my Master&amp;rsquo;s studies, I conducted an independent research project focused on one of the foundational challenges in modern computational biology: enabling reproducible and transparent data analysis workflows. In fields such as mass spectrometry–based proteomics, research papers often present conclusions without offering a practical way to reproduce the computational pipeline that produced those results. This creates a barrier for validation, peer review, and scientific progress. My project explored how open‑source technologies could address this gap by implementing a reusable, reproducible data analysis pipeline designed specifically for proteomics data, with an emphasis on mass spectrometry datasets.&lt;/p&gt;</description></item></channel></rss>
