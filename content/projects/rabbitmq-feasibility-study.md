@@ -4,6 +4,7 @@ date: 2022-01-01
 draft: false
 description: "Scientific investigation of RabbitMQ for high-throughput e-commerce platforms handling Black Friday and seasonal traffic spikes at Denmark's largest online retailers."
 tags: ["RabbitMQ", "E-commerce", "Distributed Systems", "Messaging", "Scalability", "Docker"]
+og_image: "/images/og.png"
 # standardized metadata for filtering/coloring
 type: "inquiry"
 location: "Aarhus, Denmark"

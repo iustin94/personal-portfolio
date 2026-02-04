@@ -1,5 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Real-Time on iustinian-olaru</title><link>https://olaru.dk/tags/real-time/</link><description>Recent content in Real-Time on iustinian-olaru</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 01 Jun 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://olaru.dk/tags/real-time/index.xml" rel="self" type="application/rss+xml"/><item><title>Experiment Orchestration App</title><link>https://olaru.dk/projects/experiment-orchestration-app/</link><pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate><guid>https://olaru.dk/projects/experiment-orchestration-app/</guid><description>&lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;As part of my internship at the Cognition and Behavior Laboratory in Aarhus, I was tasked with developing a software solution to test the hypothesis that people&amp;rsquo;s heart rates synchronize during shared activities. The project involved participants engaging in both a game and a vocal task, with the aim of capturing synchronized biometric data.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://olaru.dk/images/experiment-orchestration-app/heartrate_setup.svg" alt="Experiment Setup" class="img-responsive"&gt; &lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Challenges and Technical Hurdles:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;One of the key challenges was ensuring real-time data synchronization across multiple streams—heart rate monitors, Wii remotes, and audio recordings. The technology stack, which included C# and WPF, wasn&amp;rsquo;t inherently designed for high-throughput, low-latency applications, so I had to get creative.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Real-Time on iustinian-olaru</title>
+    <link>https://olaru.dk/tags/real-time/</link>
+    <description>Recent content in Real-Time on iustinian-olaru</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://olaru.dk/tags/real-time/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Experiment Orchestration App</title>
+      <link>https://olaru.dk/projects/experiment-orchestration-app/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://olaru.dk/projects/experiment-orchestration-app/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;As part of my internship at the Cognition and Behavior Laboratory in Aarhus, I was tasked with developing a software solution to test the hypothesis that people&amp;rsquo;s heart rates synchronize during shared activities. The project involved participants engaging in both a game and a vocal task, with the aim of capturing synchronized biometric data.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://olaru.dk/images/experiment-orchestration-app/heartrate_setup.svg&#34; alt=&#34;Experiment Setup&#34; class=&#34;img-responsive&#34;&gt; &lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Challenges and Technical Hurdles:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;One of the key challenges was ensuring real-time data synchronization across multiple streams—heart rate monitors, Wii remotes, and audio recordings. The technology stack, which included C# and WPF, wasn&amp;rsquo;t inherently designed for high-throughput, low-latency applications, so I had to get creative.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

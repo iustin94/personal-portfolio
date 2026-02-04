@@ -1,3 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Simulation on iustinian-olaru</title><link>https://olaru.dk/tags/simulation/</link><description>Recent content in Simulation on iustinian-olaru</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://olaru.dk/tags/simulation/index.xml" rel="self" type="application/rss+xml"/><item><title>SaaS Platform for Financial Workflows</title><link>https://olaru.dk/projects/blazor-saas-platform/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://olaru.dk/projects/blazor-saas-platform/</guid><description>&lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;This project began as an entrepreneurial collaboration with a former colleague who worked closely with small and micro‑businesses as an accountant. Through his experience, he observed a consistent gap in the market: individuals, one‑person companies, and small enterprises lacked access to high‑quality financial and accounting tools that matched the robustness of enterprise‑grade software, yet at a price point they could afford. We set out to build a SaaS platform that delivered the same—or better—quality of functionality and engineering excellence typically reserved for large organizations, while keeping operational costs extraordinarily low. The platform was developed end‑to‑end using C# and Blazor, designed to support modern accounting workflows with the reliability, clarity, and extensibility expected of professionally engineered systems.&lt;/p&gt;</description></item><item><title>Evaluation of Rule‑Based Simulation Modeling</title><link>https://olaru.dk/projects/rule-based-simulation-engine/</link><pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate><guid>https://olaru.dk/projects/rule-based-simulation-engine/</guid><description>&lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;During my Master’s studies in Bioinformatics, I undertook an independent research project exploring the use of rule‑based simulation tools for modeling biological and biochemical processes. Motivated by a long‑standing interest in simulation modeling and its potential for understanding dynamic natural systems, I chose to investigate &lt;strong&gt;BioNetGen&lt;/strong&gt;, a specialized framework for defining and executing rule‑based biomolecular models. The purpose of this project was not to validate specific biological hypotheses, but to evaluate the practicality, usability, and methodological strengths of BioNetGen from the perspective of both a software engineer and a researcher.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Simulation on iustinian-olaru</title>
+    <link>https://olaru.dk/tags/simulation/</link>
+    <description>Recent content in Simulation on iustinian-olaru</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://olaru.dk/tags/simulation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SaaS Platform for Financial Workflows</title>
+      <link>https://olaru.dk/projects/blazor-saas-platform/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://olaru.dk/projects/blazor-saas-platform/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;This project began as an entrepreneurial collaboration with a former colleague who worked closely with small and micro‑businesses as an accountant. Through his experience, he observed a consistent gap in the market: individuals, one‑person companies, and small enterprises lacked access to high‑quality financial and accounting tools that matched the robustness of enterprise‑grade software, yet at a price point they could afford. We set out to build a SaaS platform that delivered the same—or better—quality of functionality and engineering excellence typically reserved for large organizations, while keeping operational costs extraordinarily low. The platform was developed end‑to‑end using C# and Blazor, designed to support modern accounting workflows with the reliability, clarity, and extensibility expected of professionally engineered systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Evaluation of Rule‑Based Simulation Modeling</title>
+      <link>https://olaru.dk/projects/rule-based-simulation-engine/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://olaru.dk/projects/rule-based-simulation-engine/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;During my Master’s studies in Bioinformatics, I undertook an independent research project exploring the use of rule‑based simulation tools for modeling biological and biochemical processes. Motivated by a long‑standing interest in simulation modeling and its potential for understanding dynamic natural systems, I chose to investigate &lt;strong&gt;BioNetGen&lt;/strong&gt;, a specialized framework for defining and executing rule‑based biomolecular models. The purpose of this project was not to validate specific biological hypotheses, but to evaluate the practicality, usability, and methodological strengths of BioNetGen from the perspective of both a software engineer and a researcher.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

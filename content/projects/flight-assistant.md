@@ -4,6 +4,7 @@ date: 2021-01-01
 draft: false
 description: "Desktop application for drone-based satellite antenna testing, integrating flight path configuration, RF measurement processing, and GPS telemetry synchronization."
 tags: ["Python", "Aerospace", "Drones", "RF", "GPS", "Telemetry", "Satellite"]
+og_image: "/images/og.png"
 # standardized metadata for filtering/coloring
 type: "implementation"
 location: "Odense, Denmark"

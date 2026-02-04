@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reproducibility on iustinian-olaru</title>
+    <link>https://olaru.dk/tags/reproducibility/</link>
+    <description>Recent content in Reproducibility on iustinian-olaru</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://olaru.dk/tags/reproducibility/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Work</title>
+      <link>https://olaru.dk/work/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://olaru.dk/work/</guid>
+      <description>&lt;p&gt;I build systems the way I investigate them: with a &lt;strong&gt;scientific mindset&lt;/strong&gt;, &lt;strong&gt;measurable outcomes&lt;/strong&gt;, and an &lt;strong&gt;honest account of constraints&lt;/strong&gt;. My work sits at the intersection of software engineering and research, where rigor, clarity, and reproducibility matter as much as delivery speed.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Evidence over assumptions.&lt;/strong&gt; I approach problems with structured inquiry—baselining, testing, and validating before I decide. Whether evaluating RabbitMQ at scale or extending a proteomics pipeline for PTMs, I let data guide architecture and implementation.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
