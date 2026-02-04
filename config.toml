@@ -32,6 +32,9 @@ publishDir = "docs"
     ordered    = false
 
 [params]
+  # Google Analytics
+  googleAnalyticsID = "G-J4LP1PW7S5"  # Replace with your actual GA4 ID
+
   # hugo-theme-console specific parameters
   # Cutting off the page title to two chars for mobile (e.g., Personal Profile -> Pe)
   titleCutting = true

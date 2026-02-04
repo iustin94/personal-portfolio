@@ -24,11 +24,11 @@
     {{ end }}
     {{- partial "opengraph.html" . -}}
     {{- partial "twitter_cards.html" . -}}
-    {{ template "_internal/google_analytics.html" . }}
 
     <link rel='stylesheet' href='{{ "css/hero.css" | absURL }}' />
     <link rel='stylesheet' href='{{ "css/tree.css" | absURL }}' />
     <link rel='stylesheet' href='{{ "css/custom-theme.css" | absURL }}' />
+    <link rel='stylesheet' href='{{ "css/cookieconsent.css" | absURL }}' />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="{{ "js/theme-toggle.js" | absURL }}"></script>
 </head>
@@ -43,5 +43,6 @@
             {{ partial "footer.html" . }}
         </div>
     </div>
+    {{- partial "analytics.html" . -}}
   </body>
 </html>

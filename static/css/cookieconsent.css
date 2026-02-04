@@ -1,0 +1,150 @@
+/* Cookie Consent Styling - inherits from custom-theme.css variables */
+#cc-main {
+    --cc-font-family: inherit;
+    --cc-modal-border-radius: 0;
+    --cc-btn-border-radius: 0;
+    --cc-overlay-bg: rgba(38, 38, 38, 0.85);
+}
+
+/* Dark mode styles (default) */
+@media (prefers-color-scheme: dark) {
+    #cc-main {
+        --cc-bg: #262626;
+        --cc-text: #E2E8CE;
+        --cc-secondary-color: #E2E8CE;
+        --cc-link-color: #FF7F11;
+        --cc-btn-primary-bg: #FF7F11;
+        --cc-btn-primary-text: #262626;
+        --cc-btn-primary-hover-bg: #E2E8CE;
+        --cc-btn-primary-hover-text: #262626;
+        --cc-btn-secondary-bg: #ACBFA4;
+        --cc-btn-secondary-text: #262626;
+        --cc-btn-secondary-hover-bg: #E2E8CE;
+        --cc-btn-secondary-hover-text: #262626;
+        --cc-toggle-bg-off: #ACBFA4;
+        --cc-toggle-bg-on: #FF7F11;
+        --cc-toggle-knob-bg: #E2E8CE;
+        --cc-cookie-category-block-bg: #333333;
+        --cc-cookie-category-block-bg-hover: #404040;
+        --cc-separator-border-color: #ACBFA4;
+    }
+}
+
+/* Light mode styles */
+@media (prefers-color-scheme: light) {
+    #cc-main {
+        --cc-bg: #E2E8CE;
+        --cc-text: #262626;
+        --cc-secondary-color: #262626;
+        --cc-link-color: #FF7F11;
+        --cc-btn-primary-bg: #FF7F11;
+        --cc-btn-primary-text: #E2E8CE;
+        --cc-btn-primary-hover-bg: #262626;
+        --cc-btn-primary-hover-text: #E2E8CE;
+        --cc-btn-secondary-bg: #ACBFA4;
+        --cc-btn-secondary-text: #262626;
+        --cc-btn-secondary-hover-bg: #262626;
+        --cc-btn-secondary-hover-text: #E2E8CE;
+        --cc-toggle-bg-off: #6e7a69;
+        --cc-toggle-bg-on: #FF7F11;
+        --cc-toggle-knob-bg: #262626;
+        --cc-cookie-category-block-bg: #d4dbc2;
+        --cc-cookie-category-block-bg-hover: #c5ccb4;
+        --cc-separator-border-color: #6e7a69;
+        --cc-overlay-bg: rgba(38, 38, 38, 0.7);
+    }
+}
+
+/* Manual dark mode override */
+body.dark-mode #cc-main {
+    --cc-bg: #262626;
+    --cc-text: #E2E8CE;
+    --cc-secondary-color: #E2E8CE;
+    --cc-link-color: #FF7F11;
+    --cc-btn-primary-bg: #FF7F11;
+    --cc-btn-primary-text: #262626;
+    --cc-btn-primary-hover-bg: #E2E8CE;
+    --cc-btn-primary-hover-text: #262626;
+    --cc-btn-secondary-bg: #ACBFA4;
+    --cc-btn-secondary-text: #262626;
+    --cc-btn-secondary-hover-bg: #E2E8CE;
+    --cc-btn-secondary-hover-text: #262626;
+    --cc-toggle-bg-off: #ACBFA4;
+    --cc-toggle-bg-on: #FF7F11;
+    --cc-toggle-knob-bg: #E2E8CE;
+    --cc-cookie-category-block-bg: #333333;
+    --cc-cookie-category-block-bg-hover: #404040;
+    --cc-separator-border-color: #ACBFA4;
+}
+
+/* Manual light mode override */
+body.light-mode #cc-main {
+    --cc-bg: #E2E8CE;
+    --cc-text: #262626;
+    --cc-secondary-color: #262626;
+    --cc-link-color: #FF7F11;
+    --cc-btn-primary-bg: #FF7F11;
+    --cc-btn-primary-text: #E2E8CE;
+    --cc-btn-primary-hover-bg: #262626;
+    --cc-btn-primary-hover-text: #E2E8CE;
+    --cc-btn-secondary-bg: #ACBFA4;
+    --cc-btn-secondary-text: #262626;
+    --cc-btn-secondary-hover-bg: #262626;
+    --cc-btn-secondary-hover-text: #E2E8CE;
+    --cc-toggle-bg-off: #6e7a69;
+    --cc-toggle-bg-on: #FF7F11;
+    --cc-toggle-knob-bg: #262626;
+    --cc-cookie-category-block-bg: #d4dbc2;
+    --cc-cookie-category-block-bg-hover: #c5ccb4;
+    --cc-separator-border-color: #6e7a69;
+    --cc-overlay-bg: rgba(38, 38, 38, 0.7);
+}
+
+/* Direct text color overrides for dark mode */
+@media (prefers-color-scheme: dark) {
+    #cc-main .cm__title,
+    #cc-main .cm__desc,
+    #cc-main .pm__title,
+    #cc-main .pm__section-title,
+    #cc-main .pm__section-desc,
+    #cc-main .section__toggle-title,
+    #cc-main .section__toggle-desc,
+    #cc-main .pm__badge {
+        color: #E2E8CE;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    #cc-main .cm__title,
+    #cc-main .cm__desc,
+    #cc-main .pm__title,
+    #cc-main .pm__section-title,
+    #cc-main .pm__section-desc,
+    #cc-main .section__toggle-title,
+    #cc-main .section__toggle-desc,
+    #cc-main .pm__badge {
+        color: #262626;
+    }
+}
+
+body.dark-mode #cc-main .cm__title,
+body.dark-mode #cc-main .cm__desc,
+body.dark-mode #cc-main .pm__title,
+body.dark-mode #cc-main .pm__section-title,
+body.dark-mode #cc-main .pm__section-desc,
+body.dark-mode #cc-main .section__toggle-title,
+body.dark-mode #cc-main .section__toggle-desc,
+body.dark-mode #cc-main .pm__badge {
+    color: #E2E8CE;
+}
+
+body.light-mode #cc-main .cm__title,
+body.light-mode #cc-main .cm__desc,
+body.light-mode #cc-main .pm__title,
+body.light-mode #cc-main .pm__section-title,
+body.light-mode #cc-main .pm__section-desc,
+body.light-mode #cc-main .section__toggle-title,
+body.light-mode #cc-main .section__toggle-desc,
+body.light-mode #cc-main .pm__badge {
+    color: #262626;
+}
