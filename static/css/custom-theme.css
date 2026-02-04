@@ -111,6 +111,10 @@ body.light-mode {
     text-decoration: none;
 }
 
+.terminal-menu li {
+    margin-bottom: 0;
+}
+
 .site-header {
     position: sticky;
     bottom: 0;

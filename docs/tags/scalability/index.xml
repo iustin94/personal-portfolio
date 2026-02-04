@@ -1,2 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Scalability on iustinian-olaru</title><link>https://olaru.dk/tags/scalability/</link><description>Recent content in Scalability on iustinian-olaru</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://olaru.dk/tags/scalability/index.xml" rel="self" type="application/rss+xml"/><item><title>Feasibility Study of RabbitMQ</title><link>https://olaru.dk/projects/rabbitmq-feasibility-study/</link><pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate><guid>https://olaru.dk/projects/rabbitmq-feasibility-study/</guid><description>&lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;During my internship at Novicell, I was part of the A‑Team, the department responsible for maintaining and developing the solutions for three of Denmark&amp;rsquo;s largest e‑commerce platforms: &lt;strong&gt;Power.dk&lt;/strong&gt; (a major consumer electronics retailer), &lt;strong&gt;Biltema.dk&lt;/strong&gt; (one of the country&amp;rsquo;s biggest consumer goods chains), and &lt;strong&gt;Apoteket.dk&lt;/strong&gt; (a large national pharmacy platform). These systems experience extreme traffic spikes during events such as Black Friday and the Christmas shopping season. To support the scalability demands of these high‑throughput environments, I was tasked with a structured, scientific investigation into whether &lt;strong&gt;RabbitMQ&lt;/strong&gt; could serve as a reliable core technology for message processing and load distribution. The goal was to determine its architectural suitability and ensure that the company&amp;rsquo;s systems could handle peak seasonal workloads without service degradation.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scalability on iustinian-olaru</title>
+    <link>http://localhost:38583/tags/scalability/</link>
+    <description>Recent content in Scalability on iustinian-olaru</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:38583/tags/scalability/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Feasibility Study of RabbitMQ</title>
+      <link>http://localhost:38583/projects/rabbitmq-feasibility-study/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:38583/projects/rabbitmq-feasibility-study/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;During my internship at Novicell, I was part of the A‑Team, the department responsible for maintaining and developing the solutions for three of Denmark&amp;rsquo;s largest e‑commerce platforms: &lt;strong&gt;Power.dk&lt;/strong&gt; (a major consumer electronics retailer), &lt;strong&gt;Biltema.dk&lt;/strong&gt; (one of the country&amp;rsquo;s biggest consumer goods chains), and &lt;strong&gt;Apoteket.dk&lt;/strong&gt; (a large national pharmacy platform). These systems experience extreme traffic spikes during events such as Black Friday and the Christmas shopping season. To support the scalability demands of these high‑throughput environments, I was tasked with a structured, scientific investigation into whether &lt;strong&gt;RabbitMQ&lt;/strong&gt; could serve as a reliable core technology for message processing and load distribution. The goal was to determine its architectural suitability and ensure that the company&amp;rsquo;s systems could handle peak seasonal workloads without service degradation.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

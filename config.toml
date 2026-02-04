@@ -54,6 +54,7 @@ publishDir = "docs"
     twitter = "iustinian_olaru"
     linkedin = "iustinian-olaru-b73a87387"
     github = "iustin94"
+    email = "o.iustin@gmail.com"
 
   [[params.Authors]]
     name = "Iustinian Olaru"
@@ -73,8 +74,8 @@ publishDir = "docs"
   url = "about_me/"
 
   [[params.navlinks]]
-  name = "work/"
-  url = "work/"
+  name = "contact/"
+  url = "contact/"
 
   # Social links for footer
   [[params.sociallinks]]

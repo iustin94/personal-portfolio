@@ -1,1 +1,60 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Heroes on iustinian-olaru</title><link>https://olaru.dk/hero/</link><description>Recent content in Heroes on iustinian-olaru</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://olaru.dk/hero/index.xml" rel="self" type="application/rss+xml"/><item><title>name</title><link>https://olaru.dk/hero/name/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://olaru.dk/hero/name/</guid><description>&lt;p&gt;Iustinian Olaru&lt;/p&gt;</description></item><item><title>roles</title><link>https://olaru.dk/hero/roles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://olaru.dk/hero/roles/</guid><description>&lt;p&gt;Software Developer, Freelancer, Consultant&lt;/p&gt;</description></item><item><title>domains</title><link>https://olaru.dk/hero/domains/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://olaru.dk/hero/domains/</guid><description>&lt;p&gt;Full Stack, NoJs, Open Source&lt;/p&gt;</description></item><item><title>experience</title><link>https://olaru.dk/hero/experience/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://olaru.dk/hero/experience/</guid><description>&lt;p&gt;6+ years&lt;/p&gt;</description></item><item><title>location</title><link>https://olaru.dk/hero/location/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://olaru.dk/hero/location/</guid><description>&lt;p&gt;Fyn, Denmark&lt;/p&gt;</description></item><item><title>primary stack</title><link>https://olaru.dk/hero/primary_stack/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://olaru.dk/hero/primary_stack/</guid><description>&lt;p&gt;C#/.NET&lt;/p&gt;</description></item><item><title>auxilary stacks</title><link>https://olaru.dk/hero/auxilary_stacks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://olaru.dk/hero/auxilary_stacks/</guid><description>&lt;p&gt;Python, Hugo&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Heroes on iustinian-olaru</title>
+    <link>http://localhost:38583/hero/</link>
+    <description>Recent content in Heroes on iustinian-olaru</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:38583/hero/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>name</title>
+      <link>http://localhost:38583/hero/name/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:38583/hero/name/</guid>
+      <description>&lt;p&gt;Iustinian Olaru&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>roles</title>
+      <link>http://localhost:38583/hero/roles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:38583/hero/roles/</guid>
+      <description>&lt;p&gt;Software Developer, Freelancer, Consultant&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>domains</title>
+      <link>http://localhost:38583/hero/domains/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:38583/hero/domains/</guid>
+      <description>&lt;p&gt;Full Stack, NoJs, Open Source&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>experience</title>
+      <link>http://localhost:38583/hero/experience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:38583/hero/experience/</guid>
+      <description>&lt;p&gt;6+ years&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>location</title>
+      <link>http://localhost:38583/hero/location/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:38583/hero/location/</guid>
+      <description>&lt;p&gt;Fyn, Denmark&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>primary stack</title>
+      <link>http://localhost:38583/hero/primary_stack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:38583/hero/primary_stack/</guid>
+      <description>&lt;p&gt;C#/.NET&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>auxilary stacks</title>
+      <link>http://localhost:38583/hero/auxilary_stacks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:38583/hero/auxilary_stacks/</guid>
+      <description>&lt;p&gt;Python, Hugo&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

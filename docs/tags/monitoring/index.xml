@@ -1,2 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Monitoring on iustinian-olaru</title><link>https://olaru.dk/tags/monitoring/</link><description>Recent content in Monitoring on iustinian-olaru</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 01 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://olaru.dk/tags/monitoring/index.xml" rel="self" type="application/rss+xml"/><item><title>RabbitMQ Monitoring Framework</title><link>https://olaru.dk/projects/rabbitmq-monitoring-framework/</link><pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate><guid>https://olaru.dk/projects/rabbitmq-monitoring-framework/</guid><description>&lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;During my second internship at Novicell, I identified a significant tooling gap while conducting my earlier feasibility study on RabbitMQ for high‑throughput e‑commerce workloads. Although the .NET ecosystem offered mature libraries for publishing and consuming messages, it lacked a dedicated C# framework for &lt;strong&gt;real‑time monitoring of RabbitMQ cluster health&lt;/strong&gt;. Given the operational demands of Novicell&amp;rsquo;s A‑Team—responsible for platforms such as Power.dk, Biltema.dk, and Apoteket.dk—I proposed a focused project to design a lightweight, read‑only monitoring library capable of providing developers with live insights into RabbitMQ cluster metrics.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Monitoring on iustinian-olaru</title>
+    <link>http://localhost:38583/tags/monitoring/</link>
+    <description>Recent content in Monitoring on iustinian-olaru</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:38583/tags/monitoring/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RabbitMQ Monitoring Framework</title>
+      <link>http://localhost:38583/projects/rabbitmq-monitoring-framework/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:38583/projects/rabbitmq-monitoring-framework/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;During my second internship at Novicell, I identified a significant tooling gap while conducting my earlier feasibility study on RabbitMQ for high‑throughput e‑commerce workloads. Although the .NET ecosystem offered mature libraries for publishing and consuming messages, it lacked a dedicated C# framework for &lt;strong&gt;real‑time monitoring of RabbitMQ cluster health&lt;/strong&gt;. Given the operational demands of Novicell&amp;rsquo;s A‑Team—responsible for platforms such as Power.dk, Biltema.dk, and Apoteket.dk—I proposed a focused project to design a lightweight, read‑only monitoring library capable of providing developers with live insights into RabbitMQ cluster metrics.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

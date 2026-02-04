@@ -1,2 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SaaS on iustinian-olaru</title><link>https://olaru.dk/tags/saas/</link><description>Recent content in SaaS on iustinian-olaru</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://olaru.dk/tags/saas/index.xml" rel="self" type="application/rss+xml"/><item><title>SaaS Platform for Financial Workflows</title><link>https://olaru.dk/projects/blazor-saas-platform/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://olaru.dk/projects/blazor-saas-platform/</guid><description>&lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;This project began as an entrepreneurial collaboration with a former colleague who worked closely with small and micro‑businesses as an accountant. Through his experience, he observed a consistent gap in the market: individuals, one‑person companies, and small enterprises lacked access to high‑quality financial and accounting tools that matched the robustness of enterprise‑grade software, yet at a price point they could afford. We set out to build a SaaS platform that delivered the same—or better—quality of functionality and engineering excellence typically reserved for large organizations, while keeping operational costs extraordinarily low. The platform was developed end‑to‑end using C# and Blazor, designed to support modern accounting workflows with the reliability, clarity, and extensibility expected of professionally engineered systems.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SaaS on iustinian-olaru</title>
+    <link>http://localhost:38583/tags/saas/</link>
+    <description>Recent content in SaaS on iustinian-olaru</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:38583/tags/saas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SaaS Platform for Financial Workflows</title>
+      <link>http://localhost:38583/projects/blazor-saas-platform/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:38583/projects/blazor-saas-platform/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;This project began as an entrepreneurial collaboration with a former colleague who worked closely with small and micro‑businesses as an accountant. Through his experience, he observed a consistent gap in the market: individuals, one‑person companies, and small enterprises lacked access to high‑quality financial and accounting tools that matched the robustness of enterprise‑grade software, yet at a price point they could afford. We set out to build a SaaS platform that delivered the same—or better—quality of functionality and engineering excellence typically reserved for large organizations, while keeping operational costs extraordinarily low. The platform was developed end‑to‑end using C# and Blazor, designed to support modern accounting workflows with the reliability, clarity, and extensibility expected of professionally engineered systems.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
