@@ -1,13 +1,4 @@
 <div class="site-header">
-    <div class="terminal-header">
-        <div class="logo terminal-prompt">
-            {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
-            {{ $.Scratch.Add "path" .Site.BaseURL }}
-            <a href="{{ .Site.BaseURL }}" class="no-style {{ with .Site.Params.TitleCutting }}site-name{{ end }}">{{ .Site.Title }}</a>:~#
-            {{ range $index, $element := split $url "/" }}{{ $.Scratch.Add "path" $element }}{{ if ne $element "" }}<a href='{{ $.Scratch.Get "path" | absURL }}'>{{ . }}</a>/{{ $.Scratch.Add "path" "/" }}{{ end }}{{ end }}
-        </div>
-        <button class="theme-toggle" id="theme-toggle" title="Toggle Theme" aria-label="Toggle Theme">[theme]</button>
-    </div>
     <nav class="terminal-menu">
         <ul vocab="https://schema.org/" typeof="BreadcrumbList">
             {{ range $index, $element := .Site.Params.navlinks }}
@@ -18,5 +9,14 @@
             </li>
             {{ end }}
         </ul>
+        <button class="theme-toggle" id="theme-toggle" title="Toggle Theme" aria-label="Toggle Theme">[theme]</button>
     </nav>
+    <div class="terminal-header">
+        <div class="logo terminal-prompt">
+            {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
+            {{ $.Scratch.Add "path" .Site.BaseURL }}
+            <a href="{{ .Site.BaseURL }}" class="no-style {{ with .Site.Params.TitleCutting }}site-name{{ end }}">{{ .Site.Title }}</a>:~#
+            {{ range $index, $element := split $url "/" }}{{ $.Scratch.Add "path" $element }}{{ if ne $element "" }}<a href='{{ $.Scratch.Get "path" | absURL }}'>{{ . }}</a>/{{ $.Scratch.Add "path" "/" }}{{ end }}{{ end }}
+        </div>
+    </div>
 </div>

@@ -107,6 +107,16 @@ body {
     font-size: var(--global-font-size);
     background-color: var(--background-color);
     margin-bottom: 75px;
+    overflow-x: hidden;
+}
+
+.site-header {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.container {
+    overflow-x: hidden;
 }
 
 h1,
@@ -190,19 +200,30 @@ strong {
     justify-content: space-between !important;
     align-items: center !important;
     width: 100%;
+    max-width: 100%;
+    overflow: hidden;
 }
 
 .terminal-header .logo {
     display: inline !important;
     flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     padding: var(--global-space) 0;
     margin: 0;
 }
 
 .terminal-menu {
-    display: block !important;
+    display: flex !important;
+    align-items: center;
     width: 100% !important;
     box-sizing: border-box;
+}
+
+.terminal-menu .theme-toggle {
+    margin-left: auto;
 }
 
 .terminal-menu ul {
@@ -213,7 +234,6 @@ strong {
     list-style: none;
     justify-content: flex-start !important;
     align-items: center !important;
-    width: 100%;
 }
 
 .terminal-menu li {

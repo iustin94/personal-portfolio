@@ -6,12 +6,20 @@
 /* Layout for sticky footer */
 html {
     height: 100%;
+    overflow-x: hidden;
 }
 
 body.terminal {
     min-height: 100%;
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
+    max-width: 100vw;
+}
+
+body.terminal > .container {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 body.terminal > .container:last-of-type {
@@ -112,6 +120,20 @@ body.light-mode {
     border-bottom: 1px solid var(--secondary-color);
     z-index: 100;
     width: 100%;
+    max-width: 100vw;
+    overflow: hidden;
+}
+
+.terminal-header {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.terminal-header .logo {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: calc(100vw - 2 * var(--global-space, 10px));
 }
 
 /* Sticky Footer */
