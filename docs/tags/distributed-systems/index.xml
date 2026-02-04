@@ -1,26 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Distributed Systems on iustinian-olaru</title>
-    <link>https://olaru.dk/tags/distributed-systems/</link>
-    <description>Recent content in Distributed Systems on iustinian-olaru</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://olaru.dk/tags/distributed-systems/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About Me</title>
-      <link>https://olaru.dk/about_me/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://olaru.dk/about_me/</guid>
-      <description>&lt;p&gt;I am a software engineer and architect with a strong foundation in both practical engineering and research‑driven&#xA;analysis. My background spans computer science, bioinformatics, distributed systems, and simulation modeling, giving me&#xA;a unique ability to approach software not just as code, but as a system of interconnected constraints, abstractions, and&#xA;design decisions.&lt;/p&gt;&#xA;&lt;p&gt;What defines my work is the combination of &lt;strong&gt;deep technical curiosity&lt;/strong&gt; and &lt;strong&gt;a clear, structured approach to solving&#xA;complex problems&lt;/strong&gt;. I am drawn to domains where correctness, maintainability, and conceptual clarity matter—where a&#xA;system must not only function today but remain robust and adaptable for years to come. This mindset has guided me&#xA;through projects involving message queue architectures, enterprise‑scale data modeling, drone‑based measurement&#xA;workflows, financial simulation engines, and scientific analysis pipelines.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Feasibility Study of RabbitMQ</title>
-      <link>https://olaru.dk/projects/rabbitmq-feasibility-study/</link>
-      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://olaru.dk/projects/rabbitmq-feasibility-study/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;During my internship at Novicell, I was part of the A‑Team, the department responsible for maintaining and developing the solutions for three of Denmark&amp;rsquo;s largest e‑commerce platforms: &lt;strong&gt;Power.dk&lt;/strong&gt; (a major consumer electronics retailer), &lt;strong&gt;Biltema.dk&lt;/strong&gt; (one of the country&amp;rsquo;s biggest consumer goods chains), and &lt;strong&gt;Apoteket.dk&lt;/strong&gt; (a large national pharmacy platform). These systems experience extreme traffic spikes during events such as Black Friday and the Christmas shopping season. To support the scalability demands of these high‑throughput environments, I was tasked with a structured, scientific investigation into whether &lt;strong&gt;RabbitMQ&lt;/strong&gt; could serve as a reliable core technology for message processing and load distribution. The goal was to determine its architectural suitability and ensure that the company&amp;rsquo;s systems could handle peak seasonal workloads without service degradation.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Distributed Systems on iustinian-olaru</title><link>https://olaru.dk/tags/distributed-systems/</link><description>Recent content in Distributed Systems on iustinian-olaru</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://olaru.dk/tags/distributed-systems/index.xml" rel="self" type="application/rss+xml"/><item><title>About Me</title><link>https://olaru.dk/about_me/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://olaru.dk/about_me/</guid><description>&lt;p&gt;I am a software engineer and architect with a strong foundation in both practical engineering and research‑driven
+analysis. My background spans computer science, bioinformatics, distributed systems, and simulation modeling, giving me
+a unique ability to approach software not just as code, but as a system of interconnected constraints, abstractions, and
+design decisions.&lt;/p&gt;
+&lt;p&gt;What defines my work is the combination of &lt;strong&gt;deep technical curiosity&lt;/strong&gt; and &lt;strong&gt;a clear, structured approach to solving
+complex problems&lt;/strong&gt;. I am drawn to domains where correctness, maintainability, and conceptual clarity matter—where a
+system must not only function today but remain robust and adaptable for years to come. This mindset has guided me
+through projects involving message queue architectures, enterprise‑scale data modeling, drone‑based measurement
+workflows, financial simulation engines, and scientific analysis pipelines.&lt;/p&gt;</description></item><item><title>Feasibility Study of RabbitMQ</title><link>https://olaru.dk/projects/rabbitmq-feasibility-study/</link><pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate><guid>https://olaru.dk/projects/rabbitmq-feasibility-study/</guid><description>&lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;During my internship at Novicell, I was part of the A‑Team, the department responsible for maintaining and developing the solutions for three of Denmark&amp;rsquo;s largest e‑commerce platforms: &lt;strong&gt;Power.dk&lt;/strong&gt; (a major consumer electronics retailer), &lt;strong&gt;Biltema.dk&lt;/strong&gt; (one of the country&amp;rsquo;s biggest consumer goods chains), and &lt;strong&gt;Apoteket.dk&lt;/strong&gt; (a large national pharmacy platform). These systems experience extreme traffic spikes during events such as Black Friday and the Christmas shopping season. To support the scalability demands of these high‑throughput environments, I was tasked with a structured, scientific investigation into whether &lt;strong&gt;RabbitMQ&lt;/strong&gt; could serve as a reliable core technology for message processing and load distribution. The goal was to determine its architectural suitability and ensure that the company&amp;rsquo;s systems could handle peak seasonal workloads without service degradation.&lt;/p&gt;</description></item></channel></rss>

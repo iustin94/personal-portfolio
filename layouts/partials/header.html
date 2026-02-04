@@ -1,5 +1,22 @@
-<!-- Custom head additions -->
-<link rel='stylesheet' href='{{ "css/hero.css" | absURL }}' />
-<link rel='stylesheet' href='{{ "css/tree.css" | absURL }}' />
-<link rel='stylesheet' href='{{ "css/custom-theme.css" | absURL }}' />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<div class="site-header">
+    <div class="terminal-header">
+        <div class="logo terminal-prompt">
+            {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
+            {{ $.Scratch.Add "path" .Site.BaseURL }}
+            <a href="{{ .Site.BaseURL }}" class="no-style {{ with .Site.Params.TitleCutting }}site-name{{ end }}">{{ .Site.Title }}</a>:~#
+            {{ range $index, $element := split $url "/" }}{{ $.Scratch.Add "path" $element }}{{ if ne $element "" }}<a href='{{ $.Scratch.Get "path" | absURL }}'>{{ . }}</a>/{{ $.Scratch.Add "path" "/" }}{{ end }}{{ end }}
+        </div>
+        <button class="theme-toggle" id="theme-toggle" title="Toggle Theme" aria-label="Toggle Theme">[theme]</button>
+    </div>
+    <nav class="terminal-menu">
+        <ul vocab="https://schema.org/" typeof="BreadcrumbList">
+            {{ range $index, $element := .Site.Params.navlinks }}
+            <li property="itemListElement" typeof="ListItem">
+                <a property="item" typeof="WebPage" href="{{ absURL .url }}">
+                    <span property="name">{{ .name }}</span></a>
+                <meta property="position" content="{{ add $index 1}}" />
+            </li>
+            {{ end }}
+        </ul>
+    </nav>
+</div>

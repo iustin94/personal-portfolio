@@ -103,6 +103,17 @@ body.light-mode {
     text-decoration: none;
 }
 
+.site-header {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--background-color);
+    border-bottom: 1px solid var(--secondary-color);
+    z-index: 100;
+    width: 100%;
+}
+
 /* Sticky Footer */
 .site-footer {
     position: sticky;

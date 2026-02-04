@@ -1,19 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>BioNetGen on iustinian-olaru</title>
-    <link>https://olaru.dk/tags/bionetgen/</link>
-    <description>Recent content in BioNetGen on iustinian-olaru</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://olaru.dk/tags/bionetgen/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Evaluation of Rule‑Based Simulation Modeling</title>
-      <link>https://olaru.dk/projects/rule-based-simulation-engine/</link>
-      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://olaru.dk/projects/rule-based-simulation-engine/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;During my Master’s studies in Bioinformatics, I undertook an independent research project exploring the use of rule‑based simulation tools for modeling biological and biochemical processes. Motivated by a long‑standing interest in simulation modeling and its potential for understanding dynamic natural systems, I chose to investigate &lt;strong&gt;BioNetGen&lt;/strong&gt;, a specialized framework for defining and executing rule‑based biomolecular models. The purpose of this project was not to validate specific biological hypotheses, but to evaluate the practicality, usability, and methodological strengths of BioNetGen from the perspective of both a software engineer and a researcher.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>BioNetGen on iustinian-olaru</title><link>https://olaru.dk/tags/bionetgen/</link><description>Recent content in BioNetGen on iustinian-olaru</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://olaru.dk/tags/bionetgen/index.xml" rel="self" type="application/rss+xml"/><item><title>Evaluation of Rule‑Based Simulation Modeling</title><link>https://olaru.dk/projects/rule-based-simulation-engine/</link><pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate><guid>https://olaru.dk/projects/rule-based-simulation-engine/</guid><description>&lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;During my Master’s studies in Bioinformatics, I undertook an independent research project exploring the use of rule‑based simulation tools for modeling biological and biochemical processes. Motivated by a long‑standing interest in simulation modeling and its potential for understanding dynamic natural systems, I chose to investigate &lt;strong&gt;BioNetGen&lt;/strong&gt;, a specialized framework for defining and executing rule‑based biomolecular models. The purpose of this project was not to validate specific biological hypotheses, but to evaluate the practicality, usability, and methodological strengths of BioNetGen from the perspective of both a software engineer and a researcher.&lt;/p&gt;</description></item></channel></rss>

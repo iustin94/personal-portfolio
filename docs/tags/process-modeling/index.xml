@@ -1,19 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Process Modeling on iustinian-olaru</title>
-    <link>https://olaru.dk/tags/process-modeling/</link>
-    <description>Recent content in Process Modeling on iustinian-olaru</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://olaru.dk/tags/process-modeling/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Enterprise Process Modeling Platform</title>
-      <link>https://olaru.dk/projects/enterprisel-data-workbench/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://olaru.dk/projects/enterprisel-data-workbench/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;During my time at Ramboll, I worked closely with the team responsible for maintaining a decade‑old Python/Django risk management platform used across several business units. Over the years, the system had accumulated significant technical debt, with inconsistent modules, tightly coupled logic, and architectural limitations inherent to the framework and language. As new enterprise‑level requirements emerged, it became increasingly clear that the legacy platform could no longer support scalable, type‑safe, and maintainable domain modeling. In response, leadership approved a greenfield initiative—internally referred to as the &lt;em&gt;Data Workbench&lt;/em&gt;—aimed at building a modern enterprise process‑modeling platform informed by the lessons learned from maintaining the legacy codebase.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Process Modeling on iustinian-olaru</title><link>https://olaru.dk/tags/process-modeling/</link><description>Recent content in Process Modeling on iustinian-olaru</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://olaru.dk/tags/process-modeling/index.xml" rel="self" type="application/rss+xml"/><item><title>Enterprise Process Modeling Platform</title><link>https://olaru.dk/projects/enterprisel-data-workbench/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://olaru.dk/projects/enterprisel-data-workbench/</guid><description>&lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;During my time at Ramboll, I worked closely with the team responsible for maintaining a decade‑old Python/Django risk management platform used across several business units. Over the years, the system had accumulated significant technical debt, with inconsistent modules, tightly coupled logic, and architectural limitations inherent to the framework and language. As new enterprise‑level requirements emerged, it became increasingly clear that the legacy platform could no longer support scalable, type‑safe, and maintainable domain modeling. In response, leadership approved a greenfield initiative—internally referred to as the &lt;em&gt;Data Workbench&lt;/em&gt;—aimed at building a modern enterprise process‑modeling platform informed by the lessons learned from maintaining the legacy codebase.&lt;/p&gt;</description></item></channel></rss>

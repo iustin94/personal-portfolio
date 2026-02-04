@@ -1,19 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Aerospace on iustinian-olaru</title>
-    <link>https://olaru.dk/tags/aerospace/</link>
-    <description>Recent content in Aerospace on iustinian-olaru</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://olaru.dk/tags/aerospace/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Drone Flight Assistant App</title>
-      <link>https://olaru.dk/projects/flight-assistant/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://olaru.dk/projects/flight-assistant/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;After completing my Master&amp;rsquo;s degree, I transitioned from part‑time developer to full‑time Lead Software Engineer at QuadSat, a small but highly specialized company combining drone technology with RF measurement systems for satellite antenna testing. With only five employees at the time, I became responsible for architecting and implementing a new desktop application—later named the &lt;em&gt;Flight Assistant&lt;/em&gt;—designed to support technicians in the field. The goal of the application was to provide a unified tool for configuring drone flight paths, processing RF measurement data from a proprietary payload, and synchronizing telemetry from both the drone and a GPS base station.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Aerospace on iustinian-olaru</title><link>https://olaru.dk/tags/aerospace/</link><description>Recent content in Aerospace on iustinian-olaru</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://olaru.dk/tags/aerospace/index.xml" rel="self" type="application/rss+xml"/><item><title>Drone Flight Assistant App</title><link>https://olaru.dk/projects/flight-assistant/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://olaru.dk/projects/flight-assistant/</guid><description>&lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;After completing my Master&amp;rsquo;s degree, I transitioned from part‑time developer to full‑time Lead Software Engineer at QuadSat, a small but highly specialized company combining drone technology with RF measurement systems for satellite antenna testing. With only five employees at the time, I became responsible for architecting and implementing a new desktop application—later named the &lt;em&gt;Flight Assistant&lt;/em&gt;—designed to support technicians in the field. The goal of the application was to provide a unified tool for configuring drone flight paths, processing RF measurement data from a proprietary payload, and synchronizing telemetry from both the drone and a GPS base station.&lt;/p&gt;</description></item></channel></rss>
