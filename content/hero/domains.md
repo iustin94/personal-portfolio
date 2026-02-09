@@ -1,5 +1,5 @@
 ---
-title: "domains"
-weight: 3 
+title: "problem domains"
+weight: 6
 ---
-Full Stack, NoJs, Open Source
+R&D systems • Startup and scale-up platforms

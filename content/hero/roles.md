@@ -1,5 +1,5 @@
 ---
-title: "roles"
+title: "role"
 weight: 2
 ---
-Software Developer, Freelancer, Consultant
+Software Architect & Builder

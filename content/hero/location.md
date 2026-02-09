@@ -1,5 +1,5 @@
 ---
 title: "location"
-weight: 3
+weight: 10
 ---
-Fyn, Denmark
+Fyn, Denmark • Remote-friendly
