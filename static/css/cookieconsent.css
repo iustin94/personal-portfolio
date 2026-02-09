@@ -7,7 +7,7 @@
 }
 
 /* Dark mode styles (default) */
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
     #cc-main {
         --cc-bg: #262626;
         --cc-text: #E2E8CE;
@@ -31,9 +31,8 @@
 }
 
 /* Light mode styles */
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
     #cc-main {
-        --cc-bg: #E2E8CE;
         --cc-text: #262626;
         --cc-secondary-color: #262626;
         --cc-link-color: #FF7F11;
@@ -56,7 +55,7 @@
 }
 
 /* Manual dark mode override */
-body.dark-mode #cc-main {
+body.light-mode #cc-main {
     --cc-bg: #262626;
     --cc-text: #E2E8CE;
     --cc-secondary-color: #E2E8CE;
@@ -78,7 +77,7 @@ body.dark-mode #cc-main {
 }
 
 /* Manual light mode override */
-body.light-mode #cc-main {
+body.dark-mode #cc-main {
     --cc-bg: #E2E8CE;
     --cc-text: #262626;
     --cc-secondary-color: #262626;
@@ -110,7 +109,7 @@ body.light-mode #cc-main {
     #cc-main .section__toggle-title,
     #cc-main .section__toggle-desc,
     #cc-main .pm__badge {
-        color: #E2E8CE;
+        color: #262626;
     }
 }
 
@@ -123,7 +122,7 @@ body.light-mode #cc-main {
     #cc-main .section__toggle-title,
     #cc-main .section__toggle-desc,
     #cc-main .pm__badge {
-        color: #262626;
+        color: #E2E8CE;
     }
 }
 
@@ -135,7 +134,7 @@ body.dark-mode #cc-main .pm__section-desc,
 body.dark-mode #cc-main .section__toggle-title,
 body.dark-mode #cc-main .section__toggle-desc,
 body.dark-mode #cc-main .pm__badge {
-    color: #E2E8CE;
+    color: #262626;
 }
 
 body.light-mode #cc-main .cm__title,
@@ -146,5 +145,5 @@ body.light-mode #cc-main .pm__section-desc,
 body.light-mode #cc-main .section__toggle-title,
 body.light-mode #cc-main .section__toggle-desc,
 body.light-mode #cc-main .pm__badge {
-    color: #262626;
+    color: #E2E8CE;
 }

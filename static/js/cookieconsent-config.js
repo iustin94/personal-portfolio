@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         },
 
-        disablePageInteraction: false,
+        disablePageInteraction: true,
 
         categories: {
             necessary: {
@@ -84,13 +84,12 @@ document.addEventListener('DOMContentLoaded', function() {
                         title: 'Cookie Consent',
                         description: 'We use cookies to analyze site traffic and improve your experience.',
                         acceptAllBtn: 'Accept all',
-                        acceptNecessaryBtn: 'Reject all',
                         showPreferencesBtn: 'Manage preferences'
                     },
                     preferencesModal: {
                         title: 'Cookie Preferences',
                         acceptAllBtn: 'Accept all',
-                        acceptNecessaryBtn: 'Reject all',
+                        acceptSelectedBtn: 'Manage preferences',
                         savePreferencesBtn: 'Save preferences',
                         sections: [
                             {
