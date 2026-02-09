@@ -5,6 +5,7 @@ draft: false
 description: "Reproducible Jupyter-based Python pipeline for mass spectrometry proteomics analysis, featuring PTM support and open-source scientific workflows."
 tags: ["Python", "Jupyter", "Bioinformatics", "Proteomics", "Mass Spectrometry", "Reproducible Research"]
 og_image: "/images/og.png"
+locale: "en_US"
 # standardized metadata for filtering/coloring
 type: "inquiry"
 location: "Odense, Denmark"

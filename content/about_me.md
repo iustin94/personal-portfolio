@@ -1,9 +1,11 @@
 ---
-title: 'About Me'
+title: "About Iustinian Olaru - Software Engineer & Architect"
+date: 2024-01-01
 weight: 1
 description: "Software engineer and architect specializing in C#/.NET, distributed systems, simulation modeling, and domain-driven design. Based in Denmark."
-tags: ["Software Engineer", "Architect", "C#", ".NET", "Distributed Systems", "DDD"]
+tags: ["Software Engineer", "Architect", "C#", ".NET", "Distributed Systems", "DDD", "Denmark"]
 og_image: "/images/og.png"
+locale: "en_US"
 ---
 
 **TL;DR: measure first, design simply, automate responsibly, document clearly, share what helps.**

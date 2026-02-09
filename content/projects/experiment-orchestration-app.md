@@ -5,6 +5,7 @@ draft: false
 description: "Real-time biometric data synchronization app built with C# and WPF for cognitive science research on heart rate synchronization during shared activities."
 tags: ["C#", "WPF", "Biometrics", "Cognitive Science", "Real-time", "Data Synchronization"]
 og_image: "/images/og.png"
+locale: "en_US"
 # standardized metadata for filtering/coloring
 type: "implementation"
 location: "Aarhus, Denmark"

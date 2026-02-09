@@ -5,6 +5,7 @@ draft: false
 description: "Research evaluation of BioNetGen for rule-based biomolecular simulation modeling, assessing usability and methodology from a software engineering perspective."
 tags: ["Bioinformatics", "Simulation", "Systems Biology", "BioNetGen", "Rule-based Modeling", "Research"]
 og_image: "/images/og.png"
+locale: "en_US"
 # standardized metadata for filtering/coloring
 type: "inquiry"
 location: "Odense, Denmark"

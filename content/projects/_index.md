@@ -1,8 +1,10 @@
 ---
-title: "Projects"
+title: "Projects - Iustinian Olaru's Software Portfolio"
+date: 2024-01-01
 description: "Portfolio of software engineering projects spanning enterprise platforms, distributed systems, bioinformatics pipelines, and SaaS development."
-tags: ["Portfolio", "Software Projects", "C#", ".NET", "Python", "Enterprise"]
+tags: ["Portfolio", "Software Projects", "C#", ".NET", "Python", "Enterprise", "Denmark"]
 og_image: "/images/og.png"
+locale: "en_US"
 ---
 **Implementation projects:**
 

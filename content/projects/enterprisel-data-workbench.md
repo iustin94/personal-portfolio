@@ -5,6 +5,7 @@ draft: false
 description: "Greenfield enterprise data management platform built with C#/.NET and domain-driven design, replacing a legacy Python/Django risk management system at Ramboll."
 tags: ["C#", ".NET", "EF Core", "DDD", "Enterprise", "Architecture", "Process Modeling"]
 og_image: "/images/og.png"
+locale: "en_US"
 # standardized metadata for filtering/coloring
 type: "implementation"
 location: "Copenhagen, Denmark"

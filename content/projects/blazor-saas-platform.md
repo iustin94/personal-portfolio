@@ -5,6 +5,7 @@ draft: false
 description: "Enterprise-grade financial SaaS platform built with C# and Blazor, featuring a custom rule-based simulation engine for small businesses and entrepreneurs."
 tags: ["C#", "Blazor", ".NET", "SaaS", "Finance", "Docker", "Simulation", "EF Core"]
 og_image: "/images/og.png"
+locale: "en_US"
 # standardized metadata for filtering/coloring
 type: "implementation"
 location: "Remote / Hetzner (DE)"
