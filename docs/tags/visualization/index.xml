@@ -1,19 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Visualization on iustinian-olaru</title>
-    <link>http://localhost:1313/tags/visualization/</link>
-    <description>Recent content in Visualization on iustinian-olaru</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 01 Aug 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/visualization/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Software Developer - Part Time</title>
-      <link>http://localhost:1313/experience/quadsat-parttime/</link>
-      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/experience/quadsat-parttime/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Part-time software development role at QuadSAT focused on building data analysis and visualization tooling for the company&amp;rsquo;s RF measurement capabilities.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Key contributions:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Built Python tools for RF data analysis and heatmap generation.&lt;/li&gt;&#xA;&lt;li&gt;Supported R&amp;amp;D with scientific data processing workflows.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Visualization on iustinian-olaru</title><link>https://olaru.dk/tags/visualization/</link><description>Recent content in Visualization on iustinian-olaru</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 01 Aug 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://olaru.dk/tags/visualization/index.xml" rel="self" type="application/rss+xml"/><item><title>Software Developer - Part Time</title><link>https://olaru.dk/experience/quadsat-parttime/</link><pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate><guid>https://olaru.dk/experience/quadsat-parttime/</guid><description>&lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Part-time software development role at QuadSAT focused on building data analysis and visualization tooling for the company&amp;rsquo;s RF measurement capabilities.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Key contributions:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Built Python tools for RF data analysis and heatmap generation.&lt;/li&gt;
+&lt;li&gt;Supported R&amp;amp;D with scientific data processing workflows.&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

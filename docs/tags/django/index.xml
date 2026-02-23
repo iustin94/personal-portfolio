@@ -1,19 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Django on iustinian-olaru</title>
-    <link>http://localhost:1313/tags/django/</link>
-    <description>Recent content in Django on iustinian-olaru</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 01 Dec 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/django/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Full-Stack Software Developer &amp; Consultant</title>
-      <link>http://localhost:1313/experience/ramboll/</link>
-      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/experience/ramboll/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Worked as a full-stack developer and consultant at Ramboll, contributing to large-scale risk analysis and safety platforms as well as greenfield enterprise application development.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Key contributions:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Backend development for large-scale risk analysis and safety platforms using Python/Django and PostgreSQL.&lt;/li&gt;&#xA;&lt;li&gt;Refactored legacy systems, resolved circular dependencies, and improved overall system performance.&lt;/li&gt;&#xA;&lt;li&gt;Built dashboards, migrated UI components to HTMX, and supported frontend modernization efforts.&lt;/li&gt;&#xA;&lt;li&gt;Developed core components of a new .NET 7 DDD-based enterprise platform.&lt;/li&gt;&#xA;&lt;li&gt;Mentored junior developers and maintained coding standards within a small team.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Django on iustinian-olaru</title><link>https://olaru.dk/tags/django/</link><description>Recent content in Django on iustinian-olaru</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 01 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://olaru.dk/tags/django/index.xml" rel="self" type="application/rss+xml"/><item><title>Full-Stack Software Developer &amp; Consultant</title><link>https://olaru.dk/experience/ramboll/</link><pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate><guid>https://olaru.dk/experience/ramboll/</guid><description>&lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Worked as a full-stack developer and consultant at Ramboll, contributing to large-scale risk analysis and safety platforms as well as greenfield enterprise application development.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Key contributions:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Backend development for large-scale risk analysis and safety platforms using Python/Django and PostgreSQL.&lt;/li&gt;
+&lt;li&gt;Refactored legacy systems, resolved circular dependencies, and improved overall system performance.&lt;/li&gt;
+&lt;li&gt;Built dashboards, migrated UI components to HTMX, and supported frontend modernization efforts.&lt;/li&gt;
+&lt;li&gt;Developed core components of a new .NET 7 DDD-based enterprise platform.&lt;/li&gt;
+&lt;li&gt;Mentored junior developers and maintained coding standards within a small team.&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>
