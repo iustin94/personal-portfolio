@@ -1,0 +1,9 @@
+{{ define "main" }}
+
+<div class="experience-header">
+  <strong>{{ .Params.institution }}</strong> · {{ .Params.period }} · {{ .Params.location }}
+</div>
+<br/>
+{{ .Content }}
+{{ template "_internal/disqus.html" . }}
+{{ end }}

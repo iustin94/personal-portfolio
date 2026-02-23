@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Automation on iustinian-olaru</title>
+    <link>http://localhost:1313/tags/automation/</link>
+    <description>Recent content in Automation on iustinian-olaru</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/automation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Research Assistant Student Developer</title>
+      <link>http://localhost:1313/experience/sdu-research-assistant/</link>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/experience/sdu-research-assistant/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Short-term research assistant position at the Faculty of Economics, University of Southern Denmark (SDU), focused on automating experimental data workflows.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Key contributions:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Implemented data workflows for image processing with the scope of automating work in relation to experiments conducted by the faculty.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

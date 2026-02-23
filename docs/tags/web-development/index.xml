@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web Development on iustinian-olaru</title>
+    <link>http://localhost:1313/tags/web-development/</link>
+    <description>Recent content in Web Development on iustinian-olaru</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Mar 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/web-development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Software Developer - Part Time</title>
+      <link>http://localhost:1313/experience/sarita/</link>
+      <pubDate>Sun, 01 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/experience/sarita/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Part-time frontend development role at Sarita CareTech, a company focused on care technology solutions.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Key contributions:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Implemented the front end of a user platform which supported the core product developed by the company.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

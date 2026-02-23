@@ -195,3 +195,61 @@ body.light-mode {
     color: var(--secondary-color);
 }
 
+/* Hero CTA */
+.hero-cta {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.cta-prompt-line {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.cta-prompt {
+    color: var(--primary-color);
+    font-weight: bold;
+    user-select: none;
+}
+
+.cta-tagline {
+    color: var(--secondary-color);
+    font-size: 0.95rem;
+}
+
+.cta-actions {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding-left: 1.1rem;
+}
+
+.cta-btn {
+    color: var(--font-color);
+    text-decoration: none;
+    border: 1px solid var(--secondary-color);
+    padding: 0.3rem 0.8rem;
+    transition: color 0.2s ease, border-color 0.2s ease;
+    display: inline-block;
+}
+
+.cta-btn:hover {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+    background: none;
+    text-decoration: none;
+}
+
+.cta-btn-primary {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.cta-btn-primary:hover {
+    color: var(--invert-font-color);
+    background-color: var(--primary-color);
+}
+

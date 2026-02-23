@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Community on iustinian-olaru</title>
+    <link>http://localhost:1313/tags/community/</link>
+    <description>Recent content in Community on iustinian-olaru</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/community/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>O’Town Makerspace — Organizational &amp; Technical Leadership</title>
+      <link>http://localhost:1313/projects/makerspace-management/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/makerspace-management/</guid>
+      <description>&lt;p&gt;Over several years I have become progressively more involved in &lt;strong&gt;O’Town Makerspace&lt;/strong&gt;, a volunteer‑run creative community in Odense. What started as a personal interest in hands‑on engineering gradually evolved into a long-term commitment to strengthening the organization — operationally, financially, and technically. My focus has consistently been on understanding real constraints and delivering sustainable improvements together with other volunteers.&lt;/p&gt;&#xA;&lt;h2 id=&#34;financial-stabilization&#34;&gt;Financial Stabilization&lt;/h2&gt; &lt;p&gt;When I stepped into the treasurer role, the makerspace was operating at a continuous loss and risked depleting its reserves. The situation required a structural, not superficial, response.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

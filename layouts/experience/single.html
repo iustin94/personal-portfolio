@@ -1,0 +1,10 @@
+{{ define "main" }}
+
+<div class="experience-header">
+  <strong>{{ .Params.organization }}</strong> · {{ .Params.period }} · {{ .Params.location }}
+  {{ with .Params.focus }}<br/>[{{ delimit . ", " }}]{{ end }}
+</div>
+<br/>
+{{ .Content }}
+{{ template "_internal/disqus.html" . }}
+{{ end }}

@@ -1,0 +1,23 @@
+{{ define "main" }}
+
+<div class="folder-tree">
+{{- $pages := where .Pages ".Params.private" "!=" true -}}
+{{- $pages = sort $pages ".Params.weight" -}}
+{{- $last := sub (len $pages) 1 -}}
+{{- range $i, $p := $pages -}}
+{{- $connector := "├──" -}}
+{{- $spacer := "│  " -}}
+{{- if eq $i $last -}}
+  {{- $connector = "└──" -}}
+  {{- $spacer = "   " -}}
+{{- end }}
+<div class="tree-entry">
+  <div class="tree-row"><span class="tree-glyph">{{ $connector }}</span><a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a></div>
+  <div class="tree-row"><span class="tree-glyph">{{ $spacer }}</span><span class="project-tags">{{ $p.Params.organization }} · {{ $p.Params.period }}</span></div>
+  <div class="tree-row"><span class="tree-glyph">{{ $spacer }}</span><span class="project-tags">[{{ delimit $p.Params.focus ", " }}]</span></div>
+  <div class="tree-row"><span class="tree-glyph">{{ $spacer }}</span><span class="project-summary">{{ $p.Description }}</span></div>
+</div>
+{{- end }}
+</div>
+
+{{ end }}

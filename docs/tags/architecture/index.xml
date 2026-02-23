@@ -1,2 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Architecture on iustinian-olaru</title><link>https://olaru.dk/tags/architecture/</link><description>Recent content in Architecture on iustinian-olaru</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://olaru.dk/tags/architecture/index.xml" rel="self" type="application/rss+xml"/><item><title>Enterprise Process Modeling Platform</title><link>https://olaru.dk/projects/enterprisel-data-workbench/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://olaru.dk/projects/enterprisel-data-workbench/</guid><description>&lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;During my time at Ramboll, I worked closely with the team responsible for maintaining a decade‑old Python/Django risk management platform used across several business units. Over the years, the system had accumulated significant technical debt, with inconsistent modules, tightly coupled logic, and architectural limitations inherent to the framework and language. As new enterprise‑level requirements emerged, it became increasingly clear that the legacy platform could no longer support scalable, type‑safe, and maintainable domain modeling. In response, leadership approved a greenfield initiative—internally referred to as the &lt;em&gt;Data Workbench&lt;/em&gt;—aimed at building a modern enterprise process‑modeling platform informed by the lessons learned from maintaining the legacy codebase.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Architecture on iustinian-olaru</title>
+    <link>http://localhost:1313/tags/architecture/</link>
+    <description>Recent content in Architecture on iustinian-olaru</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/architecture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>B.Sc. Software Development</title>
+      <link>http://localhost:1313/education/bsc-software-development/</link>
+      <pubDate>Mon, 01 Sep 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/education/bsc-software-development/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Coursework:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Computer science fundamentals&lt;/li&gt;&#xA;&lt;li&gt;Algorithms and data structures&lt;/li&gt;&#xA;&lt;li&gt;Database design&lt;/li&gt;&#xA;&lt;li&gt;Software architecture and UX design&lt;/li&gt;&#xA;&lt;li&gt;Business analysis&lt;/li&gt;&#xA;&lt;li&gt;Web, desktop, and mobile application development&lt;/li&gt;&#xA;&lt;li&gt;Enterprise-level architecture design&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Projects:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;RabbitMQ benchmarking and multi-sensor C# applications.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Software Developer - Part Time</title>
+      <link>http://localhost:1313/experience/novicell/</link>
+      <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/experience/novicell/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Part-time software developer at Novicell, one of Denmark&amp;rsquo;s leading digital agencies, working on the A-Team responsible for some of the country&amp;rsquo;s largest e-commerce platforms including Power.dk, Biltema.dk, and Apoteket.dk.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Key contributions:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Conducted a scientific feasibility study on RabbitMQ as a core messaging technology for high-throughput e-commerce platforms including Power.dk, Biltema.dk, and Apoteket.dk.&lt;/li&gt;&#xA;&lt;li&gt;Designed and executed large-scale performance tests across single-node and multi-node RabbitMQ clusters, using Docker to automate deployments and ensure reproducible environments.&lt;/li&gt;&#xA;&lt;li&gt;Identified a two-order-of-magnitude throughput bottleneck in the proposed production architecture, delivering findings directly to senior engineering leadership and informing revised system design.&lt;/li&gt;&#xA;&lt;li&gt;Developed a dynamic, read-only C# monitoring framework for RabbitMQ, generating strongly typed models at runtime via reflection based on the server&amp;rsquo;s management API metadata.&lt;/li&gt;&#xA;&lt;li&gt;Demonstrated advanced distributed-system debugging and architectural analysis skills, contributing widely referenced RabbitMQ insights on StackOverflow and briefly becoming the top-ranked contributor in the RabbitMQ tag.&lt;/li&gt;&#xA;&lt;li&gt;Provided architectural guidance that helped prevent scalability issues during peak retail events and laid groundwork for future internal observability tooling.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Enterprise Process Modeling Platform</title>
+      <link>http://localhost:1313/projects/enterprisel-data-workbench/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/enterprisel-data-workbench/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;During my time at Ramboll, I worked closely with the team responsible for maintaining a decade‑old Python/Django risk management platform used across several business units. Over the years, the system had accumulated significant technical debt, with inconsistent modules, tightly coupled logic, and architectural limitations inherent to the framework and language. As new enterprise‑level requirements emerged, it became increasingly clear that the legacy platform could no longer support scalable, type‑safe, and maintainable domain modeling. In response, leadership approved a greenfield initiative—internally referred to as the &lt;em&gt;Data Workbench&lt;/em&gt;—aimed at building a modern enterprise process‑modeling platform informed by the lessons learned from maintaining the legacy codebase.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>O’Town Makerspace — Organizational &amp; Technical Leadership</title>
+      <link>http://localhost:1313/projects/makerspace-management/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/makerspace-management/</guid>
+      <description>&lt;p&gt;Over several years I have become progressively more involved in &lt;strong&gt;O’Town Makerspace&lt;/strong&gt;, a volunteer‑run creative community in Odense. What started as a personal interest in hands‑on engineering gradually evolved into a long-term commitment to strengthening the organization — operationally, financially, and technically. My focus has consistently been on understanding real constraints and delivering sustainable improvements together with other volunteers.&lt;/p&gt;&#xA;&lt;h2 id=&#34;financial-stabilization&#34;&gt;Financial Stabilization&lt;/h2&gt; &lt;p&gt;When I stepped into the treasurer role, the makerspace was operating at a continuous loss and risked depleting its reserves. The situation required a structural, not superficial, response.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
