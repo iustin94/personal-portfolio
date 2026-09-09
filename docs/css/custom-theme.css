@@ -253,3 +253,7 @@ body.light-mode {
     background-color: var(--primary-color);
 }
 
+
+.page-title {
+    margin-bottom: 1.5rem;
+}
