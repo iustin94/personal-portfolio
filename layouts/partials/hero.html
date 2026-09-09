@@ -12,9 +12,15 @@
   <div class="system-info">
     {{ with .Site.GetPage "/hero" }}
       {{ range .Pages.ByWeight }}
+        {{ if eq .Title "name" }}
+        <h1 class="info-line">
+          <span class="info-label">{{ .Title }}</span>: {{ .Plain | safeHTML }}
+        </h1>
+        {{ else }}
         <div class="info-line">
           {{ if .Title }}<span class="info-label">{{ .Title }}</span>: {{ end }}{{ .Plain | safeHTML }}
         </div>
+        {{ end }}
       {{ end }}
     {{ end }}
   </div>

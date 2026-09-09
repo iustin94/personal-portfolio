@@ -3,6 +3,8 @@ languageCode = "en-us"
 title = "iustinian-olaru"
 theme="hugo-theme-console"
 publishDir = "docs"
+enableRobotsTXT = true
+disableKinds = ["taxonomy", "term"]
 
 [markup]
   [markup.goldmark]
@@ -46,6 +48,7 @@ publishDir = "docs"
   # OpenGraph and Twitter Cards
   description = "Software Developer specializing in C#/.NET, full-stack development, and domain-driven design. Based in Denmark."
   title = "Iustinian Olaru"
+  locale = "en_US"
 
   [params.og]
     image = "/images/og.png"

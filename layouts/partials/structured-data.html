@@ -1,0 +1,23 @@
+{{- $siteUrl := "/" | absURL -}}
+{{- $sameAs := slice -}}
+{{- range .Site.Params.sociallinks }}{{ $sameAs = $sameAs | append .url }}{{ end -}}
+{{- $person := dict
+  "@context" "https://schema.org"
+  "@type" "Person"
+  "name" .Site.Params.title
+  "url" $siteUrl
+  "jobTitle" "Software Architect"
+  "sameAs" $sameAs
+  "image" (.Site.Params.og.image | absURL)
+-}}
+<script type="application/ld+json">{{ $person | jsonify | safeJS }}</script>
+{{- if .IsHome }}
+{{- $website := dict
+  "@context" "https://schema.org"
+  "@type" "WebSite"
+  "name" .Site.Params.title
+  "url" $siteUrl
+  "inLanguage" "en"
+-}}
+<script type="application/ld+json">{{ $website | jsonify | safeJS }}</script>
+{{- end }}
