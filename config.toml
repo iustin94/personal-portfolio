@@ -105,6 +105,11 @@ disableKinds = ["taxonomy", "term"]
   icon = "fa-stack-overflow"
 
 [[menus.main]]
+  name = "Services"
+  pageRef = "/services"
+  weight = 5
+
+[[menus.main]]
   name = "Case Studies"
   pageRef = "/case-studies"
   weight = 10

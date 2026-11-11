@@ -1,0 +1,37 @@
+{{ define "main" }}
+{{- $caseStudiesSection := .Site.GetPage "/case-studies" }}
+{{- $publicCaseStudies := where $caseStudiesSection.Pages ".Params.private" "!=" true }}
+{{- $caseStudiesByNewest := $publicCaseStudies.ByDate.Reverse }}
+<div class="article">
+    <h1 class="page-title"><span class="marker">{{ .Title }}</span></h1>
+    <p class="lead">{{ .Description }}</p>
+    {{- range .Pages.ByWeight }}
+    {{- $offerId := .File.ContentBaseName }}
+    {{- $situation := .Params.situation }}
+    {{- if not $situation }}{{ errorf "%s is missing the situation parameter" .File.Path }}{{ end }}
+    {{- $deliverables := .Params.deliverables }}
+    {{- if not $deliverables }}{{ errorf "%s is missing the deliverables parameter" .File.Path }}{{ end }}
+    {{- $provingCaseStudies := where $caseStudiesByNewest ".Params.offer" $offerId }}
+    <section class="offer" id="{{ $offerId }}">
+        <h2 class="section-heading">{{ .Title }}</h2>
+        <p class="offer-situation">{{ $situation }}</p>
+        <p>{{ .Description }}</p>
+        <h3 class="offer-subheading">What you get</h3>
+        <ul>
+            {{- range $deliverables }}
+            <li>{{ . }}</li>
+            {{- end }}
+        </ul>
+        {{- with $provingCaseStudies }}
+        <h3 class="offer-subheading">Where I have done it</h3>
+        <ul>
+            {{- range . }}
+            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ with .Params.organization }}, {{ . }}{{ end }}</li>
+            {{- end }}
+        </ul>
+        {{- end }}
+    </section>
+    {{- end }}
+    {{ partial "closing-call.html" . }}
+</div>
+{{ end }}

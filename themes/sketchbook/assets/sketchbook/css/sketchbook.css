@@ -870,3 +870,31 @@ body #cc-main {
         transform: none;
     }
 }
+
+.offer-situation {
+    margin: 0 0 0.75rem;
+    font-family: var(--font-script);
+    font-size: 1.5rem;
+    line-height: 1.3;
+    color: var(--ink-soft);
+}
+
+.offer-subheading {
+    margin: 1.5rem 0 0.5rem;
+    font-size: 1.1rem;
+}
+
+.closing-call {
+    margin: 3.5rem 0 1rem;
+    text-align: center;
+}
+
+.closing-call p {
+    margin: 0 0 1.25rem;
+    font-family: var(--font-script);
+    font-size: 1.7rem;
+}
+
+.closing-call .actions {
+    justify-content: center;
+}
