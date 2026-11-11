@@ -17,6 +17,9 @@ frameworks: []
 tools: []
 domains: ["RF Analysis", "Scientific Computing"]
 weight: 3
+problem: "RF measurements from test flights had to be turned into something engineers could read."
+solution: "Python tools for RF data analysis and heatmap generation."
+earlyCareer: true
 ---
 
 **Overview:**

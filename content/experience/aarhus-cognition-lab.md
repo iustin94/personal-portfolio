@@ -17,6 +17,9 @@ frameworks: ["WPF"]
 tools: []
 domains: ["Cognitive Science", "Biometrics", "Research"]
 weight: 7
+problem: "Researchers needed heart-rate, motion and audio data captured in step."
+solution: "A real-time capture platform in C# and WPF."
+earlyCareer: true
 ---
 
 **Overview:**

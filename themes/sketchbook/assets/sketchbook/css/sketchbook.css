@@ -914,3 +914,14 @@ body #cc-main {
 .closing-call .actions {
     justify-content: center;
 }
+
+.earlier-roles {
+    margin-top: 1.5rem;
+}
+
+.earlier-roles summary {
+    margin-bottom: 1rem;
+    font-family: var(--font-hand);
+    font-size: 1.1rem;
+    cursor: pointer;
+}

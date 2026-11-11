@@ -16,6 +16,8 @@ languages: ["C#"]
 frameworks: [".NET", "EF Core", "Blazor"]
 tools: ["PostgreSQL", "Docker", "Traefik", "GitHub Actions", "Prometheus", "Grafana"]
 domains: ["SaaS", "Finance", "Infrastructure"]
+problem: "Small businesses plan their finances in spreadsheets that drift away from their books."
+solution: "A budget app that takes actual figures from the accounting system and works out VAT and tax, built and operated as technical co-founder."
 ---
 
 **Overview:**
