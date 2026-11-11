@@ -9,7 +9,7 @@ locale: "en_US"
 type: "experience"
 role: "Software Developer - Part Time"
 organization: "Sarita CareTech ApS"
-period: "Mar 2015 -- Sept 2016"
+period: "Mar 2015 -- Sep 2016"
 location: "Denmark"
 focus: ["Frontend Web Development"]
 languages: []
@@ -25,4 +25,4 @@ Part-time frontend development role at Sarita CareTech, a company focused on car
 
 **Key contributions:**
 
-- Implemented the front end of a user platform which supported the core product developed by the company.
+- Implemented the front end of the company's user platform.

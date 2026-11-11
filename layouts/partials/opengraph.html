@@ -1,0 +1,58 @@
+<meta property="og:title" content="{{ .Title }}" />
+<meta property="og:description" content="{{ .Description | default .Site.Params.description }}" />
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
+<meta property="og:url" content="{{ .Permalink }}" />
+
+{{- $ogImage := "" }}
+{{- with .Params.image }}
+  {{- $image := $.Resources.GetMatch . }}
+  {{- with $image }}
+    {{- $thumb := .Resize "400x" }}
+    {{- $ogImage = $thumb.Permalink }}
+  {{- end }}
+{{- end }}
+{{- if not $ogImage }}
+  {{- with .Params.og_image }}
+    {{- $ogImage = . | absURL }}
+  {{- end }}
+{{- end }}
+{{- if not $ogImage }}
+  {{- with .Site.Params.og.image }}
+    {{- $ogImage = . | absURL }}
+  {{- end }}
+{{- end }}
+{{- with $ogImage }}
+<meta property="og:image" content="{{ . }}">
+{{- end }}
+
+{{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
+{{- if .IsPage }}
+{{- if not .PublishDate.IsZero }}<meta property="article:published_time" {{ .PublishDate.Format $iso8601 | printf "content=%q" | safeHTMLAttr }} />
+{{ else if not .Date.IsZero }}<meta property="article:published_time" {{ .Date.Format $iso8601 | printf "content=%q" | safeHTMLAttr }} />
+{{ end }}
+{{- end }}
+
+{{- with .Params.audio }}<meta property="og:audio" content="{{ . }}" />{{ end }}
+<meta property="og:locale" content="{{ .Params.locale | default .Site.Params.locale }}" />
+{{- with .Site.Params.title }}<meta property="og:site_name" content="{{ . }}" />{{ end }}
+{{- with .Params.videos }}
+{{- range . }}
+<meta property="og:video" content="{{ . | absURL }}" />
+{{ end }}{{ end }}
+
+{{- if .IsPage }}
+{{- range .Site.Params.Authors }}
+  {{- with .Social.facebook }}
+<meta property="article:author" content="https://www.facebook.com/{{ . }}" />
+  {{- end }}
+{{- end }}
+{{- with .Site.Params.Social.facebook }}
+<meta property="article:publisher" content="https://www.facebook.com/{{ . }}" />
+{{- end }}
+<meta property="article:section" content="{{ .Section }}" />
+{{- with .Params.tags }}{{ range first 6 . }}
+<meta property="article:tag" content="{{ . }}" />
+{{- end }}{{ end }}
+{{- end }}
+
+{{- with .Site.Params.Social.facebook_admin }}<meta property="fb:admins" content="{{ . }}" />{{ end }}

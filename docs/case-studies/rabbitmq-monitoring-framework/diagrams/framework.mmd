@@ -1,0 +1,12 @@
+flowchart LR
+    subgraph capabilities["✓ Capabilities"]
+        direction TB
+        metrics["Real-time metrics<br/>live cluster health"] ~~~ types["Dynamic types<br/>generated at runtime"]
+        types ~~~ readOnly["Read-only<br/>safe observability"]
+    end
+    subgraph constraints["Constraints"]
+        direction TB
+        noWrite["No write access<br/>monitoring only"] ~~~ noAdministration["No administration<br/>read operations only"]
+        noAdministration ~~~ transparent["Transparent<br/>safe by design"]
+    end
+    capabilities ~~~ constraints

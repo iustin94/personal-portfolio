@@ -1,0 +1,50 @@
+{{ define "main" }}
+{{- $availability := .Params.availability }}
+{{- if not $availability }}{{ errorf "content/_index.md is missing the availability parameter" }}{{ end }}
+{{- $heroSection := .Site.GetPage "/hero" }}
+{{- $heroFields := $heroSection.Pages.ByWeight }}
+{{- $nameFields := where $heroFields "Title" "name" }}
+{{- $roleFields := where $heroFields "Title" "role" }}
+{{- $name := index $nameFields 0 }}
+{{- $role := index $roleFields 0 }}
+{{- $headlineTitles := slice "name" "role" }}
+{{- $specFields := where $heroFields "Title" "not in" $headlineTitles }}
+{{- $caseStudiesSection := .Site.GetPage "/case-studies" }}
+{{- $publicCaseStudies := where $caseStudiesSection.Pages ".Params.private" "!=" true }}
+{{- $caseStudiesByNewest := $publicCaseStudies.ByDate.Reverse }}
+{{- $latestCaseStudies := first 3 $caseStudiesByNewest }}
+<section class="hero">
+    <div class="hero-text">
+        <h1 class="hero-name">{{ $name.Plain | htmlUnescape }}</h1>
+        <p class="hero-role"><span class="marker">{{ $role.Plain | htmlUnescape }}</span></p>
+        <p class="hero-tagline">{{ $availability }}</p>
+        <div class="actions">
+            <a class="sketch-button primary" href="{{ "contact/" | relURL }}">Get in touch</a>
+            <a class="sketch-button" href="{{ "case-studies/" | relURL }}">See the work</a>
+        </div>
+    </div>
+    <aside class="title-block" aria-label="At a glance">
+        <div class="title-block-head"><span>At a glance</span><span>Sheet 01</span></div>
+        <dl>
+            {{- range $specFields }}
+            <div class="title-block-row"><dt>{{ .Title }}</dt><dd>{{ .Plain | htmlUnescape }}</dd></div>
+            {{- end }}
+        </dl>
+    </aside>
+</section>
+
+<section class="sketch">
+    <h2 class="section-heading">How I work</h2>
+    {{ .Content }}
+</section>
+
+<section class="selected-work">
+    <h2 class="section-heading">Selected work</h2>
+    <div class="card-grid">
+        {{- range $latestCaseStudies }}
+        {{ partial "page-card.html" . }}
+        {{- end }}
+    </div>
+    <a class="more-link" href="{{ "case-studies/" | relURL }}">All case studies &rarr;</a>
+</section>
+{{ end }}

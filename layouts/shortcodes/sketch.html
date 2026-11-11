@@ -1,0 +1,7 @@
+{{- $diagramName := .Get "name" }}
+{{- $caption := .Get "caption" }}
+{{- $diagramPath := printf "diagrams/%s.mmd" $diagramName }}
+{{- $diagram := .Page.Resources.Get $diagramPath }}
+{{- if not $diagram }}{{ errorf "%s: %s is not in the page bundle" .Position $diagramPath }}{{ end }}
+{{- $figure := dict "page" .Page "source" $diagram.Content "caption" $caption }}
+{{- partial "sketch-figure.html" $figure }}

@@ -1,0 +1,15 @@
+{{ define "main" }}
+{{- $publicProjects := where .Pages ".Params.private" "!=" true }}
+{{- $projectsByKind := $publicProjects.GroupByParam "type" }}
+<h1 class="page-title"><span class="marker">{{ .Title }}</span></h1>
+{{- range $projectsByKind }}
+<section>
+    <h2 class="section-heading">{{ .Key | title }}</h2>
+    <div class="card-grid">
+        {{- range .Pages.ByDate.Reverse }}
+        {{ partial "page-card.html" . }}
+        {{- end }}
+    </div>
+</section>
+{{- end }}
+{{ end }}

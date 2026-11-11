@@ -1,12 +1,18 @@
 baseURL = "https://olaru.dk"
 languageCode = "en-us"
 title = "iustinian-olaru"
-theme="hugo-theme-console"
+theme = "sketchbook"
 publishDir = "docs"
+enableRobotsTXT = true
+disableKinds = ["taxonomy", "term"]
+
+[mediaTypes."text/vnd.mermaid"]
+  suffixes = ["mmd"]
 
 [markup]
   [markup.goldmark]
     [markup.goldmark.parser]
+      wrapStandAloneImageWithinParagraph = false
       [markup.goldmark.parser.attribute]
         block = true
         title = true
@@ -46,6 +52,7 @@ publishDir = "docs"
   # OpenGraph and Twitter Cards
   description = "Software Developer specializing in C#/.NET, full-stack development, and domain-driven design. Based in Denmark."
   title = "Iustinian Olaru"
+  locale = "en_US"
 
   [params.og]
     image = "/images/og.png"
@@ -66,6 +73,10 @@ publishDir = "docs"
   url = ""
 
   [[params.navlinks]]
+  name = "case_studies/"
+  url = "case-studies/"
+
+  [[params.navlinks]]
   name = "projects/"
   url = "projects/"
 
@@ -79,13 +90,41 @@ publishDir = "docs"
 
   # Social links for footer
   [[params.sociallinks]]
+  name = "LinkedIn"
   url = "https://www.linkedin.com/in/iustinian-olaru-b73a87387/"
   icon = "fa-linkedin"
 
   [[params.sociallinks]]
+  name = "GitHub"
   url = "https://github.com/iustin94"
   icon = "fa-github"
 
   [[params.sociallinks]]
+  name = "Stack Overflow"
   url = "https://stackoverflow.com/users/3652652/iustinian-olaru"
   icon = "fa-stack-overflow"
+
+[[menus.main]]
+  name = "Case Studies"
+  pageRef = "/case-studies"
+  weight = 10
+
+[[menus.main]]
+  name = "Projects"
+  pageRef = "/projects"
+  weight = 15
+
+[[menus.main]]
+  name = "Experience"
+  pageRef = "/experience"
+  weight = 20
+
+[[menus.main]]
+  name = "About"
+  pageRef = "/about_me"
+  weight = 30
+
+[[menus.main]]
+  name = "Contact"
+  pageRef = "/contact"
+  weight = 40

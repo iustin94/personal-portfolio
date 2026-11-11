@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
         guiOptions: {
             consentModal: {
                 layout: 'box',
-                position: 'middle center',
+                position: 'bottom right',
                 flipButtons: false,
                 equalWeightButtons: true
             },
@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         },
 
-        disablePageInteraction: true,
+        disablePageInteraction: false,
 
         categories: {
             necessary: {

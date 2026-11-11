@@ -1,0 +1,9 @@
+flowchart TB
+    drone["Drone"] --> core
+    gps["GPS"] --> core
+    payload["RF payload"] --> core
+    flightPaths["Flight paths"] --> core
+    core["Flight Assistant core<br/>modular Python framework<br/>modular · fault-tolerant · adaptable · field-ready<br/>Python · NumPy · Matplotlib"]
+    core --> analytics["Analytics"]
+    core --> visualizations["Visualizations"]
+    core --> missionFiles["Mission files"]

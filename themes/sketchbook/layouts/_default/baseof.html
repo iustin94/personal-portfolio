@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+{{- $stylesheet := resources.Get "sketchbook/css/sketchbook.css" }}
+{{- $minifiedStylesheet := $stylesheet | minify }}
+{{- $fingerprintedStylesheet := $minifiedStylesheet | fingerprint }}
+{{- $sketchScript := resources.Get "sketchbook/js/sketches.js" }}
+{{- $minifiedSketchScript := $sketchScript | minify }}
+{{- $fingerprintedSketchScript := $minifiedSketchScript | fingerprint }}
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+    <meta charset="utf-8">
+    {{- partial "seo-head.html" . }}
+    <link rel="icon" type="image/png" href="{{ "fav.png" | absURL }}">
+    <link rel="stylesheet" href="{{ $fingerprintedStylesheet.Permalink }}" integrity="{{ $fingerprintedStylesheet.Data.Integrity }}">
+    <link rel="stylesheet" href="{{ "css/vendor/fontawesome.min.css" | absURL }}">
+    <link rel="stylesheet" href="{{ "css/vendor/brands.min.css" | absURL }}">
+    {{- partial "theme-toggle-script.html" . }}
+</head>
+<body>
+    <div class="sheet">
+        {{ partial "header.html" . }}
+        <main class="page">
+            {{ block "main" . }}{{ end }}
+        </main>
+        {{ partial "footer.html" . }}
+    </div>
+    {{- if .Store.Get "hasSketches" }}
+    <script src="{{ "sketchbook/js/vendor/mermaid-11.4.1.min.js" | absURL }}" defer></script>
+    <script type="module" src="{{ $fingerprintedSketchScript.Permalink }}" integrity="{{ $fingerprintedSketchScript.Data.Integrity }}"></script>
+    {{- end }}
+    {{- partial "analytics.html" . -}}
+</body>
+</html>

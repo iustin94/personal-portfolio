@@ -1,0 +1,30 @@
+{{ define "main" }}
+
+{{ partial "hero.html" . }}
+
+<div class="hero-cta">
+  <div class="cta-prompt-line">
+    <span class="cta-prompt">&gt;</span>
+    <span class="cta-tagline">{{ .Params.availability | lower }}</span>
+  </div>
+  <div class="cta-actions">
+    <a href="/case-studies/" class="cta-btn">[view case studies]</a>
+    <a href="/contact/" class="cta-btn cta-btn-primary">[get in touch]</a>
+  </div>
+</div>
+
+<!--<h1>Latest projects</h1>-->
+
+<!--<div class="posts-list">-->
+<!--{{ with .Site.GetPage "/projects" }}-->
+<!--    {{ range first 3 (sort .Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}-->
+<!--        <div class="post">-->
+<!--            <div class="date">{{ .Date | time.Format ":date_medium" }}</div>-->
+<!--            <h2 class="post-title"><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h2>-->
+<!--            <p>{{ .Summary }}</p>-->
+<!--        </div>    -->
+<!--    {{ end }}-->
+<!--{{ end }}-->
+<!--</div>-->
+
+{{ end }}

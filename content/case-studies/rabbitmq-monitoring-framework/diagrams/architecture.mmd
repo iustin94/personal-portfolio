@@ -1,0 +1,4 @@
+flowchart TB
+    query["1 · Query<br/>retrieve the RabbitMQ API specification"] --> parse["2 · Parse<br/>extract the JSON metadata schema"]
+    parse --> generate["3 · Generate<br/>dynamic types via .NET reflection"]
+    generate -.- innovation["No hard-coded models: adapts to any RabbitMQ version<br/>Runtime introspection: self-configuring at startup<br/>Like OpenAPI / Swagger schema-driven generation"]

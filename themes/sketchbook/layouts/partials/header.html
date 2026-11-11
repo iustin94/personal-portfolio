@@ -1,0 +1,14 @@
+<header class="site-header">
+    <a class="signature" href="{{ "/" | relURL }}">{{ .Site.Params.title }}</a>
+    <nav class="site-nav" aria-label="Main">
+        <ul>
+            {{- range .Site.Menus.main }}
+            {{- $isCurrentPage := $.IsMenuCurrent "main" . }}
+            {{- $isInCurrentSection := $.HasMenuCurrent "main" . }}
+            {{- $isCurrent := or $isCurrentPage $isInCurrentSection }}
+            <li><a href="{{ .URL }}"{{ if $isCurrent }} aria-current="page"{{ end }}>{{ .Name }}</a></li>
+            {{- end }}
+        </ul>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle Theme"></button>
+    </nav>
+</header>

@@ -1,0 +1,4 @@
+{{- $themeToggle := resources.Get "js/theme-toggle.js" }}
+{{- $minifiedThemeToggle := $themeToggle | minify }}
+{{- $fingerprintedThemeToggle := $minifiedThemeToggle | fingerprint }}
+<script src="{{ $fingerprintedThemeToggle.Permalink }}" integrity="{{ $fingerprintedThemeToggle.Data.Integrity }}" defer></script>

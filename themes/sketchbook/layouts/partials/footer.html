@@ -1,0 +1,8 @@
+<footer class="site-footer">
+    <p class="footer-note">&copy; {{ now.Year }} {{ .Site.Params.title }}</p>
+    <ul class="social-links">
+        {{- range .Site.Params.sociallinks }}
+        <li><a href="{{ .url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .name }}" title="{{ .name }}"><i class="fa-brands {{ .icon }}" aria-hidden="true"></i></a></li>
+        {{- end }}
+    </ul>
+</footer>

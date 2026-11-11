@@ -2,7 +2,7 @@
 title: "Software Developer - Part Time"
 date: 2016-08-01
 draft: false
-description: "Conducted a scientific feasibility study on RabbitMQ for high-throughput e-commerce platforms, developed a dynamic C# monitoring framework, and provided architectural guidance for Denmark's largest online retailers."
+description: "Conducted a systematic feasibility study on RabbitMQ for high-throughput e-commerce platforms, developed a dynamic C# monitoring framework, and provided architectural guidance for Denmark's largest online retailers."
 tags: ["C#", ".NET", "RabbitMQ", "Docker", "Distributed Systems", "E-commerce", "Architecture", "Messaging"]
 og_image: "/images/og.png"
 locale: "en_US"
@@ -25,7 +25,7 @@ Part-time software developer at Novicell, one of Denmark's leading digital agenc
 
 **Key contributions:**
 
-- Conducted a scientific feasibility study on RabbitMQ as a core messaging technology for high-throughput e-commerce platforms including Power.dk, Biltema.dk, and Apoteket.dk.
+- Conducted a systematic feasibility study of RabbitMQ as a core messaging technology for high-throughput e-commerce platforms, including Power.dk, Biltema.dk, and Apoteket.dk.
 - Designed and executed large-scale performance tests across single-node and multi-node RabbitMQ clusters, using Docker to automate deployments and ensure reproducible environments.
 - Identified a two-order-of-magnitude throughput bottleneck in the proposed production architecture, delivering findings directly to senior engineering leadership and informing revised system design.
 - Developed a dynamic, read-only C# monitoring framework for RabbitMQ, generating strongly typed models at runtime via reflection based on the server's management API metadata.
