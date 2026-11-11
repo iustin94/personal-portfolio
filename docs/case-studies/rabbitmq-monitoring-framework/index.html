@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+<title>RabbitMQ Monitoring Framework | Iustinian Olaru</title>
+<meta name="description" content="Dynamic schema-driven C# library for real-time RabbitMQ cluster monitoring, using reflection to generate typed metrics from the Management API.">
+<link rel="canonical" href="https://olaru.dk/case-studies/rabbitmq-monitoring-framework/">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="all,follow">
+<meta name="googlebot" content="index,follow,snippet,archive">
+<meta property="og:title" content="RabbitMQ Monitoring Framework" />
+<meta property="og:description" content="Dynamic schema-driven C# library for real-time RabbitMQ cluster monitoring, using reflection to generate typed metrics from the Management API." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://olaru.dk/case-studies/rabbitmq-monitoring-framework/" />
+<meta property="og:image" content="https://olaru.dk/images/og.png"><meta property="article:published_time" content="2022-06-01T00:00:00+00:00" />
+
+<meta property="og:locale" content="en_US" /><meta property="og:site_name" content="Iustinian Olaru" />
+<meta property="article:section" content="case-studies" />
+<meta property="article:tag" content="C#" />
+<meta property="article:tag" content=".NET" />
+<meta property="article:tag" content="RabbitMQ" />
+<meta property="article:tag" content="Monitoring" />
+<meta property="article:tag" content="Observability" />
+<meta property="article:tag" content="Reflection" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://olaru.dk/images/og.png">
+
+<meta name="twitter:title" content="RabbitMQ Monitoring Framework"/>
+<meta name="twitter:description" content="Dynamic schema-driven C# library for real-time RabbitMQ cluster monitoring, using reflection to generate typed metrics from the Management API."/>
+<meta name="twitter:site" content="@iustinian_olaru"/>
+
+<meta name="twitter:creator" content="@iustinian_olaru"/>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","image":"https://olaru.dk/images/og.png","jobTitle":"Software Architect","name":"Iustinian Olaru","sameAs":["https://www.linkedin.com/in/iustinian-olaru-b73a87387/","https://github.com/iustin94","https://stackoverflow.com/users/3652652/iustinian-olaru"],"url":"https://olaru.dk/"}</script>
+
+    <link rel="icon" type="image/png" href="https://olaru.dk/fav.png">
+    <link rel="stylesheet" href="https://olaru.dk/sketchbook/css/sketchbook.min.0248a4b160f1656b9da97756711e4bd5d051beaa9baee3c1cab3fc7783748529.css" integrity="sha256-AkiksWDxZWudqXdWcR5L1dBRvqqbruPByrP8d4N0hSk=">
+    <link rel="stylesheet" href="https://olaru.dk/css/vendor/fontawesome.min.css">
+    <link rel="stylesheet" href="https://olaru.dk/css/vendor/brands.min.css">
+<script src="https://olaru.dk/js/theme-toggle.min.52308f75419b03559987cd6a2adbf1d0806637724c88f3a98bfcb2b9fc6ee456.js" integrity="sha256-UjCPdUGbA1WZh81qKtvx0IBmN3JMiPOpi/yyufxu5FY=" defer></script>
+
+</head>
+<body>
+    <div class="sheet">
+        <header class="site-header">
+    <a class="signature" href="/">Iustinian Olaru</a>
+    <nav class="site-nav" aria-label="Main">
+        <ul>
+            <li><a href="/case-studies/" aria-current="page">Case Studies</a></li>
+            <li><a href="/projects/">Projects</a></li>
+            <li><a href="/experience/">Experience</a></li>
+            <li><a href="/about_me/">About</a></li>
+            <li><a href="/contact/">Contact</a></li>
+        </ul>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle Theme"></button>
+    </nav>
+</header>
+
+        <main class="page">
+            
+<article class="article">
+    <header class="article-header">
+        <h1 class="page-title"><span class="marker">RabbitMQ Monitoring Framework</span></h1>
+        
+<p class="article-meta">Novicell · Aarhus, Denmark</p>
+<ul class="tag-list"><li>Observability</li><li>Monitoring</li><li>Messaging</li></ul>
+
+    </header>
+    <div class="prose">
+        <p><strong>Overview:</strong></p>
+<p>During my second internship at Novicell, I identified a significant tooling gap while conducting my earlier feasibility study on RabbitMQ for high‑throughput e‑commerce workloads. Although the .NET ecosystem offered mature libraries for publishing and consuming messages, it lacked a dedicated C# framework for <strong>real‑time monitoring of RabbitMQ cluster health</strong>. Given the operational demands of Novicell&rsquo;s A‑Team—responsible for platforms such as Power.dk, Biltema.dk, and Apoteket.dk—I proposed a focused project to design a lightweight, read‑only monitoring library capable of providing developers with live insights into RabbitMQ cluster metrics.</p>
+<figure class="sketch-figure">
+    <pre class="mermaid">flowchart LR
+    subgraph existing[&#34;Existing .NET tools&#34;]
+        direction TB
+        publishing[&#34;✓ Publishing&lt;br/&gt;send messages&#34;] ~~~ consuming[&#34;✓ Consuming&lt;br/&gt;receive messages&#34;]
+    end
+    subgraph missing[&#34;Missing tool&#34;]
+        monitoring[&#34;✗ Monitoring&lt;br/&gt;cluster health metrics&lt;br/&gt;real-time observability&lt;br/&gt;performance insights&#34;]
+    end
+    existing -. &#34;gap: no C# framework&#34; .-&gt; missing
+</pre>
+    <figcaption>Identified Tooling Gap</figcaption>
+</figure>
+
+
+<p><strong>Challenges and Technical Hurdles:</strong></p>
+<p>RabbitMQ exposes a powerful management API, but at the time no C# tooling existed to consume its metadata dynamically or translate it into usable, structured types. The challenge was to build a monitoring solution that could adapt to RabbitMQ&rsquo;s evolving specifications without hard‑coded models, while maintaining strong typing and compatibility with .NET applications. The project also had to remain strictly read‑only, offering no administrative or write capabilities, ensuring that its function remained safe, transparent, and observably focused.</p>
+<figure class="sketch-figure">
+    <pre class="mermaid">flowchart LR
+    subgraph traditional[&#34;Traditional&#34;]
+        direction TB
+        hardCoded[&#34;Hard-coded models&#34;] --&gt; manualUpdates[&#34;Manual updates&#34;]
+        manualUpdates --&gt; traditionalCost[&#34;✗ Breaks on API changes&lt;br/&gt;✗ Requires code updates&lt;br/&gt;✗ Version-specific&#34;]
+    end
+    subgraph dynamic[&#34;Dynamic&#34;]
+        direction TB
+        runtimeGeneration[&#34;Runtime generation&#34;] --&gt; selfAdapting[&#34;Self-adapting&#34;]
+        selfAdapting --&gt; dynamicGain[&#34;✓ Adapts automatically&lt;br/&gt;✓ No manual updates&lt;br/&gt;✓ Version-agnostic&#34;]
+    end
+    traditional ==&gt; dynamic
+</pre>
+    <figcaption>Traditional vs Dynamic Approach</figcaption>
+</figure>
+
+
+<p><strong>Action and Problem-Solving:</strong></p>
+<p>To address this challenge, I designed a framework that queried the RabbitMQ server at startup, retrieved the full JSON specification of available metrics, and used reflection to generate the corresponding data structures dynamically. This approach allowed the library to construct its own internal model based entirely on the server&rsquo;s metadata, similar in spirit to how modern API ecosystems use OpenAPI/Swagger documents for schema-driven code generation. The result was a minimal yet flexible architecture capable of parsing any metric the cluster made available—without requiring manual updates or predefined classes.</p>
+<figure class="sketch-figure">
+    <pre class="mermaid">flowchart TB
+    query[&#34;1 · Query&lt;br/&gt;retrieve the RabbitMQ API specification&#34;] --&gt; parse[&#34;2 · Parse&lt;br/&gt;extract the JSON metadata schema&#34;]
+    parse --&gt; generate[&#34;3 · Generate&lt;br/&gt;dynamic types via .NET reflection&#34;]
+    generate -.- innovation[&#34;No hard-coded models: adapts to any RabbitMQ version&lt;br/&gt;Runtime introspection: self-configuring at startup&lt;br/&gt;Like OpenAPI / Swagger schema-driven generation&#34;]
+</pre>
+    <figcaption>Dynamic Schema-Driven Architecture</figcaption>
+</figure>
+
+
+<p><strong>Skills and Innovations:</strong></p>
+<p>This project demonstrated my ability to combine architectural insight with sophisticated runtime tooling techniques. Implementing dynamic type generation required a deep understanding of RabbitMQ&rsquo;s management API, JSON schema parsing, reflection, and the constraints of designing safe, read‑only interfaces. While conceptually aligned with modern standards, the solution was built entirely from scratch, tailored to Novicell&rsquo;s operational needs, and designed to be seamlessly integrated into internal diagnostic workflows or developer tools.</p>
+<figure class="sketch-figure">
+    <pre class="mermaid">flowchart LR
+    subgraph capabilities[&#34;✓ Capabilities&#34;]
+        direction TB
+        metrics[&#34;Real-time metrics&lt;br/&gt;live cluster health&#34;] ~~~ types[&#34;Dynamic types&lt;br/&gt;generated at runtime&#34;]
+        types ~~~ readOnly[&#34;Read-only&lt;br/&gt;safe observability&#34;]
+    end
+    subgraph constraints[&#34;Constraints&#34;]
+        direction TB
+        noWrite[&#34;No write access&lt;br/&gt;monitoring only&#34;] ~~~ noAdministration[&#34;No administration&lt;br/&gt;read operations only&#34;]
+        noAdministration ~~~ transparent[&#34;Transparent&lt;br/&gt;safe by design&#34;]
+    end
+    capabilities ~~~ constraints
+</pre>
+    <figcaption>Framework Design Principles</figcaption>
+</figure>
+
+
+<p><strong>Conclusion and Impact:</strong></p>
+<p>Although the monitoring framework ultimately did not proceed into production use, it successfully fulfilled the goals of my internship and academic examination. It provided a clear demonstration of how RabbitMQ’s management API could be leveraged for real‑time observability and offered a proof‑of‑concept for dynamic schema‑driven tooling in .NET. The project further solidified my understanding of distributed system monitoring, runtime introspection, and flexible library design—while contributing meaningful insights into how Novicell might approach internal RabbitMQ observability in the future.</p>
+
+    </div>
+</article>
+
+        </main>
+        <footer class="site-footer">
+    <p class="footer-note">&copy; 2026 Iustinian Olaru</p>
+    <ul class="social-links">
+        <li><a href="https://www.linkedin.com/in/iustinian-olaru-b73a87387/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a></li>
+        <li><a href="https://github.com/iustin94" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a></li>
+        <li><a href="https://stackoverflow.com/users/3652652/iustinian-olaru" target="_blank" rel="noopener noreferrer" aria-label="Stack Overflow" title="Stack Overflow"><i class="fa-brands fa-stack-overflow" aria-hidden="true"></i></a></li>
+    </ul>
+</footer>
+
+    </div>
+    <script src="https://olaru.dk/sketchbook/js/vendor/mermaid-11.4.1.min.js" defer></script>
+    <script type="module" src="https://olaru.dk/sketchbook/js/sketches.min.6fd1ce30583cf6e5e998620bbbe2ad2055a94f9e81323db5a015893c88b5d71f.js" integrity="sha256-b9HOMFg89uXpmGILu&#43;KtIFWpT56BMj21oBWJPIi11x8="></script><link rel="stylesheet" href="https://olaru.dk/css/vendor/cookieconsent.css">
+<script src="https://olaru.dk/js/vendor/cookieconsent.umd.js"></script>
+<script>window.GA_MEASUREMENT_ID = 'G-J4LP1PW7S5';</script>
+<script src="https://olaru.dk/js/cookieconsent-config.js"></script>
+</body>
+</html>
