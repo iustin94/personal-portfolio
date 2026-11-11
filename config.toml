@@ -2,7 +2,6 @@ baseURL = "https://olaru.dk"
 defaultContentLanguage = "en"
 title = "iustinian-olaru"
 theme = "sketchbook"
-publishDir = "docs"
 enableRobotsTXT = true
 enableGitInfo = true
 disableKinds = ["taxonomy", "term"]
