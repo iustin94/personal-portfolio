@@ -1,7 +1,9 @@
 {{ define "main" }}
 <article class="article">
     <h1 class="page-title"><span class="marker">{{ .Title }}</span></h1>
-    <p class="lead">I'm open to discussing software architecture, collaboration opportunities, or interesting technical challenges.</p>
+    <div class="prose">
+        {{ .Content }}
+    </div>
     <div class="contact-grid">
         <a class="contact-card" href="mailto:{{ .Site.Params.Social.email }}">
             <span class="contact-icon" aria-hidden="true">&#9993;</span>
