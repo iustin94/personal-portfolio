@@ -2,4 +2,4 @@
 title: "capabilities"
 weight: 5
 ---
-Full-stack implementation • Architecture & system design
+Business analysis • Architecture & system design • Full-stack implementation

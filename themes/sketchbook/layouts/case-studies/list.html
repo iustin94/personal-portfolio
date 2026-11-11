@@ -1,15 +1,25 @@
 {{ define "main" }}
-{{- $publicProjects := where .Pages ".Params.private" "!=" true }}
-{{- $projectsByKind := $publicProjects.GroupByParam "type" }}
+{{- $publicCaseStudies := where .Pages ".Params.private" "!=" true }}
+{{- $caseStudiesByNewest := $publicCaseStudies.ByDate.Reverse }}
+{{- $servicesSection := .Site.GetPage "/services" }}
+{{- range $publicCaseStudies }}
+{{- partial "require-case-study-brief.html" . }}
+{{- end }}
 <h1 class="page-title"><span class="marker">{{ .Title }}</span></h1>
-{{- range $projectsByKind }}
+<p class="lead">{{ .Description }}</p>
+{{- range $servicesSection.Pages.ByWeight }}
+{{- $offerTitle := .Title }}
+{{- $offerId := .File.ContentBaseName }}
+{{- $caseStudiesOfOffer := where $caseStudiesByNewest ".Params.offer" $offerId }}
+{{- with $caseStudiesOfOffer }}
 <section>
-    <h2 class="section-heading">{{ .Key | title }}</h2>
+    <h2 class="section-heading">{{ $offerTitle }}</h2>
     <div class="card-grid">
-        {{- range .Pages.ByDate.Reverse }}
-        {{ partial "page-card.html" . }}
+        {{- range . }}
+        {{ partial "case-study-card.html" . }}
         {{- end }}
     </div>
 </section>
+{{- end }}
 {{- end }}
 {{ end }}

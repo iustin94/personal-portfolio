@@ -16,6 +16,10 @@ languages: ["C#", "Python", "Bash"]
 frameworks: ["None"]
 tools: ["Budget Modeling", "Access Control Systems", "Web Infrastructure", "Social Media"]
 domains: ["Community Development", "Organizational Leadership", "Infrastructure", "Volunteer Management"]
+offer: "business-analysis"
+problem: "The makerspace ran at a continuous loss and risked using up its reserves."
+analysis: "Mapped the real state of the finances, the membership billing and the recurring costs."
+solution: "Simpler routines, corrected billing and fewer recurring costs. The association became financially positive for the first time since COVID."
 ---
 
 Over several years I have become progressively more involved in **O’Town Makerspace**, a volunteer‑run creative community in Odense. What started as a personal interest in hands‑on engineering gradually evolved into a long-term commitment to strengthening the organization — operationally, financially, and technically. My focus has consistently been on understanding real constraints and delivering sustainable improvements together with other volunteers.

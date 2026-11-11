@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
 <title>Case Studies | Iustinian Olaru</title>
-<meta name="description" content="Written case studies of software engineering work spanning enterprise platforms, distributed systems, bioinformatics pipelines, and SaaS development.">
+<meta name="description" content="Each case starts with the problem, then the analysis, then what was built. Grouped by the service it shows.">
 <link rel="canonical" href="https://olaru.dk/case-studies/">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="all,follow">
@@ -11,7 +11,7 @@
 
   <link href="https://olaru.dk/case-studies/index.xml" rel="alternate" type="application/rss+xml" title="iustinian-olaru" />
 <meta property="og:title" content="Case Studies" />
-<meta property="og:description" content="Written case studies of software engineering work spanning enterprise platforms, distributed systems, bioinformatics pipelines, and SaaS development." />
+<meta property="og:description" content="Each case starts with the problem, then the analysis, then what was built. Grouped by the service it shows." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://olaru.dk/case-studies/" />
 <meta property="og:image" content="https://olaru.dk/images/og.png">
@@ -21,14 +21,14 @@
 <meta name="twitter:image" content="https://olaru.dk/images/og.png">
 
 <meta name="twitter:title" content="Case Studies"/>
-<meta name="twitter:description" content="Written case studies of software engineering work spanning enterprise platforms, distributed systems, bioinformatics pipelines, and SaaS development."/>
+<meta name="twitter:description" content="Each case starts with the problem, then the analysis, then what was built. Grouped by the service it shows."/>
 <meta name="twitter:site" content="@iustinian_olaru"/>
 
 <meta name="twitter:creator" content="@iustinian_olaru"/>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","image":"https://olaru.dk/images/og.png","jobTitle":"Software Architect","name":"Iustinian Olaru","sameAs":["https://www.linkedin.com/in/iustinian-olaru-b73a87387/","https://github.com/iustin94","https://stackoverflow.com/users/3652652/iustinian-olaru"],"url":"https://olaru.dk/"}</script>
 
     <link rel="icon" type="image/png" href="https://olaru.dk/fav.png">
-    <link rel="stylesheet" href="https://olaru.dk/sketchbook/css/sketchbook.min.0248a4b160f1656b9da97756711e4bd5d051beaa9baee3c1cab3fc7783748529.css" integrity="sha256-AkiksWDxZWudqXdWcR5L1dBRvqqbruPByrP8d4N0hSk=">
+    <link rel="stylesheet" href="https://olaru.dk/sketchbook/css/sketchbook.min.cd0552f26ae8171c4471df8b44d5cc7a3013b8e2e62cf2fe4c99f1f64ef7b64e.css" integrity="sha256-zQVS8mroFxxEcd&#43;LRNXMejATuOLmLPL&#43;TJnx9k73tk4=">
     <link rel="stylesheet" href="https://olaru.dk/css/vendor/fontawesome.min.css">
     <link rel="stylesheet" href="https://olaru.dk/css/vendor/brands.min.css">
 <script src="https://olaru.dk/js/theme-toggle.min.52308f75419b03559987cd6a2adbf1d0806637724c88f3a98bfcb2b9fc6ee456.js" integrity="sha256-UjCPdUGbA1WZh81qKtvx0IBmN3JMiPOpi/yyufxu5FY=" defer></script>
@@ -40,9 +40,9 @@
     <a class="signature" href="/">Iustinian Olaru</a>
     <nav class="site-nav" aria-label="Main">
         <ul>
+            <li><a href="/services/">Services</a></li>
             <li><a href="/case-studies/" aria-current="page">Case Studies</a></li>
             <li><a href="/projects/">Projects</a></li>
-            <li><a href="/experience/">Experience</a></li>
             <li><a href="/about_me/">About</a></li>
             <li><a href="/contact/">Contact</a></li>
         </ul>
@@ -52,90 +52,124 @@
 
         <main class="page">
             
+
+
+
+
+
+
+
+
+
+
 <h1 class="page-title"><span class="marker">Case Studies</span></h1>
+<p class="lead">Each case starts with the problem, then the analysis, then what was built. Grouped by the service it shows.</p>
 <section>
-    <h2 class="section-heading">Implementation</h2>
+    <h2 class="section-heading">Business analysis</h2>
     <div class="card-grid">
-        <article class="card">
-    <p class="card-kind">implementation</p>
-    <h3 class="card-title"><a href="/case-studies/blazor-saas-platform/">SaaS Platform for Financial Workflows</a></h3>
-    <p class="card-org">Independent / Entrepreneurial</p>
-    <p class="card-summary">Enterprise-grade financial SaaS platform built with C# and Blazor, featuring a custom rule-based simulation engine for small businesses and entrepreneurs.</p>
-    <ul class="tag-list"><li>SaaS</li><li>Finance</li><li>Simulation</li></ul>
-</article>
-
-        <article class="card">
-    <p class="card-kind">implementation</p>
-    <h3 class="card-title"><a href="/case-studies/enterprisel-data-workbench/">Enterprise Process Modeling Platform</a></h3>
-    <p class="card-org">Ramboll</p>
-    <p class="card-summary">Greenfield enterprise data management platform built with C#/.NET and domain-driven design, replacing a legacy Python/Django risk management system at Ramboll.</p>
-    <ul class="tag-list"><li>Enterprise</li><li>Process Modeling</li><li>Architecture</li></ul>
-</article>
-
-        <article class="card">
-    <p class="card-kind">implementation</p>
-    <h3 class="card-title"><a href="/case-studies/rabbitmq-monitoring-framework/">RabbitMQ Monitoring Framework</a></h3>
-    <p class="card-org">Novicell</p>
-    <p class="card-summary">Dynamic schema-driven C# library for real-time RabbitMQ cluster monitoring, using reflection to generate typed metrics from the Management API.</p>
-    <ul class="tag-list"><li>Observability</li><li>Monitoring</li><li>Messaging</li></ul>
-</article>
-
-        <article class="card">
-    <p class="card-kind">implementation</p>
-    <h3 class="card-title"><a href="/case-studies/flight-assistant/">Drone Flight Assistant App</a></h3>
-    <p class="card-org">QuadSat</p>
-    <p class="card-summary">Desktop application for drone-based satellite antenna testing, integrating flight path configuration, RF measurement processing, and GPS telemetry synchronization.</p>
-    <ul class="tag-list"><li>Aerospace</li><li>RF</li><li>Drone Operations</li></ul>
-</article>
-
-        <article class="card">
-    <p class="card-kind">implementation</p>
-    <h3 class="card-title"><a href="/case-studies/experiment-orchestration-app/">Experiment Orchestration App</a></h3>
-    <p class="card-org">Cognition and Behavior Laboratory</p>
-    <p class="card-summary">Real-time biometric data synchronization app built with C# and WPF for cognitive science research on heart rate synchronization during shared activities.</p>
-    <ul class="tag-list"><li>Cognitive Science</li><li>Biometrics</li><li>Experimentation</li></ul>
-</article>
-
-    </div>
-</section>
-<section>
-    <h2 class="section-heading">Inquiry</h2>
-    <div class="card-grid">
-        <article class="card">
-    <p class="card-kind">inquiry</p>
-    <h3 class="card-title"><a href="/case-studies/rabbitmq-feasibility-study/">Feasibility Study of RabbitMQ</a></h3>
-    <p class="card-org">Novicell</p>
-    <p class="card-summary">Scientific investigation of RabbitMQ for high-throughput e-commerce platforms handling Black Friday and seasonal traffic spikes at Denmark&#39;s largest online retailers.</p>
-    <ul class="tag-list"><li>E-commerce</li><li>Scalability</li><li>Distributed Systems</li><li>Messaging</li></ul>
-</article>
-
-        <article class="card">
-    <p class="card-kind">inquiry</p>
-    <h3 class="card-title"><a href="/case-studies/rule-based-simulation-engine/">Evaluation of Rule‑Based Simulation Modeling</a></h3>
-    <p class="card-org">University of Southern Denmark (SDU)</p>
-    <p class="card-summary">Research evaluation of BioNetGen for rule-based biomolecular simulation modeling, assessing usability and methodology from a software engineering perspective.</p>
-    <ul class="tag-list"><li>Bioinformatics</li><li>Systems Biology</li><li>Rule-based Modeling</li></ul>
-</article>
-
-        <article class="card">
-    <p class="card-kind">inquiry</p>
-    <h3 class="card-title"><a href="/case-studies/masspec-data-analysis-pipeline/">MasSpec Data Analysis Pipeline</a></h3>
-    <p class="card-org">University of Southern Denmark (SDU)</p>
-    <p class="card-summary">Reproducible Jupyter-based Python pipeline for mass spectrometry proteomics analysis, featuring PTM support and open-source scientific workflows.</p>
-    <ul class="tag-list"><li>Bioinformatics</li><li>Proteomics</li><li>Reproducible Research</li></ul>
-</article>
-
-    </div>
-</section>
-<section>
-    <h2 class="section-heading">Leadership</h2>
-    <div class="card-grid">
-        <article class="card">
-    <p class="card-kind">leadership</p>
+        
+<article class="card">
+    <p class="card-kind">Business analysis</p>
     <h3 class="card-title"><a href="/case-studies/makerspace-management/">O’Town Makerspace — Organizational &amp; Technical Leadership</a></h3>
     <p class="card-org">O’Town Makerspace</p>
-    <p class="card-summary">Multi-year leadership role in stabilizing, modernizing, and developing a volunteer-run makerspace through financial restructuring, infrastructure improvements, and community-driven coordination.</p>
-    <ul class="tag-list"><li>Community Development</li><li>Organizational Leadership</li><li>Infrastructure</li><li>Volunteer Management</li></ul>
+    <p class="card-summary">The makerspace ran at a continuous loss and risked using up its reserves.</p>
+    <p class="card-outcome">Simpler routines, corrected billing and fewer recurring costs. The association became financially positive for the first time since COVID.</p>
+</article>
+
+    </div>
+</section>
+<section>
+    <h2 class="section-heading">Feasibility study</h2>
+    <div class="card-grid">
+        
+<article class="card">
+    <p class="card-kind">Feasibility study</p>
+    <h3 class="card-title"><a href="/case-studies/rabbitmq-feasibility-study/">Feasibility Study of RabbitMQ</a></h3>
+    <p class="card-org">Novicell</p>
+    <p class="card-summary">Would the messaging design proposed for Power.dk, Biltema.dk and Apoteket.dk hold under Black Friday traffic?</p>
+    <p class="card-outcome">A two-order-of-magnitude bottleneck was found before implementation, and the architecture team revised the design.</p>
+</article>
+
+        
+<article class="card">
+    <p class="card-kind">Feasibility study</p>
+    <h3 class="card-title"><a href="/case-studies/rule-based-simulation-engine/">Evaluation of Rule‑Based Simulation Modeling</a></h3>
+    <p class="card-org">University of Southern Denmark (SDU)</p>
+    <p class="card-summary">Can researchers without a software background use BioNetGen for rule-based simulation of biochemical processes?</p>
+    <p class="card-outcome">A white paper: BioNetGen is capable and efficient, but its learning curve and documentation are barriers for non-programmers.</p>
+</article>
+
+        
+<article class="card">
+    <p class="card-kind">Feasibility study</p>
+    <h3 class="card-title"><a href="/case-studies/masspec-data-analysis-pipeline/">MasSpec Data Analysis Pipeline</a></h3>
+    <p class="card-org">University of Southern Denmark (SDU)</p>
+    <p class="card-summary">Proteomics papers often give conclusions without a way to rerun the analysis behind them.</p>
+    <p class="card-outcome">A Jupyter-based Python pipeline that runs the analysis end to end, and a white paper on the approach.</p>
+</article>
+
+    </div>
+</section>
+<section>
+    <h2 class="section-heading">Architecture &amp; modernisation</h2>
+    <div class="card-grid">
+        
+<article class="card">
+    <p class="card-kind">Architecture &amp; modernisation</p>
+    <h3 class="card-title"><a href="/case-studies/enterprisel-data-workbench/">Enterprise Process Modeling Platform</a></h3>
+    <p class="card-org">Ramboll</p>
+    <p class="card-summary">A decade-old Python/Django risk management platform could not support user-defined data models and business processes.</p>
+    <p class="card-outcome">The architecture and core structure of a new C#/.NET platform built on domain-driven design, with written architectural guidelines.</p>
+</article>
+
+    </div>
+</section>
+<section>
+    <h2 class="section-heading">Product build</h2>
+    <div class="card-grid">
+        
+<article class="card">
+    <p class="card-kind">Product build</p>
+    <h3 class="card-title"><a href="/case-studies/gitdiffgraph/">GitDiffGraph: Reviewing a Code Change as a Graph</a></h3>
+    <p class="card-org">Independent</p>
+    <p class="card-summary">AI agents and large pull requests change many types at once, and a line-by-line diff does not show how those changes relate.</p>
+    <p class="card-outcome">A Rider plugin, published on JetBrains Marketplace, that draws a C# change as a graph of types and dependencies and stages from the graph.</p>
+</article>
+
+        
+<article class="card">
+    <p class="card-kind">Product build</p>
+    <h3 class="card-title"><a href="/case-studies/blazor-saas-platform/">SaaS Platform for Financial Workflows</a></h3>
+    <p class="card-org">Independent / Entrepreneurial</p>
+    <p class="card-summary">Small and one-person businesses lacked financial tools of enterprise quality at a price they could afford.</p>
+    <p class="card-outcome">A multi-tenant C#/Blazor platform on self-hosted infrastructure, now live as ESIO.</p>
+</article>
+
+        
+<article class="card">
+    <p class="card-kind">Product build</p>
+    <h3 class="card-title"><a href="/case-studies/rabbitmq-monitoring-framework/">RabbitMQ Monitoring Framework</a></h3>
+    <p class="card-org">Novicell</p>
+    <p class="card-summary">The team had no C# tooling to watch the health of a RabbitMQ cluster in real time.</p>
+    <p class="card-outcome">A read-only C# library that builds typed metrics at runtime from the server&#39;s metadata. A proof of concept; it did not go to production.</p>
+</article>
+
+        
+<article class="card">
+    <p class="card-kind">Product build</p>
+    <h3 class="card-title"><a href="/case-studies/flight-assistant/">Drone Flight Assistant App</a></h3>
+    <p class="card-org">QuadSat</p>
+    <p class="card-summary">Field technicians testing satellite antennas by drone had no single tool to plan flights and process the measurements.</p>
+    <p class="card-outcome">A modular Python desktop application that configures flights, aligns telemetry with RF data and shows antenna performance on site.</p>
+</article>
+
+        
+<article class="card">
+    <p class="card-kind">Product build</p>
+    <h3 class="card-title"><a href="/case-studies/experiment-orchestration-app/">Experiment Orchestration App</a></h3>
+    <p class="card-org">Cognition and Behavior Laboratory</p>
+    <p class="card-summary">Researchers wanted to test whether heart rates synchronise during shared activities, and needed the data captured in step.</p>
+    <p class="card-outcome">A C#/WPF application with a concurrent capture model that records all streams together. The experiment itself was cancelled for budget reasons.</p>
 </article>
 
     </div>

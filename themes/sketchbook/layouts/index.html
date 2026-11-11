@@ -1,6 +1,10 @@
 {{ define "main" }}
 {{- $availability := .Params.availability }}
 {{- if not $availability }}{{ errorf "content/_index.md is missing the availability parameter" }}{{ end }}
+{{- $pitch := .Params.pitch }}
+{{- if not $pitch }}{{ errorf "content/_index.md is missing the pitch parameter" }}{{ end }}
+{{- $proofPoints := .Params.proof }}
+{{- if not $proofPoints }}{{ errorf "content/_index.md is missing the proof entries" }}{{ end }}
 {{- $heroSection := .Site.GetPage "/hero" }}
 {{- $heroFields := $heroSection.Pages.ByWeight }}
 {{- $nameFields := where $heroFields "Title" "name" }}
@@ -9,18 +13,20 @@
 {{- $role := index $roleFields 0 }}
 {{- $headlineTitles := slice "name" "role" }}
 {{- $specFields := where $heroFields "Title" "not in" $headlineTitles }}
+{{- $servicesSection := .Site.GetPage "/services" }}
+{{- $offers := $servicesSection.Pages.ByWeight }}
 {{- $caseStudiesSection := .Site.GetPage "/case-studies" }}
 {{- $publicCaseStudies := where $caseStudiesSection.Pages ".Params.private" "!=" true }}
 {{- $caseStudiesByNewest := $publicCaseStudies.ByDate.Reverse }}
-{{- $latestCaseStudies := first 3 $caseStudiesByNewest }}
 <section class="hero">
     <div class="hero-text">
         <h1 class="hero-name">{{ $name.Plain | htmlUnescape }}</h1>
         <p class="hero-role"><span class="marker">{{ $role.Plain | htmlUnescape }}</span></p>
+        <p class="hero-pitch">{{ $pitch }}</p>
         <p class="hero-tagline">{{ $availability }}</p>
         <div class="actions">
             <a class="sketch-button primary" href="{{ "contact/" | relURL }}">Get in touch</a>
-            <a class="sketch-button" href="{{ "case-studies/" | relURL }}">See the work</a>
+            <a class="sketch-button" href="{{ "services/" | relURL }}">See what I do</a>
         </div>
     </div>
     <aside class="title-block" aria-label="At a glance">
@@ -33,18 +39,47 @@
     </aside>
 </section>
 
+<ul class="proof-strip" aria-label="Results">
+    {{- range $proofPoints }}
+    {{- $provingCaseStudy := site.GetPage .caseStudy }}
+    {{- if not $provingCaseStudy }}{{ errorf "content/_index.md names the unknown case study %s" .caseStudy }}{{ end }}
+    <li>
+        <a href="{{ $provingCaseStudy.RelPermalink }}">
+            <span class="proof-figure">{{ .figure }}</span>
+            <span class="proof-claim">{{ .claim }}</span>
+        </a>
+    </li>
+    {{- end }}
+</ul>
+
+<section class="offers">
+    <h2 class="section-heading">What I do</h2>
+    <div class="card-grid pairs">
+        {{- range $offers }}
+        {{ partial "offer-card.html" . }}
+        {{- end }}
+    </div>
+</section>
+
+<section class="selected-work">
+    <h2 class="section-heading">Selected work</h2>
+    <div class="card-grid pairs">
+        {{- range $offers }}
+        {{- $offerId := .File.ContentBaseName }}
+        {{- $caseStudiesOfOffer := where $caseStudiesByNewest ".Params.offer" $offerId }}
+        {{- $newestCaseStudyOfOffer := first 1 $caseStudiesOfOffer }}
+        {{- range $newestCaseStudyOfOffer }}
+        {{ partial "case-study-card.html" . }}
+        {{- end }}
+        {{- end }}
+    </div>
+    <a class="more-link" href="{{ "case-studies/" | relURL }}">All case studies &rarr;</a>
+</section>
+
 <section class="sketch">
     <h2 class="section-heading">How I work</h2>
     {{ .Content }}
 </section>
 
-<section class="selected-work">
-    <h2 class="section-heading">Selected work</h2>
-    <div class="card-grid">
-        {{- range $latestCaseStudies }}
-        {{ partial "page-card.html" . }}
-        {{- end }}
-    </div>
-    <a class="more-link" href="{{ "case-studies/" | relURL }}">All case studies &rarr;</a>
-</section>
+{{ partial "closing-call.html" . }}
 {{ end }}

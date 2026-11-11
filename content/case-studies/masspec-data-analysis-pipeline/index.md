@@ -15,6 +15,10 @@ languages: ["Python"]
 frameworks: ["Jupyter"]
 tools: ["Scientific Python Stack", "Mass Spectrometry"]
 domains: ["Bioinformatics", "Proteomics", "Reproducible Research"]
+offer: "feasibility-study"
+problem: "Proteomics papers often give conclusions without a way to rerun the analysis behind them."
+analysis: "Evaluated whether open-source tools can carry a complete, repeatable mass spectrometry workflow, including post-translational modifications."
+solution: "A Jupyter-based Python pipeline that runs the analysis end to end, and a white paper on the approach."
 ---
 
 **Overview:**

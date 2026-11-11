@@ -17,6 +17,8 @@ frameworks: ["Qt"]
 tools: []
 domains: ["Aerospace", "Satellite", "RF Analysis", "Drones"]
 weight: 2
+problem: "Drone-based antenna testing had no software for planning flights or analysing the RF measurements."
+solution: "Led a small team building the desktop flight application and the RF analysis tooling."
 ---
 
 **Overview:**

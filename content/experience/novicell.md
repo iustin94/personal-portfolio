@@ -17,6 +17,8 @@ frameworks: [".NET"]
 tools: ["RabbitMQ", "Docker"]
 domains: ["E-commerce", "Distributed Systems", "Messaging", "Scalability"]
 weight: 5
+problem: "Would RabbitMQ carry peak traffic for Power.dk, Biltema.dk and Apoteket.dk?"
+solution: "A measured feasibility study that exposed a two-order-of-magnitude bottleneck, and a monitoring framework."
 ---
 
 **Overview:**

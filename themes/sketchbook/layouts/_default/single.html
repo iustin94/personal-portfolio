@@ -3,6 +3,7 @@
     <header class="article-header">
         <h1 class="page-title"><span class="marker">{{ .Title }}</span></h1>
         {{ partial "article-meta.html" . }}
+        {{ partial "problem-to-solution.html" . }}
     </header>
     <div class="prose">
         {{ .Content }}

@@ -17,6 +17,9 @@ frameworks: []
 tools: []
 domains: ["Research", "Image Processing", "Automation"]
 weight: 4
+problem: "Faculty experiments produced images whose analysis had to be automated."
+solution: "Image-processing workflows that run the analysis."
+earlyCareer: true
 ---
 
 **Overview:**

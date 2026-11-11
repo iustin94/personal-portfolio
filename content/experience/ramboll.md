@@ -17,6 +17,8 @@ frameworks: ["Django", ".NET 7"]
 tools: ["PostgreSQL", "HTMX"]
 domains: ["Enterprise", "Risk Analysis", "Safety Platforms"]
 weight: 1
+problem: "Large risk analysis and safety platforms had become slow and hard to change."
+solution: "Refactored the legacy system and built core parts of its .NET replacement."
 ---
 
 **Overview:**

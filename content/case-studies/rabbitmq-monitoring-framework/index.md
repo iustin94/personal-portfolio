@@ -15,6 +15,10 @@ languages: ["C#"]
 frameworks: [".NET"]
 tools: ["RabbitMQ Management API", "Reflection"]
 domains: ["Observability", "Monitoring", "Messaging"]
+offer: "product-build"
+problem: "The team had no C# tooling to watch the health of a RabbitMQ cluster in real time."
+analysis: "RabbitMQ's management API describes its own metrics, so the models could be generated from it instead of written by hand."
+solution: "A read-only C# library that builds typed metrics at runtime from the server's metadata. A proof of concept; it did not go to production."
 ---
 
 **Overview:**

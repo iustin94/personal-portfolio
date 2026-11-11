@@ -15,6 +15,10 @@ languages: ["Python"]
 frameworks: []
 tools: ["GPS", "Telemetry", "RF Measurement", "Spectrum Analyzer"]
 domains: ["Aerospace", "RF", "Drone Operations"]
+offer: "product-build"
+problem: "Field technicians testing satellite antennas by drone had no single tool to plan flights and process the measurements."
+analysis: "Worked between drone researchers, RF engineers and the product owner to settle a workflow while the hardware was still changing."
+solution: "A modular Python desktop application that configures flights, aligns telemetry with RF data and shows antenna performance on site."
 ---
 
 **Overview:**

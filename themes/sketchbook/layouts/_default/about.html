@@ -1,0 +1,24 @@
+{{ define "main" }}
+{{- $experienceSection := .Site.GetPage "/experience" }}
+{{- $rolesByNewest := $experienceSection.Pages.ByDate.Reverse }}
+{{- $mainRoles := where $rolesByNewest ".Params.earlycareer" "!=" true }}
+{{- $earlyCareerRoles := where $rolesByNewest ".Params.earlycareer" true }}
+{{- $educationSection := .Site.GetPage "/education" }}
+{{- $educationByNewest := $educationSection.Pages.ByDate.Reverse }}
+<article class="article">
+    <header class="article-header">
+        <h1 class="page-title"><span class="marker">{{ .Title }}</span></h1>
+    </header>
+    <div class="prose">
+        {{ .Content }}
+    </div>
+    <h2 class="section-heading">Experience</h2>
+    {{ partial "timeline.html" $mainRoles }}
+    <details class="earlier-roles">
+        <summary>Earlier roles ({{ len $earlyCareerRoles }})</summary>
+        {{ partial "timeline.html" $earlyCareerRoles }}
+    </details>
+    <h2 class="section-heading">Education</h2>
+    {{ partial "timeline.html" $educationByNewest }}
+</article>
+{{ end }}

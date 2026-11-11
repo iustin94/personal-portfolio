@@ -15,6 +15,10 @@ languages: ["C#"]
 frameworks: [".NET", "Blazor", "EF Core"]
 tools: ["Docker", "Docker Compose"]
 domains: ["SaaS", "Finance", "Simulation"]
+offer: "product-build"
+problem: "Small and one-person businesses lacked financial tools of enterprise quality at a price they could afford."
+analysis: "Worked with an accountant to turn how small businesses budget, book and report into a formal domain model."
+solution: "A multi-tenant C#/Blazor platform on self-hosted infrastructure, now live as ESIO."
 ---
 
 **Overview:**

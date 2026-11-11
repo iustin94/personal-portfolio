@@ -4,7 +4,7 @@
 <p class="lead">{{ .Description }}</p>
 {{- with $publicProjects }}
 <div class="card-grid">
-    {{- range .ByDate.Reverse }}
+    {{- range .ByWeight }}
     {{ partial "external-project-card.html" . }}
     {{- end }}
 </div>

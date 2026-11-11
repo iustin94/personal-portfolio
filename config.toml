@@ -50,7 +50,7 @@ disableKinds = ["taxonomy", "term"]
   animateStyle = "animated zoomIn fast"
 
   # OpenGraph and Twitter Cards
-  description = "Software Developer specializing in C#/.NET, full-stack development, and domain-driven design. Based in Denmark."
+  description = "Business analyst and software architect. From business problem to running software, mostly in C#/.NET. Based in Denmark."
   title = "Iustinian Olaru"
   locale = "en_US"
 
@@ -105,6 +105,11 @@ disableKinds = ["taxonomy", "term"]
   icon = "fa-stack-overflow"
 
 [[menus.main]]
+  name = "Services"
+  pageRef = "/services"
+  weight = 5
+
+[[menus.main]]
   name = "Case Studies"
   pageRef = "/case-studies"
   weight = 10
@@ -113,11 +118,6 @@ disableKinds = ["taxonomy", "term"]
   name = "Projects"
   pageRef = "/projects"
   weight = 15
-
-[[menus.main]]
-  name = "Experience"
-  pageRef = "/experience"
-  weight = 20
 
 [[menus.main]]
   name = "About"

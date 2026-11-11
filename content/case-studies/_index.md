@@ -1,7 +1,7 @@
 ---
 title: "Case Studies"
 date: 2024-01-01
-description: "Written case studies of software engineering work spanning enterprise platforms, distributed systems, bioinformatics pipelines, and SaaS development."
+description: "Each case starts with the problem, then the analysis, then what was built. Grouped by the service it shows."
 tags: ["Portfolio", "Software Projects", "C#", ".NET", "Python", "Enterprise", "Denmark"]
 og_image: "/images/og.png"
 locale: "en_US"
