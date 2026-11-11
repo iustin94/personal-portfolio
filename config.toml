@@ -50,7 +50,7 @@ disableKinds = ["taxonomy", "term"]
   animateStyle = "animated zoomIn fast"
 
   # OpenGraph and Twitter Cards
-  description = "Software Developer specializing in C#/.NET, full-stack development, and domain-driven design. Based in Denmark."
+  description = "Business analyst and software architect. From business problem to running software, mostly in C#/.NET. Based in Denmark."
   title = "Iustinian Olaru"
   locale = "en_US"
 

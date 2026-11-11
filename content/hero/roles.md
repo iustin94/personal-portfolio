@@ -2,4 +2,4 @@
 title: "role"
 weight: 2
 ---
-Software Architect & Builder
+Business Analyst & Software Architect

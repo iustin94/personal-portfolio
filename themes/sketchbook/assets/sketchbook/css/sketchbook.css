@@ -871,6 +871,42 @@ body #cc-main {
     }
 }
 
+.hero-pitch {
+    max-width: 32rem;
+    margin: 0 0 1.25rem;
+    font-size: 1.2rem;
+}
+
+.proof-strip {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+    gap: 1.5rem 2rem;
+    margin: 2.5rem 0 0;
+    padding: 1.25rem 0;
+    list-style: none;
+    border-top: 2px dashed var(--pencil);
+    border-bottom: 2px dashed var(--pencil);
+}
+
+.proof-strip a {
+    display: block;
+    color: var(--ink);
+    text-decoration: none;
+}
+
+.proof-figure {
+    display: block;
+    font-family: var(--font-script);
+    font-size: 2.4rem;
+    line-height: 1.1;
+    color: var(--red-pencil);
+}
+
+.proof-claim {
+    display: block;
+    font-size: 0.95rem;
+}
+
 .card-outcome {
     margin: 0;
     font-size: 0.95rem;
@@ -924,4 +960,14 @@ body #cc-main {
     font-family: var(--font-hand);
     font-size: 1.1rem;
     cursor: pointer;
+}
+
+.card-grid.pairs {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+@media (max-width: 640px) {
+    .card-grid.pairs {
+        grid-template-columns: minmax(0, 1fr);
+    }
 }

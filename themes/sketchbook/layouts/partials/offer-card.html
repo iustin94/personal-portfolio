@@ -1,0 +1,5 @@
+{{- $offerAnchor := printf "services/#%s" .File.ContentBaseName }}
+<article class="card">
+    <h3 class="card-title"><a href="{{ $offerAnchor | relURL }}">{{ .Title }}</a></h3>
+    <p class="card-summary">{{ .Description }}</p>
+</article>
