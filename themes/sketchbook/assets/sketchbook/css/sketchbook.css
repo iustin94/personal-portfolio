@@ -331,21 +331,17 @@ h3 {
 }
 
 .title-block {
+    padding: 1.2rem 1.4rem 0.8rem;
     background: var(--paper-card);
     border: 2px solid var(--ink);
-    box-shadow: 5px 6px 0 var(--shadow);
+    border-radius: var(--sketch-radius);
+    box-shadow: 3px 4px 0 var(--shadow);
     font-size: 0.95rem;
 }
 
 .title-block-head {
-    display: flex;
-    justify-content: space-between;
-    padding: 0.5rem 0.9rem;
-    font-family: var(--font-body);
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    border-bottom: 2px solid var(--ink);
+    margin: 0 0 0.4rem;
+    font-size: 1.15rem;
 }
 
 .title-block dl {
@@ -354,7 +350,9 @@ h3 {
 
 .title-block-row {
     display: grid;
-    grid-template-columns: 8.5rem minmax(0, 1fr);
+    grid-template-columns: 7.5rem minmax(0, 1fr);
+    gap: 1rem;
+    padding: 0.5rem 0;
     border-bottom: 1px solid var(--grid-line);
 }
 
@@ -363,19 +361,17 @@ h3 {
 }
 
 .title-block dt {
-    padding: 0.55rem 0.9rem;
-    font-family: var(--font-body);
+    font-size: 0.85rem;
     font-weight: 500;
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
     color: var(--ink-soft);
-    border-right: 1px solid var(--grid-line);
+}
+
+.title-block dt::first-letter {
+    text-transform: uppercase;
 }
 
 .title-block dd {
     margin: 0;
-    padding: 0.55rem 0.9rem;
 }
 
 .section-heading {
