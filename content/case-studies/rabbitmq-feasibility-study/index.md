@@ -15,6 +15,10 @@ languages: []
 frameworks: []
 tools: ["RabbitMQ", "Docker"]
 domains: ["E-commerce", "Scalability", "Distributed Systems", "Messaging"]
+offer: "feasibility-study"
+problem: "Would the messaging design proposed for Power.dk, Biltema.dk and Apoteket.dk hold under Black Friday traffic?"
+analysis: "Load tests on single-node and multi-node RabbitMQ clusters, automated with Docker, compared the proposed design against a baseline."
+solution: "A two-order-of-magnitude bottleneck was found before implementation, and the architecture team revised the design."
 ---
 
 **Overview:**

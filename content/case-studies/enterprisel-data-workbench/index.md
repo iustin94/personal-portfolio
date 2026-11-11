@@ -15,6 +15,10 @@ languages: ["C#"]
 frameworks: [".NET", "EF Core"]
 tools: ["DDD"]
 domains: ["Enterprise", "Process Modeling", "Architecture"]
+offer: "architecture-modernisation"
+problem: "A decade-old Python/Django risk management platform could not support user-defined data models and business processes."
+analysis: "Research into modelling patterns, and prototypes showing how user-defined models, validation rules and tenant configuration work in a strongly typed system."
+solution: "The architecture and core structure of a new C#/.NET platform built on domain-driven design, with written architectural guidelines."
 ---
 
 **Overview:**

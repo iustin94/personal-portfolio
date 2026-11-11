@@ -1,0 +1,11 @@
+{{- $offerPath := printf "/services/%s" .Params.offer }}
+{{- $offer := site.GetPage $offerPath }}
+<article class="card">
+    <p class="card-kind">{{ $offer.Title }}</p>
+    <h3 class="card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    {{- with .Params.organization }}
+    <p class="card-org">{{ . }}</p>
+    {{- end }}
+    <p class="card-summary">{{ .Params.problem }}</p>
+    <p class="card-outcome">{{ .Params.solution }}</p>
+</article>

@@ -15,6 +15,10 @@ languages: ["C#"]
 frameworks: ["WPF"]
 tools: ["Wii Remotes", "Audio Recording"]
 domains: ["Cognitive Science", "Biometrics", "Experimentation"]
+offer: "product-build"
+problem: "Researchers wanted to test whether heart rates synchronise during shared activities, and needed the data captured in step."
+analysis: "Heart-rate monitors, Wii remotes and microphones each deliver data at their own pace, so the streams had to be aligned in time."
+solution: "A C#/WPF application with a concurrent capture model that records all streams together. The experiment itself was cancelled for budget reasons."
 ---
 
 **Overview:**

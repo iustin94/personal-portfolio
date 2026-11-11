@@ -871,6 +871,22 @@ body #cc-main {
     }
 }
 
+.card-outcome {
+    margin: 0;
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+.card-outcome::before {
+    content: "\2192  ";
+    color: var(--red-pencil);
+}
+
+.problem-to-solution {
+    margin-top: 1.5rem;
+    transform: none;
+}
+
 .offer-situation {
     margin: 0 0 0.75rem;
     font-family: var(--font-script);

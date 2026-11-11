@@ -1,0 +1,13 @@
+{{- with .Params.problem }}
+<aside class="title-block problem-to-solution" aria-label="Problem to solution">
+    <dl>
+        <div class="title-block-row"><dt>Problem</dt><dd>{{ . }}</dd></div>
+        {{- with $.Params.analysis }}
+        <div class="title-block-row"><dt>Analysis</dt><dd>{{ . }}</dd></div>
+        {{- end }}
+        {{- with $.Params.solution }}
+        <div class="title-block-row"><dt>Solution</dt><dd>{{ . }}</dd></div>
+        {{- end }}
+    </dl>
+</aside>
+{{- end }}

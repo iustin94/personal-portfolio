@@ -1,0 +1,9 @@
+{{- $caseStudy := . }}
+{{- $requiredFields := slice "offer" "problem" "analysis" "solution" }}
+{{- range $requiredFields }}
+{{- $fieldValue := index $caseStudy.Params . }}
+{{- if not $fieldValue }}{{ errorf "%s is missing the %s parameter" $caseStudy.File.Path . }}{{ end }}
+{{- end }}
+{{- $offerPath := printf "/services/%s" $caseStudy.Params.offer }}
+{{- $offer := site.GetPage $offerPath }}
+{{- if not $offer }}{{ errorf "%s names the unknown offer %s" $caseStudy.File.Path $caseStudy.Params.offer }}{{ end }}

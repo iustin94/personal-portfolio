@@ -15,6 +15,10 @@ languages: ["BioNetGen DSL"]
 frameworks: ["BioNetGen"]
 tools: ["Simulation"]
 domains: ["Bioinformatics", "Systems Biology", "Rule-based Modeling"]
+offer: "feasibility-study"
+problem: "Can researchers without a software background use BioNetGen for rule-based simulation of biochemical processes?"
+analysis: "Learned the language from scratch, built a set of reaction models and documented the work from both a researcher's and an engineer's side."
+solution: "A white paper: BioNetGen is capable and efficient, but its learning curve and documentation are barriers for non-programmers."
 ---
 
 **Overview:**
