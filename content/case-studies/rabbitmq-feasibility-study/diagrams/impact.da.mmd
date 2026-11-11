@@ -1,0 +1,14 @@
+flowchart TB
+    study(["Feasibility-studie"])
+    subgraph internal["Intern effekt"]
+        critical["Kritisk opdagelse<br/>100x flaskehals fundet<br/>før produktion"]
+        guidance["Arkitekturvejledning<br/>direkte anbefalinger<br/>til arkitekturchefen"]
+        guidelines["Nye retningslinjer<br/>beskeddrevne<br/>arkitekturmønstre"]
+    end
+    subgraph external["Ekstern effekt"]
+        contributor["Topbidragyder<br/>RabbitMQ-tagget<br/>på Stack Overflow"]
+        upvoted["Højest vurderede indlæg<br/>bredt refereret<br/>teknisk vejledning"]
+        community["Globalt fællesskab<br/>kompleks indsigt gjort<br/>klar og handlingsorienteret"]
+    end
+    study --> internal
+    study --> external

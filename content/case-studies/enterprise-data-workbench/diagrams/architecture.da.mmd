@@ -1,0 +1,6 @@
+flowchart TB
+    api["API-lag<br/>RESTful endpoints · håndtering af forespørgsler · mapping af svar"] --> application["Applikationslag<br/>use cases · orkestrering · valideringsmotor"]
+    application --> domain["Domænemodel (kerne)<br/>entiteter · værdiobjekter · aggregater<br/>forretningsregler · domænelogik"]
+    infrastructure["Infrastrukturlag<br/>EF Core · repositories · persistens"] --> domain
+    infrastructure --> database[("Database")]
+    domain -.- traits["Typesikkerhed · klare grænser<br/>skalerbare mønstre"]

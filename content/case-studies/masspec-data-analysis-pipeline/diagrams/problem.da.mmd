@@ -1,0 +1,11 @@
+flowchart TB
+    subgraph currentPractice["Nuværende praksis"]
+        direction LR
+        paperOnly["Publiceret artikel<br/>resultater #amp; konklusioner"] --> blackBox["Sort boks<br/>kan ikke efterprøves<br/>kan ikke reproduceres"]
+    end
+    subgraph openScience["Åben videnskab"]
+        direction LR
+        openPaper["Publiceret artikel<br/>resultater #amp; konklusioner"] --> reproducible(["✓ Fuldt reproducerbar"])
+        artifacts["Data · pipelinekode<br/>dokumentation"] --> reproducible
+    end
+    currentPractice ==> openScience

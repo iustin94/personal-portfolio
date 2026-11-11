@@ -1,0 +1,12 @@
+flowchart LR
+    subgraph constraints["Begrænsninger"]
+        direction TB
+        stack["C# + WPF-stak<br/>ikke bygget til høj<br/>gennemstrømning og lav latenstid"] ~~~ streams["Flere datastrømme<br/>flere samtidige<br/>inputkilder"]
+        streams ~~~ sync["Synkronisering<br/>tidsstempler skal<br/>passe præcist sammen"]
+    end
+    subgraph solutions["Løsninger"]
+        direction TB
+        threading["Trådmodel<br/>specialudviklet samtidig<br/>arkitektur"] ~~~ wii["Wii-integration<br/>forbrugerhardware<br/>genbrugt som input"]
+        wii ~~~ latency["Design til lav latenstid<br/>optimeret pipeline til<br/>behandling i realtid"]
+    end
+    constraints ==>|"kreative løsninger"| solutions

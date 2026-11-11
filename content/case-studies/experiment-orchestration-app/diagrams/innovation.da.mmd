@@ -1,0 +1,4 @@
+flowchart LR
+    wii["Wii-fjernbetjening<br/>datastrøm fra<br/>accelerometer"] --> translation["Omsætning<br/>specialudviklet C#-logik<br/>bevægelse → markør"]
+    translation --> cursor["Markørstyring<br/>bevægelse på skærmen<br/>interaktion i spillet"]
+    translation -.- outcome["Bevægelsessporing i realtid<br/>uden specialudstyr"]

@@ -1,0 +1,12 @@
+flowchart LR
+    subgraph capabilities["✓ Funktioner"]
+        direction TB
+        metrics["Metrikker i realtid<br/>clusterets helbred live"] ~~~ types["Dynamiske typer<br/>genereret på kørselstidspunktet"]
+        types ~~~ readOnly["Skrivebeskyttet<br/>sikker observability"]
+    end
+    subgraph constraints["Begrænsninger"]
+        direction TB
+        noWrite["Ingen skriveadgang<br/>kun overvågning"] ~~~ noAdministration["Ingen administration<br/>kun læseoperationer"]
+        noAdministration ~~~ transparent["Gennemsigtigt<br/>sikkert by design"]
+    end
+    capabilities ~~~ constraints

@@ -1,0 +1,4 @@
+flowchart TB
+    query["1 · Forespørg<br/>hent RabbitMQ's API-specifikation"] --> parse["2 · Parse<br/>udtræk JSON-metadataskemaet"]
+    parse --> generate["3 · Generér<br/>dynamiske typer via .NET reflection"]
+    generate -.- innovation["Ingen hårdkodede modeller: tilpasser sig enhver RabbitMQ-version<br/>Runtime-introspektion: konfigurerer sig selv ved opstart<br/>Som skemadrevet generering med OpenAPI / Swagger"]

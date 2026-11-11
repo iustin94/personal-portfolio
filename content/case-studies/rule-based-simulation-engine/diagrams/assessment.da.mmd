@@ -1,0 +1,12 @@
+flowchart LR
+    subgraph strengths["✓ Styrker"]
+        direction TB
+        expressive["Udtrykskraft<br/>komplekse reaktioner i<br/>kortfattet regelnotation"] ~~~ efficient["Beregningseffektivitet<br/>hurtig simulering af<br/>biomolekylære modeller"]
+        efficient ~~~ ruleBased["Regelbaseret modellering<br/>indfanger dynamiske<br/>biologiske interaktioner"]
+    end
+    subgraph barriers["✗ Barrierer"]
+        direction TB
+        learningCurve["Stejl læringskurve<br/>ikke-intuitiv syntaks for<br/>ikke-tekniske brugere"] ~~~ documentation["Fragmenteret dokumentation<br/>ufuldstændig dokumentation<br/>gør det svært at komme i gang"]
+        documentation ~~~ accessibility["Tilgængelighedskløft<br/>kræver en stærk<br/>programmeringsbaggrund"]
+    end
+    strengths ~~~ barriers

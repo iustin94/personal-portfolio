@@ -1,0 +1,6 @@
+flowchart TB
+    frontend["Frontend<br/>Blazor WebAssembly"] --> backend["Backend-API<br/>C# / ASP.NET Core · RESTful-tjenester"]
+    backend --> domain["Domænelag (kerne)<br/>finansielle modeller · forretningslogik · simuleringsmotor<br/>SOLID-principper · tenant-administration"]
+    data["Datalag<br/>EF Core · multi-tenant dataisolation"] --> domain
+    data --> database[("PostgreSQL")]
+    database -.- infrastructure["Infrastruktur<br/>Docker · Docker Compose · Hetzner VPS"]

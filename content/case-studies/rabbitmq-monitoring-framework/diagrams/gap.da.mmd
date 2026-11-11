@@ -1,0 +1,9 @@
+flowchart LR
+    subgraph existing["Eksisterende .NET-værktøjer"]
+        direction TB
+        publishing["✓ Publicering<br/>send beskeder"] ~~~ consuming["✓ Konsumering<br/>modtag beskeder"]
+    end
+    subgraph missing["Manglende værktøj"]
+        monitoring["✗ Overvågning<br/>metrikker for clusterets helbred<br/>observability i realtid<br/>indsigt i ydeevnen"]
+    end
+    existing -. "hul: intet C#-framework" .-> missing
