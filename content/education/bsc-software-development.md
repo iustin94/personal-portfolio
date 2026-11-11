@@ -8,7 +8,7 @@ og_image: "/images/og.png"
 locale: "en_US"
 type: "education"
 degree: "B.Sc. Software Development"
-institution: "University College Lillebælt"
+institution: "Erhvervsakademi Aarhus"
 period: "2014 -- 2018"
 location: "Denmark"
 weight: 2

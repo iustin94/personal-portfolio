@@ -8,19 +8,21 @@ og_image: "/images/og.png"
 locale: "en_US"
 type: "education"
 degree: "M.Sc. Computational Biomedicine"
-institution: "University of Southern Denmark"
+institution: "Faculty of Science, University of Southern Denmark"
 period: "2018 -- 2020"
 location: "Denmark"
 weight: 1
 ---
 
+Taken at the Faculty of Science, in the microbiology department.
+
 **Coursework:**
 
-\item Statistical analysis
-\item Data mining and data algorithms
-\item Supervised and unsupervised machine learning
-\item Introductory biology and chemistry
-\item Proteomics studies
+- Statistical analysis
+- Data mining and data algorithms
+- Supervised and unsupervised machine learning
+- Introductory biology and chemistry
+- Proteomics studies
 
 **Research:**
 

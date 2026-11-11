@@ -23,4 +23,4 @@ locale: "en_US"
 2. You get a written proposal: the scope, what you receive and a price.
 3. Work starts when you agree to the proposal.
 
-I work in English and Danish, on site on Fyn or remotely.
+I work in English, Danish and Romanian, on site on Fyn or remotely.

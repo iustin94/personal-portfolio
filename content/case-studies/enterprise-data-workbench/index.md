@@ -10,7 +10,7 @@ locale: "en_US"
 # standardized metadata for filtering/coloring
 type: "implementation"
 location: "Copenhagen, Denmark"
-organization: "Ramboll"
+organization: "Rambøll"
 languages: ["C#"]
 frameworks: [".NET", "EF Core"]
 tools: ["DDD"]
