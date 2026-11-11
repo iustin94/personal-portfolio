@@ -3,7 +3,7 @@ title: "Feasibility Study of RabbitMQ"
 date: 2022-01-01
 aliases: ["/projects/rabbitmq-feasibility-study/"]
 draft: false
-description: "Scientific investigation of RabbitMQ for high-throughput e-commerce platforms handling Black Friday and seasonal traffic spikes at Denmark's largest online retailers."
+description: "Measured investigation of RabbitMQ for e-commerce platforms handling Black Friday traffic spikes at Denmark's largest online retailers."
 tags: ["RabbitMQ", "E-commerce", "Distributed Systems", "Messaging", "Scalability", "Docker"]
 og_image: "/images/og.png"
 locale: "en_US"

@@ -1,6 +1,6 @@
 +++
 title = "Iustinian Olaru - Business Analyst & Software Architect"
-description = "Iustinian Olaru - Business analyst and software architect. From business problem to running software: analysis, feasibility studies, architecture and full-stack C#/.NET delivery. Based in Denmark."
+description = "Business analyst and software architect in Denmark. From business problem to running software: analysis, feasibility studies, architecture and C#/.NET delivery."
 date = 2024-01-01
 tags = ["Business Analyst", "Software Architect", "C#", ".NET", "Denmark", "Consultant", "Freelancer"]
 og_image = "/images/og.png"

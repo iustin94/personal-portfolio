@@ -2,7 +2,7 @@
 title: "B.Sc. Software Development"
 date: 2014-09-01
 draft: false
-description: "Bachelor's degree with focus on enterprise architecture, algorithms, databases, and testing, including projects on RabbitMQ benchmarking and multi-sensor C# applications."
+description: "Bachelor's degree in enterprise architecture, algorithms, databases and testing, with projects on RabbitMQ benchmarking and multi-sensor C# applications."
 tags: ["Software Development", "Enterprise", "Architecture", "Algorithms", "C#", "RabbitMQ"]
 og_image: "/images/og.png"
 locale: "en_US"

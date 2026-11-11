@@ -3,7 +3,7 @@ title: "Drone Flight Assistant App"
 date: 2021-01-01
 aliases: ["/projects/flight-assistant/"]
 draft: false
-description: "Desktop application for drone-based satellite antenna testing, integrating flight path configuration, RF measurement processing, and GPS telemetry synchronization."
+description: "Desktop application for drone-based satellite antenna testing: flight path configuration, RF measurement processing and GPS telemetry synchronization."
 tags: ["Python", "Aerospace", "Drones", "RF", "GPS", "Telemetry", "Satellite"]
 og_image: "/images/og.png"
 locale: "en_US"

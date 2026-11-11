@@ -2,7 +2,7 @@
 title: "Lead Software Developer"
 date: 2019-07-01
 draft: false
-description: "Led development of a Python/Qt desktop application for aerial drone flight planning and execution, RF-antenna performance analysis, and real-time hardware integration."
+description: "Led development of a Python/Qt desktop application for drone flight planning and execution, RF-antenna performance analysis and hardware integration."
 tags: ["Python", "Qt", "Drones", "RF", "Satellite", "Data Analysis", "R&D", "Leadership"]
 og_image: "/images/og.png"
 locale: "en_US"
