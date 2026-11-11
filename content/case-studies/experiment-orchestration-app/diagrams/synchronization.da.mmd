@@ -1,0 +1,5 @@
+flowchart TB
+    heartRate["Puls<br/>biometriske målere<br/>flere deltagere"] --> engine
+    wii["Wii-fjernbetjeninger<br/>accelerometerdata<br/>bevægelsessporing"] --> engine
+    audio["Lyd<br/>stemmeoptagelser<br/>data fra stemmeopgaven"] --> engine
+    engine["Synkroniseringsmotor<br/>specialudviklet samtidig trådmodel<br/>tidsstempler bragt på linje i realtid"] --> dataset[("Synkroniseret datasæt<br/>lav latenstid · høj præcision")]

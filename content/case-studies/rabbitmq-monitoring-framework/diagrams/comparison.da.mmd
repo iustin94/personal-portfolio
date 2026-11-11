@@ -1,0 +1,12 @@
+flowchart LR
+    subgraph traditional["Traditionel"]
+        direction TB
+        hardCoded["Hårdkodede modeller"] --> manualUpdates["Manuelle opdateringer"]
+        manualUpdates --> traditionalCost["✗ Går i stykker ved API-ændringer<br/>✗ Kræver kodeopdateringer<br/>✗ Versionsspecifik"]
+    end
+    subgraph dynamic["Dynamisk"]
+        direction TB
+        runtimeGeneration["Generering på kørselstidspunktet"] --> selfAdapting["Selvtilpassende"]
+        selfAdapting --> dynamicGain["✓ Tilpasser sig automatisk<br/>✓ Ingen manuelle opdateringer<br/>✓ Versionsuafhængig"]
+    end
+    traditional ==> dynamic

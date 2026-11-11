@@ -1,6 +1,0 @@
-flowchart TB
-    api["API layer<br/>RESTful endpoints · request handling · response mapping"] --> application["Application layer<br/>use cases · orchestration · validation engine"]
-    application --> domain["Domain model (core)<br/>entities · value objects · aggregates<br/>business rules · domain logic"]
-    infrastructure["Infrastructure layer<br/>EF Core · repositories · persistence"] --> domain
-    infrastructure --> database[("Database")]
-    domain -.- traits["Type safety · clear boundaries<br/>scalable patterns"]

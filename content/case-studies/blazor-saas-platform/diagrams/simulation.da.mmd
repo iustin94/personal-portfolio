@@ -1,0 +1,7 @@
+flowchart LR
+    existing["Eksisterende frameworks<br/>⚠ for komplekse (SimSharp)<br/>overkill til formålet"] ==>|"eget design"| engine
+    subgraph engine["Specialbygget motor: tilstandsløs, funktionel, tilpasset behovet"]
+        direction TB
+        rules["Regler<br/>deklarativ finansiel logik"] --> execution["Motor<br/>tilstandsløs eksekvering"]
+        execution --> output["Output<br/>finansielle fremskrivninger"]
+    end

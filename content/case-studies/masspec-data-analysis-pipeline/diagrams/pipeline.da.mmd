@@ -1,0 +1,7 @@
+flowchart TB
+    input[("Inputdata<br/>massespektrometrifiler · PTM-datasæt")] --> preprocessing["1 · Forbehandling<br/>datarensning · normalisering"]
+    preprocessing --> statistics["2 · Statistisk analyse<br/>proteinkvantificering · signifikans"]
+    statistics --> ptm["3 · PTM-analyse<br/>posttranslationelle modifikationer"]
+    ptm --> results(["Resultater #amp; visualiseringer"])
+    statistics -.- stack["Python · Jupyter · NumPy<br/>Pandas · SciPy · Matplotlib"]
+    preprocessing -.- features["Udvidelig · fra ende til anden · dokumenteret<br/>på tværs af platforme · minimal konfiguration · open source"]
