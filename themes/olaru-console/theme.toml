@@ -1,0 +1,3 @@
+name = "Olaru Console"
+description = "Site-specific overrides on hugo-theme-console"
+min_version = "0.140.0"

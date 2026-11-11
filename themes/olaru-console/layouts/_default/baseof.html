@@ -3,26 +3,12 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    {{- $siteName := .Site.Params.title -}}
-    {{- $documentTitle := .Title -}}
-    {{- if not (strings.Contains $documentTitle $siteName) }}{{ $documentTitle = printf "%s | %s" $documentTitle $siteName }}{{ end }}
-    <title>{{ $documentTitle }}</title>
-    <meta name="description" content="{{ .Description | default .Site.Params.description }}">
-    <link rel="canonical" href="{{ .Permalink }}">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="robots" content="all,follow">
-    <meta name="googlebot" content="index,follow,snippet,archive">
+    {{- partial "seo-head.html" . }}
     <link rel="stylesheet" href="{{ "hugo-theme-console/css/terminal-0.7.4.min.css" | absURL }}">
     <link rel="stylesheet" href="{{ "hugo-theme-console/css/animate-4.1.1.min.css" | absURL }}">
     <link rel="stylesheet" href="{{ "hugo-theme-console/css/console.css" | absURL }}">
 
     {{- partial "favicon.html" . -}}
-    {{ with .OutputFormats.Get "RSS" }}
-      {{ printf `<link href="%s" rel="%s" type="%s" title="%s" />` .Permalink .Rel .MediaType.Type $.Site.Title | safeHTML }}
-    {{ end }}
-    {{- partial "opengraph.html" . -}}
-    {{- partial "twitter_cards.html" . -}}
-    {{- partial "structured-data.html" . -}}
 
     <link rel='stylesheet' href='{{ "css/hero.css" | absURL }}' />
     <link rel='stylesheet' href='{{ "css/tree.css" | absURL }}' />
@@ -30,7 +16,7 @@
     <link rel='stylesheet' href='{{ "css/cookieconsent.css" | absURL }}' />
     <link rel="stylesheet" href="{{ "css/vendor/fontawesome.min.css" | absURL }}" />
     <link rel="stylesheet" href="{{ "css/vendor/brands.min.css" | absURL }}" />
-    <script src="{{ "js/theme-toggle.js" | absURL }}" defer></script>
+    {{- partial "theme-toggle-script.html" . }}
 </head>
 <body class="terminal">
     <div class="container">
