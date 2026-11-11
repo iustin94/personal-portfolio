@@ -24,8 +24,8 @@
         {{ partial "footer.html" . }}
     </div>
     {{- if .Store.Get "hasSketches" }}
-    <script src="{{ "sketchbook/js/vendor/mermaid-11.4.1.min.js" | absURL }}" defer></script>
-    <script type="module" src="{{ $fingerprintedSketchScript.Permalink }}" integrity="{{ $fingerprintedSketchScript.Data.Integrity }}"></script>
+    {{- $sketchLibraryUrl := "sketchbook/js/vendor/mermaid-11.4.1.min.js" | absURL }}
+    <script type="module" src="{{ $fingerprintedSketchScript.Permalink }}" integrity="{{ $fingerprintedSketchScript.Data.Integrity }}" data-sketch-library="{{ $sketchLibraryUrl }}"></script>
     {{- end }}
     {{- partial "analytics.html" . -}}
 </body>

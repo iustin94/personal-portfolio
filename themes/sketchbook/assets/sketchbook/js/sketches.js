@@ -1,7 +1,8 @@
-const mermaid = window.mermaid;
 const sketchSelector = "pre.mermaid";
 const themeToggleSelector = ".theme-toggle";
+const sketchLibraryHolderSelector = "script[data-sketch-library]";
 const darkSchemeQuery = "(prefers-color-scheme: dark)";
+const nearViewportMargin = "600px";
 
 function readToken(name) {
     return getComputedStyle(document.body).getPropertyValue(name).trim();
@@ -40,8 +41,42 @@ function restoreSources(sketches) {
     }
 }
 
-async function drawSketches(sketches) {
+function untilAnySketchIsNear(sketches) {
+    return new Promise((resolve) => {
+        const observerOptions = { rootMargin: nearViewportMargin };
+
+        const observer = new IntersectionObserver((entries) => {
+            const isAnySketchNear = entries.some((entry) => entry.isIntersecting);
+            if (!isAnySketchNear) {
+                return;
+            }
+            observer.disconnect();
+            resolve();
+        }, observerOptions);
+
+        for (const sketch of sketches) {
+            observer.observe(sketch);
+        }
+    });
+}
+
+function loadSketchLibrary() {
+    const libraryHolder = document.querySelector(sketchLibraryHolderSelector);
+    const librarySource = libraryHolder.dataset.sketchLibrary;
+
+    return new Promise((resolve, reject) => {
+        const libraryScript = document.createElement("script");
+        const loadFailure = new Error(`The sketch library could not be loaded from ${librarySource}`);
+        libraryScript.src = librarySource;
+        libraryScript.addEventListener("load", () => resolve(window.mermaid));
+        libraryScript.addEventListener("error", () => reject(loadFailure));
+        document.head.append(libraryScript);
+    });
+}
+
+async function drawSketches(mermaid, sketches) {
     const themeVariables = sketchPalette();
+
     mermaid.initialize({
         startOnLoad: false,
         securityLevel: "strict",
@@ -51,16 +86,17 @@ async function drawSketches(sketches) {
         fontFamily: themeVariables.fontFamily,
         themeVariables
     });
+
     await mermaid.run({ nodes: sketches });
 }
 
-async function redrawSketches(sketches) {
+async function redrawSketches(mermaid, sketches) {
     restoreSources(sketches);
-    await drawSketches(sketches);
+    await drawSketches(mermaid, sketches);
 }
 
-function redrawAfterThemeChange(sketches) {
-    requestAnimationFrame(() => redrawSketches(sketches));
+function redrawAfterThemeChange(mermaid, sketches) {
+    requestAnimationFrame(() => redrawSketches(mermaid, sketches));
 }
 
 const sketches = [...document.querySelectorAll(sketchSelector)];
@@ -68,10 +104,12 @@ const themeToggle = document.querySelector(themeToggleSelector);
 const darkScheme = matchMedia(darkSchemeQuery);
 const handFontShorthand = `17px ${readToken("--font-hand")}`;
 
-mermaid.initialize({ startOnLoad: false });
 rememberSources(sketches);
+await untilAnySketchIsNear(sketches);
+const mermaid = await loadSketchLibrary();
+mermaid.initialize({ startOnLoad: false });
 await document.fonts.load(handFontShorthand);
-await drawSketches(sketches);
+await drawSketches(mermaid, sketches);
 
-themeToggle.addEventListener("click", () => redrawAfterThemeChange(sketches));
-darkScheme.addEventListener("change", () => redrawAfterThemeChange(sketches));
+themeToggle.addEventListener("click", () => redrawAfterThemeChange(mermaid, sketches));
+darkScheme.addEventListener("change", () => redrawAfterThemeChange(mermaid, sketches));
