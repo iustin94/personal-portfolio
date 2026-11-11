@@ -7,12 +7,11 @@
 {{- if not $proofPoints }}{{ errorf "content/_index.md is missing the proof entries" }}{{ end }}
 {{- $heroSection := .Site.GetPage "/hero" }}
 {{- $heroFields := $heroSection.Pages.ByWeight }}
-{{- $nameFields := where $heroFields "Title" "name" }}
-{{- $roleFields := where $heroFields "Title" "role" }}
-{{- $name := index $nameFields 0 }}
-{{- $role := index $roleFields 0 }}
-{{- $headlineTitles := slice "name" "role" }}
-{{- $specFields := where $heroFields "Title" "not in" $headlineTitles }}
+{{- $name := .Site.GetPage "/hero/name" }}
+{{- $role := .Site.GetPage "/hero/roles" }}
+{{- $headlineFields := slice $name $role }}
+{{- $specFields := $heroFields | complement $headlineFields }}
+{{- $contactPage := .Site.GetPage "/contact" }}
 {{- $servicesSection := .Site.GetPage "/services" }}
 {{- $offers := $servicesSection.Pages.ByWeight }}
 {{- $caseStudiesSection := .Site.GetPage "/case-studies" }}
@@ -25,12 +24,12 @@
         <p class="hero-pitch">{{ $pitch }}</p>
         <p class="hero-tagline">{{ $availability }}</p>
         <div class="actions">
-            <a class="sketch-button primary" href="{{ "contact/" | relURL }}">Get in touch</a>
-            <a class="sketch-button" href="{{ "services/" | relURL }}">See what I do</a>
+            <a class="sketch-button primary" href="{{ $contactPage.RelPermalink }}">{{ i18n "Get in touch" }}</a>
+            <a class="sketch-button" href="{{ $servicesSection.RelPermalink }}">{{ i18n "See what I do" }}</a>
         </div>
     </div>
-    <aside class="title-block" aria-label="At a glance">
-        <h2 class="title-block-head">At a glance</h2>
+    <aside class="title-block" aria-label="{{ i18n "At a glance" }}">
+        <h2 class="title-block-head">{{ i18n "At a glance" }}</h2>
         <dl>
             {{- range $specFields }}
             <div class="title-block-row"><dt>{{ .Title }}</dt><dd>{{ .Plain | htmlUnescape }}</dd></div>
@@ -39,7 +38,7 @@
     </aside>
 </section>
 
-<ul class="proof-strip" aria-label="Results">
+<ul class="proof-strip" aria-label="{{ i18n "Results" }}">
     {{- range $proofPoints }}
     {{- $provingCaseStudy := site.GetPage .caseStudy }}
     {{- if not $provingCaseStudy }}{{ errorf "content/_index.md names the unknown case study %s" .caseStudy }}{{ end }}
@@ -53,7 +52,7 @@
 </ul>
 
 <section class="offers">
-    <h2 class="section-heading">What I do</h2>
+    <h2 class="section-heading">{{ i18n "What I do" }}</h2>
     <div class="card-grid pairs">
         {{- range $offers }}
         {{ partial "offer-card.html" . }}
@@ -62,7 +61,7 @@
 </section>
 
 <section class="selected-work">
-    <h2 class="section-heading">Selected work</h2>
+    <h2 class="section-heading">{{ i18n "Selected work" }}</h2>
     <div class="card-grid pairs">
         {{- range $offers }}
         {{- $offerId := .File.ContentBaseName }}
@@ -73,11 +72,11 @@
         {{- end }}
         {{- end }}
     </div>
-    <a class="more-link" href="{{ "case-studies/" | relURL }}">All case studies &rarr;</a>
+    <a class="more-link" href="{{ $caseStudiesSection.RelPermalink }}">{{ i18n "All case studies" }} &rarr;</a>
 </section>
 
 <section class="sketch">
-    <h2 class="section-heading">How I work</h2>
+    <h2 class="section-heading">{{ i18n "How I work" }}</h2>
     {{ .Content }}
 </section>
 

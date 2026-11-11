@@ -7,7 +7,7 @@
     <div class="contact-grid">
         <a class="contact-card" href="mailto:{{ .Site.Params.Social.email }}">
             <span class="contact-icon" aria-hidden="true">&#9993;</span>
-            <span class="contact-text"><span class="contact-label">Email</span><span class="contact-value">{{ .Site.Params.Social.email }}</span></span>
+            <span class="contact-text"><span class="contact-label">{{ i18n "Email" }}</span><span class="contact-value">{{ .Site.Params.Social.email }}</span></span>
         </a>
         {{- range .Site.Params.sociallinks }}
         <a class="contact-card" href="{{ .url }}" target="_blank" rel="noopener noreferrer">

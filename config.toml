@@ -1,11 +1,24 @@
 baseURL = "https://olaru.dk"
-languageCode = "en-us"
+defaultContentLanguage = "en"
 title = "iustinian-olaru"
 theme = "sketchbook"
 publishDir = "docs"
 enableRobotsTXT = true
 enableGitInfo = true
 disableKinds = ["taxonomy", "term"]
+
+[languages.en]
+  label = "English"
+  locale = "en-US"
+  weight = 1
+
+[languages.da]
+  label = "Dansk"
+  locale = "da-DK"
+  weight = 2
+  [languages.da.params]
+    description = "Forretningsanalytiker og softwarearkitekt. Fra forretningsproblem til kørende software, primært i C#/.NET. Bosat i Danmark."
+    locale = "da_DK"
 
 [mediaTypes."text/vnd.mermaid"]
   suffixes = ["mmd"]

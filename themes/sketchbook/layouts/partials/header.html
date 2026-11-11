@@ -1,14 +1,17 @@
 <header class="site-header">
-    <a class="signature" href="{{ "/" | relURL }}">{{ .Site.Params.title }}</a>
-    <nav class="site-nav" aria-label="Main">
+    <a class="signature" href="{{ site.Home.RelPermalink }}">{{ .Site.Params.title }}</a>
+    <nav class="site-nav" aria-label="{{ i18n "Main" }}">
         <ul>
             {{- range .Site.Menus.main }}
             {{- $isCurrentPage := $.IsMenuCurrent "main" . }}
             {{- $isInCurrentSection := $.HasMenuCurrent "main" . }}
             {{- $isCurrent := or $isCurrentPage $isInCurrentSection }}
-            <li><a href="{{ .URL }}"{{ if $isCurrent }} aria-current="page"{{ end }}>{{ .Name }}</a></li>
+            <li><a href="{{ .URL }}"{{ if $isCurrent }} aria-current="page"{{ end }}>{{ i18n .Name }}</a></li>
+            {{- end }}
+            {{- range .Translations }}
+            <li><a class="language-link" href="{{ .RelPermalink }}" lang="{{ .Language.Lang }}" hreflang="{{ .Language.Lang }}">{{ .Language.Label }}</a></li>
             {{- end }}
         </ul>
-        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle Theme"></button>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="{{ i18n "Toggle Theme" }}"></button>
     </nav>
 </header>

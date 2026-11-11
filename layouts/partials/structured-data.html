@@ -24,12 +24,13 @@
 -}}
 <script type="application/ld+json">{{ $person | jsonify | safeJS }}</script>
 {{- if .IsHome }}
+{{- $siteLanguage := site.Language.Lang }}
 {{- $website := dict
   "@context" "https://schema.org"
   "@type" "WebSite"
   "name" .Site.Params.title
-  "url" $siteUrl
-  "inLanguage" "en"
+  "url" .Permalink
+  "inLanguage" $siteLanguage
 -}}
 <script type="application/ld+json">{{ $website | jsonify | safeJS }}</script>
 {{- end }}
@@ -42,7 +43,7 @@
 {{- range $index, $trailPage := $trail }}
 {{- $position := add $index 1 }}
 {{- $crumbName := $trailPage.Title }}
-{{- if $trailPage.IsHome }}{{ $crumbName = "Home" }}{{ end }}
+{{- if $trailPage.IsHome }}{{ $crumbName = i18n "Home" }}{{ end }}
 {{- $crumb := dict "@type" "ListItem" "position" $position "name" $crumbName "item" $trailPage.Permalink }}
 {{- $crumbs = $crumbs | append $crumb }}
 {{- end }}

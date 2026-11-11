@@ -5,7 +5,7 @@
 {{- $sketchScript := resources.Get "sketchbook/js/sketches.js" }}
 {{- $minifiedSketchScript := $sketchScript | minify }}
 {{- $fingerprintedSketchScript := $minifiedSketchScript | fingerprint }}
-<html lang="{{ .Site.LanguageCode }}">
+<html lang="{{ site.Language.Locale }}">
 <head>
     <meta charset="utf-8">
     {{- partial "seo-head.html" . }}
