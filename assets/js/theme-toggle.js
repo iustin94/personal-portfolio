@@ -57,8 +57,7 @@
         applyTheme(nextTheme);
     }
 
-    // Initialize theme on load
-    document.addEventListener('DOMContentLoaded', () => {
+    function initializeTheme() {
         const savedTheme = getSavedTheme();
         if (savedTheme) {
             applyTheme(savedTheme);
@@ -66,14 +65,16 @@
             updateToggleButton();
         }
 
-        const btn = document.querySelector(toggleButtonSelector);
-        if (btn) {
-            btn.addEventListener('click', (e) => {
-                e.preventDefault();
+        const toggleButton = document.querySelector(toggleButtonSelector);
+        if (toggleButton) {
+            toggleButton.addEventListener('click', (clickEvent) => {
+                clickEvent.preventDefault();
                 toggleTheme();
             });
         }
-    });
+    }
+
+    initializeTheme();
 
     // Handle system preference changes
     window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {

@@ -1,0 +1,7 @@
+{{- .page.Store.Set "hasSketches" true -}}
+<figure class="sketch-figure">
+    <pre class="mermaid">{{ .source | htmlEscape | safeHTML }}</pre>
+    {{- with .caption }}
+    <figcaption>{{ . }}</figcaption>
+    {{- end }}
+</figure>

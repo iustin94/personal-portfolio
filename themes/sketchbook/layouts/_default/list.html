@@ -1,0 +1,11 @@
+{{ define "main" }}
+{{- $publicPages := where .Pages ".Params.private" "!=" true }}
+{{- $pagesInOrder := $publicPages.ByDate.Reverse }}
+<section class="article">
+    <h1 class="page-title"><span class="marker">{{ .Title }}</span></h1>
+    <div class="prose">
+        {{ .Content }}
+    </div>
+    {{ partial "timeline.html" $pagesInOrder }}
+</section>
+{{ end }}

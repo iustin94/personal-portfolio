@@ -1,0 +1,4 @@
+{{- $place := "" -}}
+{{- with .Params.organization }}{{ $place = . }}{{ end -}}
+{{- with .Params.institution }}{{ $place = . }}{{ end -}}
+{{- return $place -}}

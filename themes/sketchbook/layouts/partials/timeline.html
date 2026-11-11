@@ -1,0 +1,17 @@
+<ol class="timeline">
+    {{- range . }}
+    {{- $place := partial "page-place.html" . }}
+    {{- $period := partial "page-period.html" . }}
+    <li class="timeline-entry">
+        <h2 class="timeline-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        <p class="timeline-meta">
+            {{- with $place }}<span class="timeline-place">{{ . }}</span>{{ end }}
+            {{- with $period }}<span class="timeline-period">{{ . }}</span>{{ end -}}
+        </p>
+        <p class="timeline-summary">{{ .Description }}</p>
+        {{- with .Params.focus }}
+        <ul class="tag-list">{{ range . }}<li>{{ . }}</li>{{ end }}</ul>
+        {{- end }}
+    </li>
+    {{- end }}
+</ol>

@@ -1,0 +1,18 @@
+{{ define "main" }}
+<article class="article">
+    <h1 class="page-title"><span class="marker">{{ .Title }}</span></h1>
+    <p class="lead">I'm open to discussing software architecture, collaboration opportunities, or interesting technical challenges.</p>
+    <div class="contact-grid">
+        <a class="contact-card" href="mailto:{{ .Site.Params.Social.email }}">
+            <span class="contact-icon" aria-hidden="true">&#9993;</span>
+            <span class="contact-text"><span class="contact-label">Email</span><span class="contact-value">{{ .Site.Params.Social.email }}</span></span>
+        </a>
+        {{- range .Site.Params.sociallinks }}
+        <a class="contact-card" href="{{ .url }}" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands {{ .icon }} contact-icon" aria-hidden="true"></i>
+            <span class="contact-text"><span class="contact-label">{{ .name }}</span></span>
+        </a>
+        {{- end }}
+    </div>
+</article>
+{{ end }}

@@ -1,0 +1,3 @@
+{{- $period := "" -}}
+{{- with .Params.period }}{{ $period = replace . " -- " " – " }}{{ end -}}
+{{- return $period -}}

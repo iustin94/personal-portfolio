@@ -1,0 +1,15 @@
+{{- $siteName := .Site.Params.title -}}
+{{- $documentTitle := .Title -}}
+{{- if not (strings.Contains $documentTitle $siteName) }}{{ $documentTitle = printf "%s | %s" $documentTitle $siteName }}{{ end }}
+<title>{{ $documentTitle }}</title>
+<meta name="description" content="{{ .Description | default .Site.Params.description }}">
+<link rel="canonical" href="{{ .Permalink }}">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="all,follow">
+<meta name="googlebot" content="index,follow,snippet,archive">
+{{ with .OutputFormats.Get "RSS" }}
+  {{ printf `<link href="%s" rel="%s" type="%s" title="%s" />` .Permalink .Rel .MediaType.Type $.Site.Title | safeHTML }}
+{{ end }}
+{{- partial "opengraph.html" . -}}
+{{- partial "twitter_cards.html" . -}}
+{{- partial "structured-data.html" . -}}

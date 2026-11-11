@@ -1,0 +1,12 @@
+{{- $place := partial "page-place.html" . }}
+{{- $period := partial "page-period.html" . }}
+{{- $facts := slice }}
+{{- with $place }}{{ $facts = $facts | append . }}{{ end }}
+{{- with $period }}{{ $facts = $facts | append . }}{{ end }}
+{{- with .Params.location }}{{ $facts = $facts | append . }}{{ end }}
+{{- with $facts }}
+<p class="article-meta">{{ delimit . " · " }}</p>
+{{- end }}
+{{- with .Params.domains }}
+<ul class="tag-list">{{ range . }}<li>{{ . }}</li>{{ end }}</ul>
+{{- end }}

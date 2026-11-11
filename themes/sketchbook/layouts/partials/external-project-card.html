@@ -1,0 +1,11 @@
+{{- $website := .Params.website }}
+{{- if not $website }}{{ errorf "%s is missing the website parameter" .File.Path }}{{ end }}
+{{- $websiteHost := (urls.Parse $website).Host }}
+<article class="card">
+    <h3 class="card-title"><a href="{{ $website }}" target="_blank" rel="noopener">{{ .Title }}</a></h3>
+    <p class="card-org">{{ $websiteHost }}</p>
+    <p class="card-summary">{{ .Description }}</p>
+    {{- with .Params.domains }}
+    <ul class="tag-list">{{ range . }}<li>{{ . }}</li>{{ end }}</ul>
+    {{- end }}
+</article>
