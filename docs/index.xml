@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Iustinian Olaru - Software Developer &amp; Consultant on iustinian-olaru</title>
+		<title>Iustinian Olaru - Business Analyst &amp; Software Architect on iustinian-olaru</title>
 		<link>https://olaru.dk/</link>
-		<description>Recent content in Iustinian Olaru - Software Developer &amp; Consultant on iustinian-olaru</description>
+		<description>Recent content in Iustinian Olaru - Business Analyst &amp; Software Architect on iustinian-olaru</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
 		
 		
 		
 		
-			<lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Fri, 16 Oct 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="https://olaru.dk/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title>About Iustinian Olaru - Software Engineer &amp; Architect</title>
+				<title>About</title>
 				<link>https://olaru.dk/about_me/</link>
 				<pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
 				<guid>https://olaru.dk/about_me/</guid>
-				<description>&lt;p&gt;&lt;strong&gt;TL;DR: measure first, design simply, automate responsibly, document clearly, share what helps.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;I am a software engineer and architect with a strong foundation in both practical engineering and research‑driven&#xA;analysis. My background spans computer science, bioinformatics, distributed systems, and simulation modeling, giving me&#xA;a unique ability to approach software not just as code, but as a system of interconnected constraints, abstractions, and&#xA;design decisions.&lt;/p&gt;&#xA;&lt;p&gt;What defines my work is the combination of &lt;strong&gt;deep technical curiosity&lt;/strong&gt; and &lt;strong&gt;a clear, structured approach to solving&#xA;complex problems&lt;/strong&gt;. I am drawn to domains where correctness, maintainability, and conceptual clarity matter—where a&#xA;system must not only function today but remain robust and adaptable for years to come. This mindset has guided me&#xA;through projects involving message queue architectures, enterprise‑scale data modeling, drone‑based measurement&#xA;workflows, financial simulation engines, and scientific analysis pipelines.&lt;/p&gt;</description>
+				<description>&lt;p&gt;&lt;strong&gt;My job has always been to understand the problem, then design and build the solution.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;I am a business analyst and software architect based on Fyn, Denmark. For more than eleven years I have worked where a&#xA;business question meets a technical one: whether a messaging design would survive Black Friday, how a ten-year-old risk&#xA;platform could be replaced, why a volunteer association was losing money.&lt;/p&gt;&#xA;&lt;p&gt;The method is the same each time:&lt;/p&gt;</description>
 			</item>
 			<item>
-				<title>Contact Iustinian Olaru - Software Developer &amp; Consultant</title>
+				<title>Contact</title>
 				<link>https://olaru.dk/contact/</link>
 				<pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
 				<guid>https://olaru.dk/contact/</guid>
-				<description></description>
+				<description>&lt;p&gt;&lt;strong&gt;Tell me about the problem. You don&amp;rsquo;t need a specification.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-to-send&#34;&gt;What to send&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;What is costing time or money today&lt;/li&gt;&#xA;&lt;li&gt;Who is affected, and what you have already tried&lt;/li&gt;&#xA;&lt;li&gt;Any deadline or budget limit&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;what-happens-next&#34;&gt;What happens next&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;I reply with questions, or suggest a short call.&lt;/li&gt;&#xA;&lt;li&gt;You get a written proposal: the scope, what you receive and a price.&lt;/li&gt;&#xA;&lt;li&gt;Work starts when you agree to the proposal.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;I work in English and Danish, on site on Fyn or remotely.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Full-Stack Software Developer &amp; Consultant</title>
@@ -42,6 +42,20 @@
 				<description>&lt;p&gt;&lt;strong&gt;Coursework:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;\item Statistical analysis&#xA;\item Data mining and data algorithms&#xA;\item Supervised and unsupervised machine learning&#xA;\item Introductory biology and chemistry&#xA;\item Proteomics studies&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Research:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Independent research projects&lt;/li&gt;&#xA;&lt;li&gt;Thesis: Protein sequence analysis and continuous modeling using Python.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
 			</item>
 			<item>
+				<title>Business analysis</title>
+				<link></link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid></guid>
+				<description></description>
+			</item>
+			<item>
+				<title>GitDiffGraph for Rider</title>
+				<link></link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid></guid>
+				<description></description>
+			</item>
+			<item>
 				<title>Lead Software Developer</title>
 				<link>https://olaru.dk/experience/quadsat-lead/</link>
 				<pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
@@ -56,6 +70,20 @@
 				<description>&lt;p&gt;&lt;strong&gt;Coursework:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Computer science fundamentals&lt;/li&gt;&#xA;&lt;li&gt;Algorithms and data structures&lt;/li&gt;&#xA;&lt;li&gt;Database design&lt;/li&gt;&#xA;&lt;li&gt;Software architecture and UX design&lt;/li&gt;&#xA;&lt;li&gt;Business analysis&lt;/li&gt;&#xA;&lt;li&gt;Web, desktop, and mobile application development&lt;/li&gt;&#xA;&lt;li&gt;Enterprise-level architecture design&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Projects:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;RabbitMQ benchmarking and multi-sensor C# applications.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
 			</item>
 			<item>
+				<title>ESIO</title>
+				<link></link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid></guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Feasibility study</title>
+				<link></link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid></guid>
+				<description></description>
+			</item>
+			<item>
 				<title>Software Developer - Part Time</title>
 				<link>https://olaru.dk/experience/quadsat-parttime/</link>
 				<pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
@@ -63,11 +91,32 @@
 				<description>&lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Part-time software development role at QuadSAT focused on building data analysis and visualization tooling for the company&amp;rsquo;s RF measurement capabilities.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Key contributions:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Built Python tools for RF data analysis and heatmap generation.&lt;/li&gt;&#xA;&lt;li&gt;Supported R&amp;amp;D with scientific data processing workflows.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
 			</item>
 			<item>
+				<title>Architecture &amp; modernisation</title>
+				<link></link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid></guid>
+				<description></description>
+			</item>
+			<item>
+				<title>O&#39;Town Makerspace</title>
+				<link></link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid></guid>
+				<description></description>
+			</item>
+			<item>
 				<title>Research Assistant Student Developer</title>
 				<link>https://olaru.dk/experience/sdu-research-assistant/</link>
 				<pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
 				<guid>https://olaru.dk/experience/sdu-research-assistant/</guid>
 				<description>&lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Short-term research assistant position at the Faculty of Economics, University of Southern Denmark (SDU), focused on automating experimental data workflows.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Key contributions:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Implemented image-processing data workflows automating analysis for faculty experiments.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+			<item>
+				<title>Product build</title>
+				<link></link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid></guid>
+				<description></description>
 			</item>
 			<item>
 				<title>Software Developer - Part Time</title>
@@ -89,6 +138,13 @@
 				<pubDate>Fri, 01 Aug 2014 00:00:00 +0000</pubDate>
 				<guid>https://olaru.dk/experience/aarhus-cognition-lab/</guid>
 				<description>&lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Developed a software platform for the Cognition and Behavior Laboratory at Aarhus University to investigate biometric synchronization during shared cognitive and vocal tasks.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Key contributions:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Designed and developed a software platform to investigate biometric synchronization during shared cognitive and vocal tasks.&lt;/li&gt;&#xA;&lt;li&gt;Engineered real-time data synchronization across heterogeneous input streams, including heart rate sensors, Wii remotes, and audio recordings.&lt;/li&gt;&#xA;&lt;li&gt;Implemented custom Wii remote integration, translating accelerometer data into precise on-screen cursor control.&lt;/li&gt;&#xA;&lt;li&gt;Built a concurrent threading architecture to ensure low-latency, high-throughput data capture and alignment across all devices.&lt;/li&gt;&#xA;&lt;li&gt;Integrated audio recording pipelines with minimal latency, enabling reliable multimodal data collection in a complex experimental environment.&lt;/li&gt;&#xA;&lt;li&gt;Delivered an innovative technical foundation for future research despite project cancellation due to budget constraints.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+			<item>
+				<title>GitDiffGraph: Reviewing a Code Change as a Graph</title>
+				<link>https://olaru.dk/case-studies/gitdiffgraph/</link>
+				<pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>https://olaru.dk/case-studies/gitdiffgraph/</guid>
+				<description>&lt;h2 id=&#34;the-problem&#34;&gt;The problem&lt;/h2&gt;&#xA;&lt;p&gt;A Git diff shows a change line by line, file by file, in alphabetical order. That works for a small change. It stops&#xA;working when an AI agent rewrites twenty types in one pass, or a pull request spans several projects: the reviewer&#xA;reads the lines and still does not know how the pieces fit together, or whether the agent added something nobody&#xA;asked for.&lt;/p&gt;&#xA;&lt;p&gt;Nobody handed me this problem. I identified it myself, as a use case with a product in it, and built the product.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>SaaS Platform for Financial Workflows</title>
