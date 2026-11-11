@@ -2,7 +2,7 @@
 title: "Software Developer - Part Time"
 date: 2016-08-01
 draft: false
-description: "Conducted a systematic feasibility study on RabbitMQ for high-throughput e-commerce platforms, developed a dynamic C# monitoring framework, and provided architectural guidance for Denmark's largest online retailers."
+description: "RabbitMQ feasibility study for Denmark's largest e-commerce platforms and a dynamic C# monitoring framework, as part-time developer at Novicell."
 tags: ["C#", ".NET", "RabbitMQ", "Docker", "Distributed Systems", "E-commerce", "Architecture", "Messaging"]
 og_image: "/images/og.png"
 locale: "en_US"

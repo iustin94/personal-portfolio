@@ -1,14 +1,28 @@
 {{- $siteName := .Site.Params.title -}}
 {{- $documentTitle := .Title -}}
+{{- $isInExperience := eq .Section "experience" -}}
+{{- $isExperienceRole := and .IsPage $isInExperience -}}
+{{- if $isExperienceRole }}{{ with .Params.organization }}{{ $documentTitle = printf "%s, %s" $documentTitle . }}{{ end }}{{ end -}}
+{{- $robotsDirective := "all,follow" -}}
+{{- if eq .Kind "404" }}{{ $robotsDirective = "noindex,follow" }}{{ end -}}
 {{- if not (strings.Contains $documentTitle $siteName) }}{{ $documentTitle = printf "%s | %s" $documentTitle $siteName }}{{ end }}
 <title>{{ $documentTitle }}</title>
 <meta name="description" content="{{ .Description | default .Site.Params.description }}">
 <link rel="canonical" href="{{ .Permalink }}">
+{{- if .IsTranslated }}
+{{- $defaultLanguage := hugo.Sites.Default.Language.Lang }}
+{{- range .AllTranslations }}
+<link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
+{{- if eq .Language.Lang $defaultLanguage }}
+<link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">
+{{- end }}
+{{- end }}
+{{- end }}
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="all,follow">
+<meta name="robots" content="{{ $robotsDirective }}">
 <meta name="googlebot" content="index,follow,snippet,archive">
 {{ with .OutputFormats.Get "RSS" }}
-  {{ printf `<link href="%s" rel="%s" type="%s" title="%s" />` .Permalink .Rel .MediaType.Type $.Site.Title | safeHTML }}
+  {{ printf `<link href="%s" rel="%s" type="%s" title="%s" />` .Permalink .Rel .MediaType.Type $siteName | safeHTML }}
 {{ end }}
 {{- partial "opengraph.html" . -}}
 {{- partial "twitter_cards.html" . -}}

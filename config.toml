@@ -1,10 +1,24 @@
 baseURL = "https://olaru.dk"
-languageCode = "en-us"
+defaultContentLanguage = "en"
 title = "iustinian-olaru"
 theme = "sketchbook"
 publishDir = "docs"
 enableRobotsTXT = true
+enableGitInfo = true
 disableKinds = ["taxonomy", "term"]
+
+[languages.en]
+  label = "English"
+  locale = "en-US"
+  weight = 1
+
+[languages.da]
+  label = "Dansk"
+  locale = "da-DK"
+  weight = 2
+  [languages.da.params]
+    description = "Forretningsanalytiker og softwarearkitekt. Fra forretningsproblem til kørende software, primært i C#/.NET. Bosat i Danmark."
+    locale = "da_DK"
 
 [mediaTypes."text/vnd.mermaid"]
   suffixes = ["mmd"]
@@ -54,6 +68,10 @@ disableKinds = ["taxonomy", "term"]
   title = "Iustinian Olaru"
   locale = "en_US"
 
+  [params.person]
+    region = "Fyn"
+    country = "DK"
+
   [params.og]
     image = "/images/og.png"
 
@@ -81,8 +99,8 @@ disableKinds = ["taxonomy", "term"]
   url = "projects/"
 
   [[params.navlinks]]
-  name = "about_me/"
-  url = "about_me/"
+  name = "about/"
+  url = "about/"
 
   [[params.navlinks]]
   name = "contact/"
@@ -121,7 +139,7 @@ disableKinds = ["taxonomy", "term"]
 
 [[menus.main]]
   name = "About"
-  pageRef = "/about_me"
+  pageRef = "/about"
   weight = 30
 
 [[menus.main]]

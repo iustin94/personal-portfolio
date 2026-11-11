@@ -3,7 +3,8 @@ title: "About"
 date: 2024-01-01
 weight: 1
 layout: "about"
-description: "Iustinian Olaru is a business analyst and software architect based in Denmark: he works out the problem, then designs and builds the solution, mostly in C#/.NET."
+aliases: ["/about_me/"]
+description: "Iustinian Olaru is a business analyst and software architect based in Denmark: he works out the problem, then designs and builds the solution."
 tags: ["Business Analyst", "Software Architect", "C#", ".NET", "Distributed Systems", "DDD", "Denmark"]
 og_image: "/images/og.png"
 locale: "en_US"

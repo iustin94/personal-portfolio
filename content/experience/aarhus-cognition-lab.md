@@ -2,7 +2,7 @@
 title: "Software Developer - Part Time"
 date: 2014-08-01
 draft: false
-description: "Designed and developed a real-time biometric synchronization platform for the Cognition and Behavior Laboratory at Aarhus University, integrating heart rate sensors, Wii remotes, and audio recording."
+description: "Real-time biometric synchronization platform for the Cognition and Behavior Laboratory at Aarhus University: heart rate sensors, Wii remotes and audio."
 tags: ["C#", "WPF", "Real-Time Systems", "Data Synchronization", "Biometrics", "Cognitive Science"]
 og_image: "/images/og.png"
 locale: "en_US"

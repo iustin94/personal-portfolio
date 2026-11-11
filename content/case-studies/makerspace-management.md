@@ -3,7 +3,7 @@ title: "O’Town Makerspace — Organizational & Technical Leadership"
 date: 2023-11-01
 aliases: ["/projects/makerspace-management/"]
 draft: false
-description: "Multi-year leadership role in stabilizing, modernizing, and developing a volunteer-run makerspace through financial restructuring, infrastructure improvements, and community-driven coordination."
+description: "Leadership of a volunteer-run makerspace in Odense: financial restructuring, modernised infrastructure and volunteer coordination over several years."
 tags: ["Leadership", "Architecture", "Community", "Finance", "Infrastructure", "Digital Transformation"]
 og_image: "/images/og.png"
 locale: "en_US"

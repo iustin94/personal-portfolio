@@ -1,6 +1,7 @@
+{{- $contactPage := site.GetPage "/contact" }}
 <section class="closing-call">
-    <p>Have a problem that needs working out?</p>
+    <p>{{ i18n "Have a problem that needs working out?" }}</p>
     <div class="actions">
-        <a class="sketch-button primary" href="{{ "contact/" | relURL }}">Get in touch</a>
+        <a class="sketch-button primary" href="{{ $contactPage.RelPermalink }}">{{ i18n "Get in touch" }}</a>
     </div>
 </section>

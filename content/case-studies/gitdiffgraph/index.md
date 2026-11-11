@@ -2,7 +2,7 @@
 title: "GitDiffGraph: Reviewing a Code Change as a Graph"
 date: 2026-10-16
 draft: false
-description: "A Rider plugin that draws a C# change as a graph of the types it touched and the dependencies between them, built to review AI-generated code, uncommitted work and pull requests."
+description: "A Rider plugin that draws a C# change as a graph of the types it touched and their dependencies, for reviewing AI-generated code and pull requests."
 tags: ["Rider Plugin", "C#", "Roslyn", "Code Review", "Git", "Product"]
 og_image: "/images/og.png"
 locale: "en_US"

@@ -78,6 +78,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         language: {
             default: 'en',
+            autoDetect: 'document',
             translations: {
                 en: {
                     consentModal: {
@@ -104,6 +105,36 @@ document.addEventListener('DOMContentLoaded', function() {
                             {
                                 title: 'Analytics Cookies',
                                 description: 'These cookies help us understand how visitors use our site.',
+                                linkedCategory: 'analytics'
+                            }
+                        ]
+                    }
+                },
+                da: {
+                    consentModal: {
+                        title: 'Samtykke til cookies',
+                        description: 'Vi bruger cookies til at analysere trafikken på sitet og forbedre din oplevelse.',
+                        acceptAllBtn: 'Acceptér alle',
+                        showPreferencesBtn: 'Administrer præferencer'
+                    },
+                    preferencesModal: {
+                        title: 'Cookiepræferencer',
+                        acceptAllBtn: 'Acceptér alle',
+                        acceptSelectedBtn: 'Administrer præferencer',
+                        savePreferencesBtn: 'Gem præferencer',
+                        sections: [
+                            {
+                                title: 'Brug af cookies',
+                                description: 'Vi bruger cookies til at forbedre din oplevelse og analysere trafikken.'
+                            },
+                            {
+                                title: 'Nødvendige cookies',
+                                description: 'Disse cookies er nødvendige for, at websitet fungerer.',
+                                linkedCategory: 'necessary'
+                            },
+                            {
+                                title: 'Analysecookies',
+                                description: 'Disse cookies hjælper os med at forstå, hvordan besøgende bruger sitet.',
                                 linkedCategory: 'analytics'
                             }
                         ]

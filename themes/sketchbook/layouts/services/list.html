@@ -16,14 +16,14 @@
         <h2 class="section-heading">{{ .Title }}</h2>
         <p class="offer-situation">{{ $situation }}</p>
         <p>{{ .Description }}</p>
-        <h3 class="offer-subheading">What you get</h3>
+        <h3 class="offer-subheading">{{ i18n "What you get" }}</h3>
         <ul>
             {{- range $deliverables }}
             <li>{{ . }}</li>
             {{- end }}
         </ul>
         {{- with $provingCaseStudies }}
-        <h3 class="offer-subheading">Where I have done it</h3>
+        <h3 class="offer-subheading">{{ i18n "Where I have done it" }}</h3>
         <ul>
             {{- range . }}
             <li><a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ with .Params.organization }}, {{ . }}{{ end }}</li>

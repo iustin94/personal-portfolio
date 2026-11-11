@@ -12,13 +12,13 @@
     <div class="prose">
         {{ .Content }}
     </div>
-    <h2 class="section-heading">Experience</h2>
+    <h2 class="section-heading">{{ i18n "Experience" }}</h2>
     {{ partial "timeline.html" $mainRoles }}
     <details class="earlier-roles">
-        <summary>Earlier roles ({{ len $earlyCareerRoles }})</summary>
+        <summary>{{ i18n "Earlier roles" }} ({{ len $earlyCareerRoles }})</summary>
         {{ partial "timeline.html" $earlyCareerRoles }}
     </details>
-    <h2 class="section-heading">Education</h2>
+    <h2 class="section-heading">{{ i18n "Education" }}</h2>
     {{ partial "timeline.html" $educationByNewest }}
 </article>
 {{ end }}
