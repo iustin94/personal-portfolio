@@ -1,0 +1,7 @@
+flowchart LR
+    existing["Existing frameworks<br/>⚠ too complex (SimSharp)<br/>overkill for the use case"] ==>|"custom design"| engine
+    subgraph engine["Custom engine: stateless, functional, right-sized"]
+        direction TB
+        rules["Rules<br/>declarative financial logic"] --> execution["Engine<br/>stateless execution"]
+        execution --> output["Output<br/>financial projections"]
+    end

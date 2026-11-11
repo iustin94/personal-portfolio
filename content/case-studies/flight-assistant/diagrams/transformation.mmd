@@ -1,0 +1,12 @@
+flowchart TB
+    subgraph before["Before"]
+        droneData["Drone data"] --> manualSync["Manual sync"]
+        rfFiles["RF files"] --> manualSync
+        gpsLogs["GPS logs"] --> manualSync
+        manualSync --> fragmented["✗ Fragmented<br/>✗ Manual workflows"]
+    end
+    subgraph after["After"]
+        direction LR
+        flightAssistant(["Flight Assistant"]) --> unified["✓ Unified platform<br/>✓ Automated processing"]
+    end
+    before ==> after

@@ -1,0 +1,4 @@
+flowchart LR
+    wii["Wii Remote<br/>accelerometer<br/>data stream"] --> translation["Translation<br/>custom C# logic<br/>motion → cursor"]
+    translation --> cursor["Cursor control<br/>screen movement<br/>game interaction"]
+    translation -.- outcome["Real-time motion tracking<br/>without specialized equipment"]

@@ -1,0 +1,9 @@
+flowchart LR
+    subgraph existing["Existing .NET tools"]
+        direction TB
+        publishing["✓ Publishing<br/>send messages"] ~~~ consuming["✓ Consuming<br/>receive messages"]
+    end
+    subgraph missing["Missing tool"]
+        monitoring["✗ Monitoring<br/>cluster health metrics<br/>real-time observability<br/>performance insights"]
+    end
+    existing -. "gap: no C# framework" .-> missing

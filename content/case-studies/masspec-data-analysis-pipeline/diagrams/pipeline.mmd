@@ -1,0 +1,7 @@
+flowchart TB
+    input[("Input data<br/>mass spectrometry files · PTM datasets")] --> preprocessing["1 · Preprocessing<br/>data cleaning · normalization"]
+    preprocessing --> statistics["2 · Statistical analysis<br/>protein quantification · significance"]
+    statistics --> ptm["3 · PTM analysis<br/>post-translational modifications"]
+    ptm --> results(["Results #amp; visualizations"])
+    statistics -.- stack["Python · Jupyter · NumPy<br/>Pandas · SciPy · Matplotlib"]
+    preprocessing -.- features["Extensible · end-to-end · documented<br/>cross-platform · minimal config · open-source"]

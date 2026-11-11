@@ -25,4 +25,4 @@ Short-term research assistant position at the Faculty of Economics, University o
 
 **Key contributions:**
 
-- Implemented data workflows for image processing with the scope of automating work in relation to experiments conducted by the faculty.
+- Implemented image-processing data workflows automating analysis for faculty experiments.
