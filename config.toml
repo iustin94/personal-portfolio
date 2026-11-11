@@ -4,6 +4,7 @@ title = "iustinian-olaru"
 theme = "sketchbook"
 publishDir = "docs"
 enableRobotsTXT = true
+enableGitInfo = true
 disableKinds = ["taxonomy", "term"]
 
 [mediaTypes."text/vnd.mermaid"]
@@ -53,6 +54,10 @@ disableKinds = ["taxonomy", "term"]
   description = "Business analyst and software architect. From business problem to running software, mostly in C#/.NET. Based in Denmark."
   title = "Iustinian Olaru"
   locale = "en_US"
+
+  [params.person]
+    region = "Fyn"
+    country = "DK"
 
   [params.og]
     image = "/images/og.png"

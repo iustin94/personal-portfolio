@@ -1,14 +1,26 @@
 {{- $siteUrl := "/" | absURL -}}
+{{- $personId := printf "%s#person" $siteUrl -}}
+{{- $personReference := dict "@id" $personId -}}
 {{- $sameAs := slice -}}
 {{- range .Site.Params.sociallinks }}{{ $sameAs = $sameAs | append .url }}{{ end -}}
+{{- $role := site.GetPage "/hero/roles" -}}
+{{- if not $role }}{{ errorf "content/hero has no roles page" }}{{ end -}}
+{{- $roleText := $role.Plain | htmlUnescape -}}
+{{- $jobTitle := strings.TrimSpace $roleText -}}
+{{- $personLocation := .Site.Params.person -}}
+{{- if not $personLocation }}{{ errorf "config.toml is missing params.person" }}{{ end -}}
+{{- $personAddress := dict "@type" "PostalAddress" "addressRegion" $personLocation.region "addressCountry" $personLocation.country -}}
+{{- $shareImage := .Site.Params.og.image | absURL -}}
 {{- $person := dict
   "@context" "https://schema.org"
   "@type" "Person"
+  "@id" $personId
   "name" .Site.Params.title
   "url" $siteUrl
-  "jobTitle" "Software Architect"
+  "jobTitle" $jobTitle
+  "description" .Site.Params.description
+  "address" $personAddress
   "sameAs" $sameAs
-  "image" (.Site.Params.og.image | absURL)
 -}}
 <script type="application/ld+json">{{ $person | jsonify | safeJS }}</script>
 {{- if .IsHome }}
@@ -20,4 +32,54 @@
   "inLanguage" "en"
 -}}
 <script type="application/ld+json">{{ $website | jsonify | safeJS }}</script>
+{{- end }}
+{{- $isNotFoundPage := eq .Kind "404" }}
+{{- $hasNoTrail := or .IsHome $isNotFoundPage }}
+{{- if not $hasNoTrail }}
+{{- $ancestorsFromHome := .Ancestors.Reverse }}
+{{- $trail := $ancestorsFromHome | append . }}
+{{- $crumbs := slice }}
+{{- range $index, $trailPage := $trail }}
+{{- $position := add $index 1 }}
+{{- $crumbName := $trailPage.Title }}
+{{- if $trailPage.IsHome }}{{ $crumbName = "Home" }}{{ end }}
+{{- $crumb := dict "@type" "ListItem" "position" $position "name" $crumbName "item" $trailPage.Permalink }}
+{{- $crumbs = $crumbs | append $crumb }}
+{{- end }}
+{{- $breadcrumbs := dict "@context" "https://schema.org" "@type" "BreadcrumbList" "itemListElement" $crumbs }}
+<script type="application/ld+json">{{ $breadcrumbs | jsonify | safeJS }}</script>
+{{- end }}
+{{- $isInCaseStudies := eq .Section "case-studies" }}
+{{- $isCaseStudy := and .IsPage $isInCaseStudies }}
+{{- if $isCaseStudy }}
+{{- $isoDate := "2006-01-02" }}
+{{- $publishedOn := .Date.Format $isoDate }}
+{{- $modifiedOn := .Lastmod.Format $isoDate }}
+{{- $article := dict
+  "@context" "https://schema.org"
+  "@type" "Article"
+  "headline" .Title
+  "description" .Description
+  "datePublished" $publishedOn
+  "dateModified" $modifiedOn
+  "author" $personReference
+  "image" $shareImage
+  "mainEntityOfPage" .Permalink
+-}}
+<script type="application/ld+json">{{ $article | jsonify | safeJS }}</script>
+{{- end }}
+{{- $isInServices := eq .Section "services" }}
+{{- $isServicesPage := and .IsSection $isInServices }}
+{{- if $isServicesPage }}
+{{- $pageUrl := .Permalink }}
+{{- $offers := slice }}
+{{- range $index, $offerPage := .Pages.ByWeight }}
+{{- $position := add $index 1 }}
+{{- $offerUrl := printf "%s#%s" $pageUrl $offerPage.File.ContentBaseName }}
+{{- $service := dict "@type" "Service" "name" $offerPage.Title "description" $offerPage.Description "url" $offerUrl "provider" $personReference }}
+{{- $offer := dict "@type" "ListItem" "position" $position "item" $service }}
+{{- $offers = $offers | append $offer }}
+{{- end }}
+{{- $offerList := dict "@context" "https://schema.org" "@type" "ItemList" "name" .Title "itemListElement" $offers }}
+<script type="application/ld+json">{{ $offerList | jsonify | safeJS }}</script>
 {{- end }}
