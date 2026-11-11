@@ -81,8 +81,8 @@ disableKinds = ["taxonomy", "term"]
   url = "projects/"
 
   [[params.navlinks]]
-  name = "about_me/"
-  url = "about_me/"
+  name = "about/"
+  url = "about/"
 
   [[params.navlinks]]
   name = "contact/"
@@ -121,7 +121,7 @@ disableKinds = ["taxonomy", "term"]
 
 [[menus.main]]
   name = "About"
-  pageRef = "/about_me"
+  pageRef = "/about"
   weight = 30
 
 [[menus.main]]

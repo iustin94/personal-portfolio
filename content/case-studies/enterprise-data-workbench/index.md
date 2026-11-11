@@ -1,7 +1,7 @@
 ---
 title: "Enterprise Process Modeling Platform"
 date: 2023-01-01
-aliases: ["/projects/enterprisel-data-workbench/"]
+aliases: ["/projects/enterprisel-data-workbench/", "/case-studies/enterprisel-data-workbench/"]
 draft: false
 description: "Greenfield enterprise data management platform built with C#/.NET and domain-driven design, replacing a legacy Python/Django risk management system at Ramboll."
 tags: ["C#", ".NET", "EF Core", "DDD", "Enterprise", "Architecture", "Process Modeling"]

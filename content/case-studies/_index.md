@@ -14,7 +14,7 @@ locale: "en_US"
 
 - [**Flight Assistant Project at QuadSat**]({{< ref "flight-assistant.md" >}}): Combined a drone and payload with a Python-based desktop application and AWS-backed serverless cloud solution for satellite companies.
 
-- [**Data Management Platform at Ramboll**]({{< ref "enterprisel-data-workbench.md" >}}): A greenfield project focused on creating a robust data management platform for enterprise clients.
+- [**Data Management Platform at Ramboll**]({{< ref "enterprise-data-workbench" >}}): A greenfield project focused on creating a robust data management platform for enterprise clients.
 
 - [**Blazor-Based SaaS Platform**]({{< ref "blazor-saas-platform.md" >}}): A comprehensive data management SaaS platform developed over two to three years for small to medium-sized businesses, leveraging C# and .NET, hosted on a self-hosted VPS with Hetzner, and featuring a custom rule-based simulation engine.
 
